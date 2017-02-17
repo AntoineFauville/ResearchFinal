@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 9e75be7f678f8db428765afc3b77f32b
+timeCreated: 1483956391
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antenne
+    100002: antenne1
+    100004: antenne2
+    100006: bouche
+    100008: bouche 1
+    100010: bouche 2
+    100012: bouche 3
+    100014: bouche 4
+    100016: corps
+    100018: corps1
+    100020: corps2
+    100022: corps4
+    100024: corps5
+    100026: corps6
+    100028: Coussin_01
+    100030: Coussin_02
+    100032: Coussin_03
+    100034: group18
+    100036: group19
+    100038: group20
+    100040: //RootNode
+    100042: nez
+    100044: nez 1
+    100046: oeil
+    100048: oeil 1
+    100050: oeil1
+    100052: oeil1 1
+    100054: oeil1 2
+    100056: oeil1 3
+    100058: oeil2
+    100060: oeil3
+    100062: oeil4
+    100064: oeil5
+    100066: oeil6
+    100068: oeil7
+    100070: pCube27
+    100072: pCube27 1
+    100074: pCube27 2
+    100076: pCube27 3
+    100078: pCube27 4
+    100080: pCube29
+    100082: pCube29 1
+    100084: pCube30
+    100086: pCube30 1
+    100088: pCube31
+    100090: pCube31 1
+    100092: pCube32
+    100094: pCube32 1
+    100096: pCube33
+    100098: pCube33 1
+    100100: pCube33 2
+    100102: pCube34
+    100104: pCube34 1
+    100106: pCube34 2
+    100108: pCube35
+    100110: pCylinder25
+    100112: piedestal
+    100114: polySurface1
+    100116: polySurface39
+    100118: polySurface40
+    100120: salle
+    100122: temple
+    100124: Tete
+    100126: tete
+    100128: Tete 1
+    100130: tete 1
+    100132: Tete 2
+    100134: tete 2
+    100136: Tete 3
+    100138: tete 3
+    100140: Tete1
+    100142: totem
+    100144: totem1
+    100146: totem3
+    100148: totem4
+    100150: totem_02
+    400000: antenne
+    400002: antenne1
+    400004: antenne2
+    400006: bouche
+    400008: bouche 1
+    400010: bouche 2
+    400012: bouche 3
+    400014: bouche 4
+    400016: corps
+    400018: corps1
+    400020: corps2
+    400022: corps4
+    400024: corps5
+    400026: corps6
+    400028: Coussin_01
+    400030: Coussin_02
+    400032: Coussin_03
+    400034: group18
+    400036: group19
+    400038: group20
+    400040: //RootNode
+    400042: nez
+    400044: nez 1
+    400046: oeil
+    400048: oeil 1
+    400050: oeil1
+    400052: oeil1 1
+    400054: oeil1 2
+    400056: oeil1 3
+    400058: oeil2
+    400060: oeil3
+    400062: oeil4
+    400064: oeil5
+    400066: oeil6
+    400068: oeil7
+    400070: pCube27
+    400072: pCube27 1
+    400074: pCube27 2
+    400076: pCube27 3
+    400078: pCube27 4
+    400080: pCube29
+    400082: pCube29 1
+    400084: pCube30
+    400086: pCube30 1
+    400088: pCube31
+    400090: pCube31 1
+    400092: pCube32
+    400094: pCube32 1
+    400096: pCube33
+    400098: pCube33 1
+    400100: pCube33 2
+    400102: pCube34
+    400104: pCube34 1
+    400106: pCube34 2
+    400108: pCube35
+    400110: pCylinder25
+    400112: piedestal
+    400114: polySurface1
+    400116: polySurface39
+    400118: polySurface40
+    400120: salle
+    400122: temple
+    400124: Tete
+    400126: tete
+    400128: Tete 1
+    400130: tete 1
+    400132: Tete 2
+    400134: tete 2
+    400136: Tete 3
+    400138: tete 3
+    400140: Tete1
+    400142: totem
+    400144: totem1
+    400146: totem3
+    400148: totem4
+    400150: totem_02
+    2300000: bouche
+    2300002: bouche 1
+    2300004: bouche 2
+    2300006: bouche 3
+    2300008: bouche 4
+    2300010: corps
+    2300012: corps1
+    2300014: corps2
+    2300016: corps4
+    2300018: corps5
+    2300020: corps6
+    2300022: Coussin_01
+    2300024: Coussin_02
+    2300026: Coussin_03
+    2300028: nez
+    2300030: nez 1
+    2300032: oeil
+    2300034: oeil 1
+    2300036: oeil1
+    2300038: oeil1 1
+    2300040: oeil1 2
+    2300042: oeil1 3
+    2300044: oeil2
+    2300046: oeil3
+    2300048: oeil4
+    2300050: oeil5
+    2300052: oeil6
+    2300054: oeil7
+    2300056: pCube27
+    2300058: pCube27 1
+    2300060: pCube27 2
+    2300062: pCube27 3
+    2300064: pCube27 4
+    2300066: pCube29
+    2300068: pCube29 1
+    2300070: pCube30
+    2300072: pCube30 1
+    2300074: pCube31
+    2300076: pCube31 1
+    2300078: pCube32
+    2300080: pCube32 1
+    2300082: pCube33
+    2300084: pCube33 1
+    2300086: pCube33 2
+    2300088: pCube34
+    2300090: pCube34 1
+    2300092: pCube34 2
+    2300094: pCube35
+    2300096: pCylinder25
+    2300098: piedestal
+    2300100: polySurface1
+    2300102: polySurface39
+    2300104: polySurface40
+    2300106: temple
+    2300108: tete
+    2300110: tete 1
+    2300112: tete 2
+    2300114: tete 3
+    3300000: bouche
+    3300002: bouche 1
+    3300004: bouche 2
+    3300006: bouche 3
+    3300008: bouche 4
+    3300010: corps
+    3300012: corps1
+    3300014: corps2
+    3300016: corps4
+    3300018: corps5
+    3300020: corps6
+    3300022: Coussin_01
+    3300024: Coussin_02
+    3300026: Coussin_03
+    3300028: nez
+    3300030: nez 1
+    3300032: oeil
+    3300034: oeil 1
+    3300036: oeil1
+    3300038: oeil1 1
+    3300040: oeil1 2
+    3300042: oeil1 3
+    3300044: oeil2
+    3300046: oeil3
+    3300048: oeil4
+    3300050: oeil5
+    3300052: oeil6
+    3300054: oeil7
+    3300056: pCube27
+    3300058: pCube27 1
+    3300060: pCube27 2
+    3300062: pCube27 3
+    3300064: pCube27 4
+    3300066: pCube29
+    3300068: pCube29 1
+    3300070: pCube30
+    3300072: pCube30 1
+    3300074: pCube31
+    3300076: pCube31 1
+    3300078: pCube32
+    3300080: pCube32 1
+    3300082: pCube33
+    3300084: pCube33 1
+    3300086: pCube33 2
+    3300088: pCube34
+    3300090: pCube34 1
+    3300092: pCube34 2
+    3300094: pCube35
+    3300096: pCylinder25
+    3300098: piedestal
+    3300100: polySurface1
+    3300102: polySurface39
+    3300104: polySurface40
+    3300106: temple
+    3300108: tete
+    3300110: tete 1
+    3300112: tete 2
+    3300114: tete 3
+    4300000: temple
+    4300002: piedestal
+    4300004: polySurface1
+    4300006: corps
+    4300008: tete
+    4300010: nez
+    4300012: oeil
+    4300014: oeil1
+    4300016: bouche
+    4300018: corps1
+    4300020: tete
+    4300022: oeil
+    4300024: oeil1
+    4300026: bouche
+    4300028: corps2
+    4300030: tete
+    4300032: bouche
+    4300034: nez
+    4300036: oeil3
+    4300038: oeil4
+    4300040: oeil5
+    4300042: pCube29
+    4300044: pCube30
+    4300046: pCube31
+    4300048: pCube32
+    4300050: pCube27
+    4300052: pCube29
+    4300054: pCube30
+    4300056: pCube31
+    4300058: pCube32
+    4300060: pCube27
+    4300062: pCube34
+    4300064: pCube27
+    4300066: pCube33
+    4300068: pCube34
+    4300070: pCube27
+    4300072: pCube33
+    4300074: pCube34
+    4300076: pCube27
+    4300078: pCube33
+    4300080: oeil2
+    4300082: corps4
+    4300084: tete
+    4300086: oeil1
+    4300088: bouche
+    4300090: oeil6
+    4300092: pCube35
+    4300094: pCylinder25
+    4300096: corps5
+    4300098: polySurface40
+    4300100: polySurface39
+    4300102: oeil1
+    4300104: bouche
+    4300106: oeil7
+    4300108: corps6
+    4300110: Coussin_03
+    4300112: Coussin_02
+    4300114: Coussin_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

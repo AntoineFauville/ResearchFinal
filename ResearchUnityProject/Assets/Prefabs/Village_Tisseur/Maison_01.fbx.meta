@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 353a73f430eb8e745a28723e13ad38a3
+timeCreated: 1482414443
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pasted__corde
+    100004: pasted__corde1
+    100006: pasted__corde2
+    100008: pasted__corde3
+    100010: pasted__corde4
+    100012: pasted__corde5
+    100014: pasted__corde6
+    100016: pasted__corde7
+    100018: pasted__corde8
+    100020: pasted__corde9
+    100022: pasted__cordes
+    100024: pasted__Maison
+    100026: pasted__pSphere10
+    100028: pasted__pSphere11
+    100030: pasted__pSphere12
+    100032: pasted__pSphere13
+    100034: pasted__pSphere14
+    100036: pasted__pSphere15
+    100038: pasted__pSphere16
+    100040: pasted__pSphere17
+    100042: pasted__pSphere2
+    100044: pasted__pSphere9
+    100046: pasted__pTorus3
+    100048: pasted__pTorus3 1
+    100050: pasted__pTorus3 2
+    100052: pasted__pTorus3 3
+    100054: pasted__pTorus3 4
+    100056: pasted__pTorus3 5
+    100058: pasted__pTorus3 6
+    100060: pasted__pTorus3 7
+    100062: pasted__pTorus3 8
+    100064: pasted__pTorus3 9
+    100066: pasted__pTorus4
+    100068: pasted__pTorus4 1
+    100070: pasted__pTorus4 2
+    100072: pasted__pTorus4 3
+    100074: pasted__pTorus4 4
+    100076: pasted__pTorus4 5
+    100078: pasted__pTorus4 6
+    100080: pasted__pTorus4 7
+    100082: pasted__pTorus4 8
+    100084: pasted__pTorus4 9
+    400000: //RootNode
+    400002: pasted__corde
+    400004: pasted__corde1
+    400006: pasted__corde2
+    400008: pasted__corde3
+    400010: pasted__corde4
+    400012: pasted__corde5
+    400014: pasted__corde6
+    400016: pasted__corde7
+    400018: pasted__corde8
+    400020: pasted__corde9
+    400022: pasted__cordes
+    400024: pasted__Maison
+    400026: pasted__pSphere10
+    400028: pasted__pSphere11
+    400030: pasted__pSphere12
+    400032: pasted__pSphere13
+    400034: pasted__pSphere14
+    400036: pasted__pSphere15
+    400038: pasted__pSphere16
+    400040: pasted__pSphere17
+    400042: pasted__pSphere2
+    400044: pasted__pSphere9
+    400046: pasted__pTorus3
+    400048: pasted__pTorus3 1
+    400050: pasted__pTorus3 2
+    400052: pasted__pTorus3 3
+    400054: pasted__pTorus3 4
+    400056: pasted__pTorus3 5
+    400058: pasted__pTorus3 6
+    400060: pasted__pTorus3 7
+    400062: pasted__pTorus3 8
+    400064: pasted__pTorus3 9
+    400066: pasted__pTorus4
+    400068: pasted__pTorus4 1
+    400070: pasted__pTorus4 2
+    400072: pasted__pTorus4 3
+    400074: pasted__pTorus4 4
+    400076: pasted__pTorus4 5
+    400078: pasted__pTorus4 6
+    400080: pasted__pTorus4 7
+    400082: pasted__pTorus4 8
+    400084: pasted__pTorus4 9
+    2300000: pasted__Maison
+    2300002: pasted__pSphere10
+    2300004: pasted__pSphere11
+    2300006: pasted__pSphere12
+    2300008: pasted__pSphere13
+    2300010: pasted__pSphere14
+    2300012: pasted__pSphere15
+    2300014: pasted__pSphere16
+    2300016: pasted__pSphere17
+    2300018: pasted__pSphere2
+    2300020: pasted__pSphere9
+    2300022: pasted__pTorus3
+    2300024: pasted__pTorus3 1
+    2300026: pasted__pTorus3 2
+    2300028: pasted__pTorus3 3
+    2300030: pasted__pTorus3 4
+    2300032: pasted__pTorus3 5
+    2300034: pasted__pTorus3 6
+    2300036: pasted__pTorus3 7
+    2300038: pasted__pTorus3 8
+    2300040: pasted__pTorus3 9
+    2300042: pasted__pTorus4
+    2300044: pasted__pTorus4 1
+    2300046: pasted__pTorus4 2
+    2300048: pasted__pTorus4 3
+    2300050: pasted__pTorus4 4
+    2300052: pasted__pTorus4 5
+    2300054: pasted__pTorus4 6
+    2300056: pasted__pTorus4 7
+    2300058: pasted__pTorus4 8
+    2300060: pasted__pTorus4 9
+    3300000: pasted__Maison
+    3300002: pasted__pSphere10
+    3300004: pasted__pSphere11
+    3300006: pasted__pSphere12
+    3300008: pasted__pSphere13
+    3300010: pasted__pSphere14
+    3300012: pasted__pSphere15
+    3300014: pasted__pSphere16
+    3300016: pasted__pSphere17
+    3300018: pasted__pSphere2
+    3300020: pasted__pSphere9
+    3300022: pasted__pTorus3
+    3300024: pasted__pTorus3 1
+    3300026: pasted__pTorus3 2
+    3300028: pasted__pTorus3 3
+    3300030: pasted__pTorus3 4
+    3300032: pasted__pTorus3 5
+    3300034: pasted__pTorus3 6
+    3300036: pasted__pTorus3 7
+    3300038: pasted__pTorus3 8
+    3300040: pasted__pTorus3 9
+    3300042: pasted__pTorus4
+    3300044: pasted__pTorus4 1
+    3300046: pasted__pTorus4 2
+    3300048: pasted__pTorus4 3
+    3300050: pasted__pTorus4 4
+    3300052: pasted__pTorus4 5
+    3300054: pasted__pTorus4 6
+    3300056: pasted__pTorus4 7
+    3300058: pasted__pTorus4 8
+    3300060: pasted__pTorus4 9
+    4300000: pasted__pTorus4
+    4300002: pasted__pTorus3
+    4300004: pasted__pTorus4
+    4300006: pasted__pTorus3
+    4300008: pasted__pTorus4
+    4300010: pasted__pTorus3
+    4300012: pasted__pTorus4
+    4300014: pasted__pTorus3
+    4300016: pasted__pTorus4
+    4300018: pasted__pTorus3
+    4300020: pasted__pTorus4
+    4300022: pasted__pTorus3
+    4300024: pasted__pTorus4
+    4300026: pasted__pTorus3
+    4300028: pasted__pTorus4
+    4300030: pasted__pTorus3
+    4300032: pasted__pTorus4
+    4300034: pasted__pTorus3
+    4300036: pasted__pTorus4
+    4300038: pasted__pTorus3
+    4300040: pasted__pSphere17
+    4300042: pasted__pSphere16
+    4300044: pasted__pSphere15
+    4300046: pasted__pSphere14
+    4300048: pasted__pSphere13
+    4300050: pasted__pSphere12
+    4300052: pasted__pSphere11
+    4300054: pasted__pSphere10
+    4300056: pasted__pSphere9
+    4300058: pasted__pSphere2
+    4300060: pasted__Maison
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

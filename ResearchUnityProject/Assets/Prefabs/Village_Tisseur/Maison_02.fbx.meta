@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: 6ed4dbca7f297834ab34a28791d211f1
+timeCreated: 1482414444
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pasted__corde
+    100004: pasted__corde1
+    100006: pasted__corde2
+    100008: pasted__corde3
+    100010: pasted__corde4
+    100012: pasted__corde5
+    100014: pasted__corde6
+    100016: pasted__corde7
+    100018: pasted__corde8
+    100020: pasted__corde9
+    100022: pasted__cordes1
+    100024: pasted__polySurface26
+    100026: pasted__polySurface28
+    100028: pasted__polySurface30
+    100030: pasted__polySurface31
+    100032: pasted__pSphere10
+    100034: pasted__pSphere11
+    100036: pasted__pSphere12
+    100038: pasted__pSphere13
+    100040: pasted__pSphere14
+    100042: pasted__pSphere15
+    100044: pasted__pSphere16
+    100046: pasted__pSphere17
+    100048: pasted__pSphere2
+    100050: pasted__pSphere38
+    100052: pasted__pSphere39
+    100054: pasted__pSphere40
+    100056: pasted__pSphere41
+    100058: pasted__pSphere42
+    100060: pasted__pSphere43
+    100062: pasted__pSphere44
+    100064: pasted__pSphere45
+    100066: pasted__pSphere46
+    100068: pasted__pSphere47
+    100070: pasted__pSphere48
+    100072: pasted__pSphere49
+    100074: pasted__pSphere50
+    100076: pasted__pSphere51
+    100078: pasted__pSphere52
+    100080: pasted__pSphere53
+    100082: pasted__pSphere54
+    100084: pasted__pSphere55
+    100086: pasted__pSphere56
+    100088: pasted__pSphere57
+    100090: pasted__pSphere58
+    100092: pasted__pSphere59
+    100094: pasted__pSphere60
+    100096: pasted__pSphere61
+    100098: pasted__pSphere62
+    100100: pasted__pSphere63
+    100102: pasted__pSphere64
+    100104: pasted__pSphere65
+    100106: pasted__pSphere66
+    100108: pasted__pSphere67
+    100110: pasted__pSphere68
+    100112: pasted__pSphere9
+    100114: pasted__pTorus3
+    100116: pasted__pTorus3 1
+    100118: pasted__pTorus3 2
+    100120: pasted__pTorus3 3
+    100122: pasted__pTorus3 4
+    100124: pasted__pTorus3 5
+    100126: pasted__pTorus3 6
+    100128: pasted__pTorus3 7
+    100130: pasted__pTorus3 8
+    100132: pasted__pTorus3 9
+    100134: pasted__pTorus4
+    100136: pasted__pTorus4 1
+    100138: pasted__pTorus4 2
+    100140: pasted__pTorus4 3
+    100142: pasted__pTorus4 4
+    100144: pasted__pTorus4 5
+    100146: pasted__pTorus4 6
+    100148: pasted__pTorus4 7
+    100150: pasted__pTorus4 8
+    100152: pasted__pTorus4 9
+    400000: //RootNode
+    400002: pasted__corde
+    400004: pasted__corde1
+    400006: pasted__corde2
+    400008: pasted__corde3
+    400010: pasted__corde4
+    400012: pasted__corde5
+    400014: pasted__corde6
+    400016: pasted__corde7
+    400018: pasted__corde8
+    400020: pasted__corde9
+    400022: pasted__cordes1
+    400024: pasted__polySurface26
+    400026: pasted__polySurface28
+    400028: pasted__polySurface30
+    400030: pasted__polySurface31
+    400032: pasted__pSphere10
+    400034: pasted__pSphere11
+    400036: pasted__pSphere12
+    400038: pasted__pSphere13
+    400040: pasted__pSphere14
+    400042: pasted__pSphere15
+    400044: pasted__pSphere16
+    400046: pasted__pSphere17
+    400048: pasted__pSphere2
+    400050: pasted__pSphere38
+    400052: pasted__pSphere39
+    400054: pasted__pSphere40
+    400056: pasted__pSphere41
+    400058: pasted__pSphere42
+    400060: pasted__pSphere43
+    400062: pasted__pSphere44
+    400064: pasted__pSphere45
+    400066: pasted__pSphere46
+    400068: pasted__pSphere47
+    400070: pasted__pSphere48
+    400072: pasted__pSphere49
+    400074: pasted__pSphere50
+    400076: pasted__pSphere51
+    400078: pasted__pSphere52
+    400080: pasted__pSphere53
+    400082: pasted__pSphere54
+    400084: pasted__pSphere55
+    400086: pasted__pSphere56
+    400088: pasted__pSphere57
+    400090: pasted__pSphere58
+    400092: pasted__pSphere59
+    400094: pasted__pSphere60
+    400096: pasted__pSphere61
+    400098: pasted__pSphere62
+    400100: pasted__pSphere63
+    400102: pasted__pSphere64
+    400104: pasted__pSphere65
+    400106: pasted__pSphere66
+    400108: pasted__pSphere67
+    400110: pasted__pSphere68
+    400112: pasted__pSphere9
+    400114: pasted__pTorus3
+    400116: pasted__pTorus3 1
+    400118: pasted__pTorus3 2
+    400120: pasted__pTorus3 3
+    400122: pasted__pTorus3 4
+    400124: pasted__pTorus3 5
+    400126: pasted__pTorus3 6
+    400128: pasted__pTorus3 7
+    400130: pasted__pTorus3 8
+    400132: pasted__pTorus3 9
+    400134: pasted__pTorus4
+    400136: pasted__pTorus4 1
+    400138: pasted__pTorus4 2
+    400140: pasted__pTorus4 3
+    400142: pasted__pTorus4 4
+    400144: pasted__pTorus4 5
+    400146: pasted__pTorus4 6
+    400148: pasted__pTorus4 7
+    400150: pasted__pTorus4 8
+    400152: pasted__pTorus4 9
+    2300000: pasted__polySurface26
+    2300002: pasted__polySurface28
+    2300004: pasted__polySurface30
+    2300006: pasted__polySurface31
+    2300008: pasted__pSphere10
+    2300010: pasted__pSphere11
+    2300012: pasted__pSphere12
+    2300014: pasted__pSphere13
+    2300016: pasted__pSphere14
+    2300018: pasted__pSphere15
+    2300020: pasted__pSphere16
+    2300022: pasted__pSphere17
+    2300024: pasted__pSphere2
+    2300026: pasted__pSphere38
+    2300028: pasted__pSphere39
+    2300030: pasted__pSphere40
+    2300032: pasted__pSphere41
+    2300034: pasted__pSphere42
+    2300036: pasted__pSphere43
+    2300038: pasted__pSphere44
+    2300040: pasted__pSphere45
+    2300042: pasted__pSphere46
+    2300044: pasted__pSphere47
+    2300046: pasted__pSphere48
+    2300048: pasted__pSphere49
+    2300050: pasted__pSphere50
+    2300052: pasted__pSphere51
+    2300054: pasted__pSphere52
+    2300056: pasted__pSphere53
+    2300058: pasted__pSphere54
+    2300060: pasted__pSphere55
+    2300062: pasted__pSphere56
+    2300064: pasted__pSphere57
+    2300066: pasted__pSphere58
+    2300068: pasted__pSphere59
+    2300070: pasted__pSphere60
+    2300072: pasted__pSphere61
+    2300074: pasted__pSphere62
+    2300076: pasted__pSphere63
+    2300078: pasted__pSphere64
+    2300080: pasted__pSphere65
+    2300082: pasted__pSphere66
+    2300084: pasted__pSphere67
+    2300086: pasted__pSphere68
+    2300088: pasted__pSphere9
+    2300090: pasted__pTorus3
+    2300092: pasted__pTorus3 1
+    2300094: pasted__pTorus3 2
+    2300096: pasted__pTorus3 3
+    2300098: pasted__pTorus3 4
+    2300100: pasted__pTorus3 5
+    2300102: pasted__pTorus3 6
+    2300104: pasted__pTorus3 7
+    2300106: pasted__pTorus3 8
+    2300108: pasted__pTorus3 9
+    2300110: pasted__pTorus4
+    2300112: pasted__pTorus4 1
+    2300114: pasted__pTorus4 2
+    2300116: pasted__pTorus4 3
+    2300118: pasted__pTorus4 4
+    2300120: pasted__pTorus4 5
+    2300122: pasted__pTorus4 6
+    2300124: pasted__pTorus4 7
+    2300126: pasted__pTorus4 8
+    2300128: pasted__pTorus4 9
+    3300000: pasted__polySurface26
+    3300002: pasted__polySurface28
+    3300004: pasted__polySurface30
+    3300006: pasted__polySurface31
+    3300008: pasted__pSphere10
+    3300010: pasted__pSphere11
+    3300012: pasted__pSphere12
+    3300014: pasted__pSphere13
+    3300016: pasted__pSphere14
+    3300018: pasted__pSphere15
+    3300020: pasted__pSphere16
+    3300022: pasted__pSphere17
+    3300024: pasted__pSphere2
+    3300026: pasted__pSphere38
+    3300028: pasted__pSphere39
+    3300030: pasted__pSphere40
+    3300032: pasted__pSphere41
+    3300034: pasted__pSphere42
+    3300036: pasted__pSphere43
+    3300038: pasted__pSphere44
+    3300040: pasted__pSphere45
+    3300042: pasted__pSphere46
+    3300044: pasted__pSphere47
+    3300046: pasted__pSphere48
+    3300048: pasted__pSphere49
+    3300050: pasted__pSphere50
+    3300052: pasted__pSphere51
+    3300054: pasted__pSphere52
+    3300056: pasted__pSphere53
+    3300058: pasted__pSphere54
+    3300060: pasted__pSphere55
+    3300062: pasted__pSphere56
+    3300064: pasted__pSphere57
+    3300066: pasted__pSphere58
+    3300068: pasted__pSphere59
+    3300070: pasted__pSphere60
+    3300072: pasted__pSphere61
+    3300074: pasted__pSphere62
+    3300076: pasted__pSphere63
+    3300078: pasted__pSphere64
+    3300080: pasted__pSphere65
+    3300082: pasted__pSphere66
+    3300084: pasted__pSphere67
+    3300086: pasted__pSphere68
+    3300088: pasted__pSphere9
+    3300090: pasted__pTorus3
+    3300092: pasted__pTorus3 1
+    3300094: pasted__pTorus3 2
+    3300096: pasted__pTorus3 3
+    3300098: pasted__pTorus3 4
+    3300100: pasted__pTorus3 5
+    3300102: pasted__pTorus3 6
+    3300104: pasted__pTorus3 7
+    3300106: pasted__pTorus3 8
+    3300108: pasted__pTorus3 9
+    3300110: pasted__pTorus4
+    3300112: pasted__pTorus4 1
+    3300114: pasted__pTorus4 2
+    3300116: pasted__pTorus4 3
+    3300118: pasted__pTorus4 4
+    3300120: pasted__pTorus4 5
+    3300122: pasted__pTorus4 6
+    3300124: pasted__pTorus4 7
+    3300126: pasted__pTorus4 8
+    3300128: pasted__pTorus4 9
+    4300000: pasted__polySurface26
+    4300002: pasted__polySurface31
+    4300004: pasted__polySurface30
+    4300006: pasted__polySurface28
+    4300008: pasted__pTorus4
+    4300010: pasted__pTorus3
+    4300012: pasted__pTorus4
+    4300014: pasted__pTorus3
+    4300016: pasted__pTorus4
+    4300018: pasted__pTorus3
+    4300020: pasted__pTorus4
+    4300022: pasted__pTorus3
+    4300024: pasted__pTorus4
+    4300026: pasted__pTorus3
+    4300028: pasted__pTorus4
+    4300030: pasted__pTorus3
+    4300032: pasted__pTorus4
+    4300034: pasted__pTorus3
+    4300036: pasted__pTorus4
+    4300038: pasted__pTorus3
+    4300040: pasted__pTorus4
+    4300042: pasted__pTorus3
+    4300044: pasted__pTorus4
+    4300046: pasted__pTorus3
+    4300048: pasted__pSphere17
+    4300050: pasted__pSphere16
+    4300052: pasted__pSphere15
+    4300054: pasted__pSphere14
+    4300056: pasted__pSphere13
+    4300058: pasted__pSphere12
+    4300060: pasted__pSphere11
+    4300062: pasted__pSphere10
+    4300064: pasted__pSphere9
+    4300066: pasted__pSphere2
+    4300068: pasted__pSphere38
+    4300070: pasted__pSphere39
+    4300072: pasted__pSphere40
+    4300074: pasted__pSphere41
+    4300076: pasted__pSphere42
+    4300078: pasted__pSphere43
+    4300080: pasted__pSphere44
+    4300082: pasted__pSphere45
+    4300084: pasted__pSphere46
+    4300086: pasted__pSphere47
+    4300088: pasted__pSphere48
+    4300090: pasted__pSphere49
+    4300092: pasted__pSphere50
+    4300094: pasted__pSphere51
+    4300096: pasted__pSphere52
+    4300098: pasted__pSphere53
+    4300100: pasted__pSphere54
+    4300102: pasted__pSphere55
+    4300104: pasted__pSphere56
+    4300106: pasted__pSphere57
+    4300108: pasted__pSphere58
+    4300110: pasted__pSphere59
+    4300112: pasted__pSphere60
+    4300114: pasted__pSphere61
+    4300116: pasted__pSphere62
+    4300118: pasted__pSphere63
+    4300120: pasted__pSphere64
+    4300122: pasted__pSphere65
+    4300124: pasted__pSphere66
+    4300126: pasted__pSphere67
+    4300128: pasted__pSphere68
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

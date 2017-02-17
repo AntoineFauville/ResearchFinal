@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 3542b3880366e3f4fb917755eedf5ee0
+timeCreated: 1484542914
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pasted__Arm
+    100004: pasted__arm
+    100006: pasted__arm 1
+    100008: pasted__Arm1
+    100010: pasted__base_tambourin
+    100012: pasted__belt2
+    100014: pasted__col
+    100016: pasted__Corps
+    100018: pasted__epaulette_01
+    100020: pasted__epaulette_02
+    100022: pasted__group2
+    100024: pasted__group3
+    100026: pasted__hand
+    100028: pasted__hand 1
+    100030: pasted__leg
+    100032: pasted__leg1
+    100034: pasted__mouth
+    100036: pasted__nez
+    100038: pasted__oeil
+    100040: pasted__oeil 1
+    100042: pasted__oeil2
+    100044: pasted__oeil2 1
+    100046: pasted__oeils
+    100048: pasted__oeils1
+    100050: pasted__ornement_tete
+    100052: pasted__peau_tambourin
+    100054: pasted__Plume01
+    100056: pasted__Plume02
+    100058: pasted__Plume03
+    100060: pasted__Plume04
+    100062: pasted__Plume05
+    100064: pasted__Plume06
+    100066: pasted__Plume07
+    100068: pasted__Plume08
+    100070: pasted__Plume09
+    100072: pasted__Plume10
+    100074: pasted__Plume11
+    100076: pasted__plumes
+    100078: pasted__QuickRigCharacter_Head
+    100080: pasted__QuickRigCharacter_Hips
+    100082: pasted__QuickRigCharacter_LeftArm
+    100084: pasted__QuickRigCharacter_LeftFoot
+    100086: pasted__QuickRigCharacter_LeftForeArm
+    100088: pasted__QuickRigCharacter_LeftHand
+    100090: pasted__QuickRigCharacter_LeftLeg
+    100092: pasted__QuickRigCharacter_LeftToeBase
+    100094: pasted__QuickRigCharacter_LeftUpLeg
+    100096: pasted__QuickRigCharacter_Neck
+    100098: pasted__QuickRigCharacter_Reference
+    100100: pasted__QuickRigCharacter_RightArm
+    100102: pasted__QuickRigCharacter_RightFoot
+    100104: pasted__QuickRigCharacter_RightForeArm
+    100106: pasted__QuickRigCharacter_RightHand
+    100108: pasted__QuickRigCharacter_RightLeg
+    100110: pasted__QuickRigCharacter_RightToeBase
+    100112: pasted__QuickRigCharacter_RightUpLeg
+    100114: pasted__QuickRigCharacter_Spine
+    100116: pasted__QuickRigCharacter_Spine1
+    100118: pasted__QuickRigCharacter_Spine2
+    100120: pasted__tambourin
+    100122: pasted__Tete
+    100124: pasted__tete
+    100126: pasted__torse
+    100128: pasted__tunique1
+    100130: pasted__tunique_musicien
+    100132: pasted__villageois
+    400000: //RootNode
+    400002: pasted__Arm
+    400004: pasted__arm
+    400006: pasted__arm 1
+    400008: pasted__Arm1
+    400010: pasted__base_tambourin
+    400012: pasted__belt2
+    400014: pasted__col
+    400016: pasted__Corps
+    400018: pasted__epaulette_01
+    400020: pasted__epaulette_02
+    400022: pasted__group2
+    400024: pasted__group3
+    400026: pasted__hand
+    400028: pasted__hand 1
+    400030: pasted__leg
+    400032: pasted__leg1
+    400034: pasted__mouth
+    400036: pasted__nez
+    400038: pasted__oeil
+    400040: pasted__oeil 1
+    400042: pasted__oeil2
+    400044: pasted__oeil2 1
+    400046: pasted__oeils
+    400048: pasted__oeils1
+    400050: pasted__ornement_tete
+    400052: pasted__peau_tambourin
+    400054: pasted__Plume01
+    400056: pasted__Plume02
+    400058: pasted__Plume03
+    400060: pasted__Plume04
+    400062: pasted__Plume05
+    400064: pasted__Plume06
+    400066: pasted__Plume07
+    400068: pasted__Plume08
+    400070: pasted__Plume09
+    400072: pasted__Plume10
+    400074: pasted__Plume11
+    400076: pasted__plumes
+    400078: pasted__QuickRigCharacter_Head
+    400080: pasted__QuickRigCharacter_Hips
+    400082: pasted__QuickRigCharacter_LeftArm
+    400084: pasted__QuickRigCharacter_LeftFoot
+    400086: pasted__QuickRigCharacter_LeftForeArm
+    400088: pasted__QuickRigCharacter_LeftHand
+    400090: pasted__QuickRigCharacter_LeftLeg
+    400092: pasted__QuickRigCharacter_LeftToeBase
+    400094: pasted__QuickRigCharacter_LeftUpLeg
+    400096: pasted__QuickRigCharacter_Neck
+    400098: pasted__QuickRigCharacter_Reference
+    400100: pasted__QuickRigCharacter_RightArm
+    400102: pasted__QuickRigCharacter_RightFoot
+    400104: pasted__QuickRigCharacter_RightForeArm
+    400106: pasted__QuickRigCharacter_RightHand
+    400108: pasted__QuickRigCharacter_RightLeg
+    400110: pasted__QuickRigCharacter_RightToeBase
+    400112: pasted__QuickRigCharacter_RightUpLeg
+    400114: pasted__QuickRigCharacter_Spine
+    400116: pasted__QuickRigCharacter_Spine1
+    400118: pasted__QuickRigCharacter_Spine2
+    400120: pasted__tambourin
+    400122: pasted__Tete
+    400124: pasted__tete
+    400126: pasted__torse
+    400128: pasted__tunique1
+    400130: pasted__tunique_musicien
+    400132: pasted__villageois
+    2300000: pasted__base_tambourin
+    2300002: pasted__belt2
+    2300004: pasted__col
+    2300006: pasted__epaulette_01
+    2300008: pasted__epaulette_02
+    2300010: pasted__mouth
+    2300012: pasted__nez
+    2300014: pasted__oeil
+    2300016: pasted__oeil 1
+    2300018: pasted__oeil2
+    2300020: pasted__oeil2 1
+    2300022: pasted__ornement_tete
+    2300024: pasted__peau_tambourin
+    2300026: pasted__Plume01
+    2300028: pasted__Plume02
+    2300030: pasted__Plume03
+    2300032: pasted__Plume04
+    2300034: pasted__Plume05
+    2300036: pasted__Plume06
+    2300038: pasted__Plume07
+    2300040: pasted__Plume08
+    2300042: pasted__Plume09
+    2300044: pasted__Plume10
+    2300046: pasted__Plume11
+    3300000: pasted__base_tambourin
+    3300002: pasted__belt2
+    3300004: pasted__col
+    3300006: pasted__epaulette_01
+    3300008: pasted__epaulette_02
+    3300010: pasted__mouth
+    3300012: pasted__nez
+    3300014: pasted__oeil
+    3300016: pasted__oeil 1
+    3300018: pasted__oeil2
+    3300020: pasted__oeil2 1
+    3300022: pasted__ornement_tete
+    3300024: pasted__peau_tambourin
+    3300026: pasted__Plume01
+    3300028: pasted__Plume02
+    3300030: pasted__Plume03
+    3300032: pasted__Plume04
+    3300034: pasted__Plume05
+    3300036: pasted__Plume06
+    3300038: pasted__Plume07
+    3300040: pasted__Plume08
+    3300042: pasted__Plume09
+    3300044: pasted__Plume10
+    3300046: pasted__Plume11
+    4300000: pasted__nez
+    4300002: pasted__oeil
+    4300004: pasted__oeil2
+    4300006: pasted__oeil2
+    4300008: pasted__oeil
+    4300010: pasted__mouth
+    4300012: pasted__Plume01
+    4300014: pasted__Plume02
+    4300016: pasted__Plume03
+    4300018: pasted__Plume04
+    4300020: pasted__Plume05
+    4300022: pasted__Plume06
+    4300024: pasted__Plume07
+    4300026: pasted__Plume08
+    4300028: pasted__Plume09
+    4300030: pasted__Plume10
+    4300032: pasted__Plume11
+    4300034: pasted__ornement_tete
+    4300036: pasted__col
+    4300038: pasted__epaulette_01
+    4300040: pasted__epaulette_02
+    4300042: pasted__peau_tambourin
+    4300044: pasted__base_tambourin
+    4300046: pasted__belt2
+    4300048: pasted__torse
+    4300050: pasted__leg
+    4300052: pasted__arm
+    4300054: pasted__hand
+    4300056: pasted__arm
+    4300058: pasted__hand
+    4300060: pasted__leg1
+    4300062: pasted__tete
+    4300064: pasted__tunique1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__arm
+    13700002: pasted__arm 1
+    13700004: pasted__hand
+    13700006: pasted__hand 1
+    13700008: pasted__leg
+    13700010: pasted__leg1
+    13700012: pasted__tete
+    13700014: pasted__torse
+    13700016: pasted__tunique1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
