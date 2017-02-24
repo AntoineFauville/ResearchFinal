@@ -83,6 +83,8 @@ public class CharacterMovement : MonoBehaviour {
 			} else if (Input.GetAxis ("Vertical") < 0) {
 				MoveBack ();
 			}
+
+
 			break;
 
 		case SIT:

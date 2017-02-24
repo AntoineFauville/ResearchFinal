@@ -41,7 +41,7 @@
  
         fixed4 c = lerp(1, gradient, _ShowTexture) * _Color;
         o.Albedo = c.rgb;
- 
+ 		
         // Metallic and smoothness come from slider variables
         o.Metallic = _Metallic;
         o.Smoothness = _Glossiness;
