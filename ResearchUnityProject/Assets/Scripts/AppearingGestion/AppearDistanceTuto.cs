@@ -9,11 +9,12 @@ public class AppearDistanceTuto : MonoBehaviour {
 	public GameObject[] tutoMesh;
 
 	DetectableLocalManager DetectL;
+	public string tag;
 	float amout;
 
 	// Use this for initialization
 	void Start () {
-		tutoMesh = GameObject.FindGameObjectsWithTag ("tutoAppear");
+		tutoMesh = GameObject.FindGameObjectsWithTag (tag);
 		DetectL = this.gameObject.GetComponent<DetectableLocalManager> ();
 
 		amout = 1.0f;

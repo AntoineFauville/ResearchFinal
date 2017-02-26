@@ -96,7 +96,7 @@ public class VillageDecouvertBlocageCube : MonoBehaviour {
 
 		//launchAnim
 		//desactiverTopPartLowPartMidPart3DMLodele
-		animBool = true;
+		/*animBool = true;
 		Player.SetActive (false);
 		MainCamera.SetActive (false);
 		AnimFinTotem.SetBool("ActivateFinTotem",animBool);
@@ -136,6 +136,19 @@ public class VillageDecouvertBlocageCube : MonoBehaviour {
 		//ScanningPanel.SetActive (true);
 
 		//ScriptTotem = GameObject.Find ("ScriptTotem");
-		//ScriptTotem.SetActive (false);
+		//ScriptTotem.SetActive (false);*/
+
+		Player.SetActive (true);
+		Player.transform.position = RespawnEnigmeTotem.transform.position;
+		GM.DesactiverChaudFroid ();
+		Player.GetComponent<DeathSystem> ().EnigmeActiveeMortSystemOn = false;
+		artefactNewCanvas.SetActive (true);
+		MainCamera.SetActive (true);
+		CubeOnAss.SetActive (true);
+		CubeTotem.SetActive (false);
+
+		PilierCentralDeg.SetActive (false);
+		yield return new WaitForSeconds (0.1f);
+
 	}
 }

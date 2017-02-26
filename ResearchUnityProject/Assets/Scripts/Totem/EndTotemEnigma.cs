@@ -51,8 +51,8 @@ public class EndTotemEnigma : MonoBehaviour {
 		float rot2 = Mathf.Abs (currentRotationPart2.y);
 		float rot3 = Mathf.Abs (currentRotationPart3.y);
 
-		if (Trigger01.GoodToGoTotem01 && Trigger02.GoodToGoTotem02 && !gotThisOnce) {
-			if(rot2 == 1.0f && rot3 == 1.0f){
+		//if (Trigger01.GoodToGoTotem01 && Trigger02.GoodToGoTotem02 && !gotThisOnce) {
+			if(rot2 == 1.0f && rot3 == 1.0f  && !gotThisOnce){
 				EnigmaIsDone = true;
 
 				TopPartScript.GetComponent<AnimTopPartNotMoving> ().enabled = false;
@@ -71,7 +71,7 @@ public class EndTotemEnigma : MonoBehaviour {
 
 				print ("EnigmaTotemDone");
 				gotThisOnce = true;
-			}
+		//	}
 		}
 	}
 }

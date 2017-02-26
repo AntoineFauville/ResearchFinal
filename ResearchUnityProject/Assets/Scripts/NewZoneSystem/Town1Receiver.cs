@@ -20,7 +20,7 @@ public class Town1Receiver : MonoBehaviour {
 
 	//animation 
 	bool didILauchedAnim;
-	public Animator animVillage;
+	//public Animator animVillage;
 	bool animBoolVillage;
 
 	GameObject artecfactNew;
@@ -41,40 +41,40 @@ public class Town1Receiver : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		animVillage.SetBool ("AnimVillageBool", animBoolVillage);
+		//animVillage.SetBool ("AnimVillageBool", animBoolVillage);
 
 		if (DLM.isPlayerHere && Input.GetButtonDown ("Submit") && !didILauchedAnim) {
-			print ("hey");
-			didILauchedAnim = true;
+		//	print ("hey");
+		//	didILauchedAnim = true;
 			StartCoroutine("AnimDeDebutTotem");
 		}
 	}
 
-	IEnumerator AnimDeDebutTotem(){
-		print ("heyyyy");
+	IEnumerator AnimDeDebutTotem (){
+		//print ("heyyyy");
 		//activateCanvasUp = true;  lanche l'image blanche au debut de l'animation
-		SG.sanity = 1;
+		//SG.sanity = 1;
 	//	artecfactNew = GameObject.Find ("ARtefactOverLayInteraction");
 	//	artecfactNew.SetActive (false);
 
 		//yield return new WaitForSeconds (1.0f);
-		animBoolVillage = true;
+		//animBoolVillage = true;
 		//activateCanvasUp = false;
 		yield return new WaitForSeconds (0.5f);
-		Player.SetActive(false);
+		//Player.SetActive(false);
 		//canvasAnimWhite.GetComponent<CanvasGroup> ().alpha = 0.0f;
 		DS.EnigmeActiveeMortSystemOn = true;
-		MainCamera.SetActive (false);
+		//MainCamera.SetActive (false);
 		VBBC.VillageEstDeployer = true;
 //		Artefact = GameObject.Find ("ArtefactArcheo(Clone)");
 //		Artefact.SetActive (false);
-		yield return new WaitForSeconds (15.5f);
+		//yield return new WaitForSeconds (15.5f);
 		//RespawnEnigmeTotem = GameObject.Find ("RespawnEnigmeTotem");
-		Player.SetActive(true);
+		//Player.SetActive(true);
 		//CylindreLight.SetActive (false);
-		Player.transform.position = RespawnEnigmeTotem.transform.position;
+		//Player.transform.position = RespawnEnigmeTotem.transform.position;
 		//print ("hey");
 		//Player.SetActive(true);
-		MainCamera.SetActive (true);
+		//MainCamera.SetActive (true);
 	}
 }
