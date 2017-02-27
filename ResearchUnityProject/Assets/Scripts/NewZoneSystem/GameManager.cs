@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject[] T;
 	GameObject Player;
 
+	GameObject PanelPressSpace;
+
 	ArrayList isDetectedAround;
 
 	public float distancePremierCercleDetection = 80.0f; // distancePremierCercleDetection
@@ -87,6 +89,9 @@ public class GameManager : MonoBehaviour {
 
 		anim =  GameObject.Find ("ArtefactAnimation").GetComponent<Animator>();
 		QTSurfShad = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<QT_SurfaceNoise2>();
+
+		PanelPressSpace = GameObject.Find ("PanelPressSpace");
+		PanelPressSpace.SetActive (false);
 
 	}
 
@@ -203,7 +208,7 @@ public class GameManager : MonoBehaviour {
 	void ActionDisponibleLacherCube()
 	{
 		//son
-
+		PanelPressSpace.SetActive (true);
 		if (!playSoundOncePressE) {
 			AudioSource AS;
 			AS = GameObject.Find ("Sound1").GetComponent<AudioSource> ();
@@ -216,6 +221,7 @@ public class GameManager : MonoBehaviour {
 
 	void DesactiverActionDisponibleLacherCube()
 	{
+		PanelPressSpace.SetActive (false);
 		playSoundOncePressE = false;
 		// Bouton press E disparaitre de l'écran
 	}

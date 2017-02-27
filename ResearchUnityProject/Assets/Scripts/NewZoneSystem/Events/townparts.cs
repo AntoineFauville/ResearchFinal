@@ -24,9 +24,12 @@ public class townparts : MonoBehaviour {
 
 		amout = 1.0f;
 		for (int i = 0; i < Mesh.Length; i++) {
+			
 			Mesh [i].GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
 			Mesh [i].GetComponent<MeshRenderer> ().receiveShadows = false;
 			Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
+
+			Mesh [i].SetActive (false);
 
 			//StartCoroutine ("update");
 		}
@@ -44,6 +47,7 @@ public class townparts : MonoBehaviour {
 		if (didICheck && distance < 15) {
 			StartCoroutine ("appear");
 			for (int i = 0; i < Mesh.Length; i++) {
+				Mesh [i].SetActive (true);
 				Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
 			}
 			amout -= 0.01f;

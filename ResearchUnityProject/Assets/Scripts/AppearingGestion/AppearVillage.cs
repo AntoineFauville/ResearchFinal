@@ -22,6 +22,7 @@ public class AppearVillage : MonoBehaviour {
 			tutoMesh [i].GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
 			tutoMesh [i].GetComponent<MeshRenderer> ().receiveShadows = false;
 			tutoMesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
+			tutoMesh [i].SetActive (false);
 		}
 	}
 	
@@ -31,6 +32,7 @@ public class AppearVillage : MonoBehaviour {
 
 			StartCoroutine ("appear");
 			for (int i = 0; i < tutoMesh.Length; i++) {
+				tutoMesh [i].SetActive (true);
 				tutoMesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
 			}
 			amout -= 0.01f;
