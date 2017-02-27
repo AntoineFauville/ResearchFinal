@@ -1,0 +1,670 @@
+fileFormatVersion: 2
+guid: 2806d21316fba1c4789ef323fdf0e549
+timeCreated: 1486671979
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_R
+    100004: arriere_belt
+    100006: artefact2
+    100008: artefact_holder
+    100010: bag
+    100012: belt
+    100014: belt4
+    100016: belt_buckle
+    100018: bide
+    100020: Bidules_gaztank01
+    100022: Bidules_gaztank02
+    100024: Bidules_gaztank03
+    100026: Bidules_gaztank04
+    100028: boucle
+    100030: bras_R1
+    100032: bras_R1 1
+    100034: buckle
+    100036: buckle 1
+    100038: buckle 2
+    100040: buckle 3
+    100042: buckle 4
+    100044: buckle 5
+    100046: buckle 6
+    100048: buckle 7
+    100050: buckle1
+    100052: buckle_02
+    100054: Buckle_L
+    100056: buckle_R
+    100058: buckle_Rside
+    100060: buckle_Rside 1
+    100062: buckle_Rside2
+    100064: buckle_Rside2 1
+    100066: buckle_Rside3
+    100068: buckle_Rside4
+    100070: BUCKLES
+    100072: capsule
+    100074: casque
+    100076: cord
+    100078: cord 1
+    100080: cord 2
+    100082: cord 3
+    100084: cord 4
+    100086: cord 5
+    100088: cord 6
+    100090: cord 7
+    100092: epauliere_D
+    100094: epauliere_G
+    100096: EthanHead
+    100098: EthanHead1
+    100100: EthanHips
+    100102: EthanJaw
+    100104: EthanLeftArm
+    100106: EthanLeftBlink
+    100108: EthanLeftBrow
+    100110: EthanLeftCorner
+    100112: EthanLeftEye
+    100114: EthanLeftFoot
+    100116: EthanLeftForeArm
+    100118: EthanLeftHand
+    100120: EthanLeftHandIndex1
+    100122: EthanLeftHandIndex2
+    100124: EthanLeftHandIndex3
+    100126: EthanLeftHandIndex4
+    100128: EthanLeftHandMiddle1
+    100130: EthanLeftHandMiddle2
+    100132: EthanLeftHandMiddle3
+    100134: EthanLeftHandMiddle4
+    100136: EthanLeftHandPinky1
+    100138: EthanLeftHandPinky2
+    100140: EthanLeftHandPinky3
+    100142: EthanLeftHandPinky4
+    100144: EthanLeftHandRing1
+    100146: EthanLeftHandRing2
+    100148: EthanLeftHandRing3
+    100150: EthanLeftHandRing4
+    100152: EthanLeftHandThumb1
+    100154: EthanLeftHandThumb2
+    100156: EthanLeftHandThumb3
+    100158: EthanLeftHandThumb4
+    100160: EthanLeftLeg
+    100162: EthanLeftLowerLip
+    100164: EthanLeftShoulder
+    100166: EthanLeftToe1
+    100168: EthanLeftToe2
+    100170: EthanLeftUpLeg
+    100172: EthanLeftUpperLip
+    100174: EthanLowerLip
+    100176: EthanNeck
+    100178: EthanRightArm
+    100180: EthanRightBlink
+    100182: EthanRightBrow
+    100184: EthanRightCorner
+    100186: EthanRightEye
+    100188: EthanRightFoot
+    100190: EthanRightForeArm
+    100192: EthanRightHand
+    100194: EthanRightHandIndex1
+    100196: EthanRightHandIndex2
+    100198: EthanRightHandIndex3
+    100200: EthanRightHandIndex4
+    100202: EthanRightHandMiddle1
+    100204: EthanRightHandMiddle2
+    100206: EthanRightHandMiddle3
+    100208: EthanRightHandMiddle4
+    100210: EthanRightHandPinky1
+    100212: EthanRightHandPinky2
+    100214: EthanRightHandPinky3
+    100216: EthanRightHandPinky4
+    100218: EthanRightHandRing1
+    100220: EthanRightHandRing2
+    100222: EthanRightHandRing3
+    100224: EthanRightHandRing4
+    100226: EthanRightHandThumb1
+    100228: EthanRightHandThumb2
+    100230: EthanRightHandThumb3
+    100232: EthanRightHandThumb4
+    100234: EthanRightLeg
+    100236: EthanRightLowerLip
+    100238: EthanRightShoulder
+    100240: EthanRightToe1
+    100242: EthanRightToe2
+    100244: EthanRightUpLeg
+    100246: EthanRightUpperLip
+    100248: EthanSkeleton
+    100250: EthanSpine
+    100252: EthanSpine1
+    100254: EthanSpine2
+    100256: EthanUpperLip
+    100258: //RootNode
+    100260: flap
+    100262: glass
+    100264: handR
+    100266: handR 1
+    100268: helmet
+    100270: helmet 1
+    100272: lamp
+    100274: leather_strap
+    100276: leather_strap1
+    100278: manche
+    100280: oxy_meter
+    100282: oxytank
+    100284: oxytank 1
+    100286: Pants
+    100288: pCube3
+    100290: pCube3 1
+    100292: pCube4
+    100294: pCube5
+    100296: pCylinder4
+    100298: pCylinder5
+    100300: pCylinder6
+    100302: pCylinder7
+    100304: PersoP
+    100306: polySurface10
+    100308: polySurface8
+    100310: pPipe2
+    100312: pPipe3
+    100314: pTorus3
+    100316: pTorus5
+    100318: sac
+    100320: sangle1
+    100322: shoe
+    100324: shoe 1
+    100326: shoe1
+    100328: shoe1 1
+    100330: shoe_R
+    100332: shoe_R1
+    100334: strap
+    100336: strap 1
+    100338: strap 2
+    100340: strap 3
+    100342: strap 4
+    100344: strap 5
+    100346: strap 6
+    100348: strap1
+    100350: tete
+    100352: tete 1
+    100354: tete_details
+    100356: Torso
+    100358: Torsoo
+    100360: truelle
+    100362: tube
+    100364: TubeMesh1
+    100366: TubeMesh2
+    100368: TubeMesh3
+    100370: tuyau
+    100372: tuyau1
+    400000: Arm_L
+    400002: Arm_R
+    400004: arriere_belt
+    400006: artefact2
+    400008: artefact_holder
+    400010: bag
+    400012: belt
+    400014: belt4
+    400016: belt_buckle
+    400018: bide
+    400020: Bidules_gaztank01
+    400022: Bidules_gaztank02
+    400024: Bidules_gaztank03
+    400026: Bidules_gaztank04
+    400028: boucle
+    400030: bras_R1
+    400032: bras_R1 1
+    400034: buckle
+    400036: buckle 1
+    400038: buckle 2
+    400040: buckle 3
+    400042: buckle 4
+    400044: buckle 5
+    400046: buckle 6
+    400048: buckle 7
+    400050: buckle1
+    400052: buckle_02
+    400054: Buckle_L
+    400056: buckle_R
+    400058: buckle_Rside
+    400060: buckle_Rside 1
+    400062: buckle_Rside2
+    400064: buckle_Rside2 1
+    400066: buckle_Rside3
+    400068: buckle_Rside4
+    400070: BUCKLES
+    400072: capsule
+    400074: casque
+    400076: cord
+    400078: cord 1
+    400080: cord 2
+    400082: cord 3
+    400084: cord 4
+    400086: cord 5
+    400088: cord 6
+    400090: cord 7
+    400092: epauliere_D
+    400094: epauliere_G
+    400096: EthanHead
+    400098: EthanHead1
+    400100: EthanHips
+    400102: EthanJaw
+    400104: EthanLeftArm
+    400106: EthanLeftBlink
+    400108: EthanLeftBrow
+    400110: EthanLeftCorner
+    400112: EthanLeftEye
+    400114: EthanLeftFoot
+    400116: EthanLeftForeArm
+    400118: EthanLeftHand
+    400120: EthanLeftHandIndex1
+    400122: EthanLeftHandIndex2
+    400124: EthanLeftHandIndex3
+    400126: EthanLeftHandIndex4
+    400128: EthanLeftHandMiddle1
+    400130: EthanLeftHandMiddle2
+    400132: EthanLeftHandMiddle3
+    400134: EthanLeftHandMiddle4
+    400136: EthanLeftHandPinky1
+    400138: EthanLeftHandPinky2
+    400140: EthanLeftHandPinky3
+    400142: EthanLeftHandPinky4
+    400144: EthanLeftHandRing1
+    400146: EthanLeftHandRing2
+    400148: EthanLeftHandRing3
+    400150: EthanLeftHandRing4
+    400152: EthanLeftHandThumb1
+    400154: EthanLeftHandThumb2
+    400156: EthanLeftHandThumb3
+    400158: EthanLeftHandThumb4
+    400160: EthanLeftLeg
+    400162: EthanLeftLowerLip
+    400164: EthanLeftShoulder
+    400166: EthanLeftToe1
+    400168: EthanLeftToe2
+    400170: EthanLeftUpLeg
+    400172: EthanLeftUpperLip
+    400174: EthanLowerLip
+    400176: EthanNeck
+    400178: EthanRightArm
+    400180: EthanRightBlink
+    400182: EthanRightBrow
+    400184: EthanRightCorner
+    400186: EthanRightEye
+    400188: EthanRightFoot
+    400190: EthanRightForeArm
+    400192: EthanRightHand
+    400194: EthanRightHandIndex1
+    400196: EthanRightHandIndex2
+    400198: EthanRightHandIndex3
+    400200: EthanRightHandIndex4
+    400202: EthanRightHandMiddle1
+    400204: EthanRightHandMiddle2
+    400206: EthanRightHandMiddle3
+    400208: EthanRightHandMiddle4
+    400210: EthanRightHandPinky1
+    400212: EthanRightHandPinky2
+    400214: EthanRightHandPinky3
+    400216: EthanRightHandPinky4
+    400218: EthanRightHandRing1
+    400220: EthanRightHandRing2
+    400222: EthanRightHandRing3
+    400224: EthanRightHandRing4
+    400226: EthanRightHandThumb1
+    400228: EthanRightHandThumb2
+    400230: EthanRightHandThumb3
+    400232: EthanRightHandThumb4
+    400234: EthanRightLeg
+    400236: EthanRightLowerLip
+    400238: EthanRightShoulder
+    400240: EthanRightToe1
+    400242: EthanRightToe2
+    400244: EthanRightUpLeg
+    400246: EthanRightUpperLip
+    400248: EthanSkeleton
+    400250: EthanSpine
+    400252: EthanSpine1
+    400254: EthanSpine2
+    400256: EthanUpperLip
+    400258: //RootNode
+    400260: flap
+    400262: glass
+    400264: handR
+    400266: handR 1
+    400268: helmet
+    400270: helmet 1
+    400272: lamp
+    400274: leather_strap
+    400276: leather_strap1
+    400278: manche
+    400280: oxy_meter
+    400282: oxytank
+    400284: oxytank 1
+    400286: Pants
+    400288: pCube3
+    400290: pCube3 1
+    400292: pCube4
+    400294: pCube5
+    400296: pCylinder4
+    400298: pCylinder5
+    400300: pCylinder6
+    400302: pCylinder7
+    400304: PersoP
+    400306: polySurface10
+    400308: polySurface8
+    400310: pPipe2
+    400312: pPipe3
+    400314: pTorus3
+    400316: pTorus5
+    400318: sac
+    400320: sangle1
+    400322: shoe
+    400324: shoe 1
+    400326: shoe1
+    400328: shoe1 1
+    400330: shoe_R
+    400332: shoe_R1
+    400334: strap
+    400336: strap 1
+    400338: strap 2
+    400340: strap 3
+    400342: strap 4
+    400344: strap 5
+    400346: strap 6
+    400348: strap1
+    400350: tete
+    400352: tete 1
+    400354: tete_details
+    400356: Torso
+    400358: Torsoo
+    400360: truelle
+    400362: tube
+    400364: TubeMesh1
+    400366: TubeMesh2
+    400368: TubeMesh3
+    400370: tuyau
+    400372: tuyau1
+    2300000: artefact2
+    2300002: Bidules_gaztank01
+    2300004: Bidules_gaztank02
+    2300006: Bidules_gaztank03
+    2300008: Bidules_gaztank04
+    2300010: boucle
+    2300012: buckle
+    2300014: buckle 1
+    2300016: buckle 2
+    2300018: buckle 3
+    2300020: buckle 4
+    2300022: buckle 5
+    2300024: buckle 6
+    2300026: buckle 7
+    2300028: buckle1
+    2300030: buckle_02
+    2300032: capsule
+    2300034: casque
+    2300036: cord
+    2300038: cord 1
+    2300040: cord 2
+    2300042: cord 3
+    2300044: cord 4
+    2300046: cord 5
+    2300048: cord 6
+    2300050: cord 7
+    2300052: epauliere_D
+    2300054: epauliere_G
+    2300056: flap
+    2300058: glass
+    2300060: helmet 1
+    2300062: manche
+    2300064: oxy_meter
+    2300066: oxytank 1
+    2300068: pCube3
+    2300070: pCube3 1
+    2300072: pCube4
+    2300074: pCube5
+    2300076: pCylinder4
+    2300078: pCylinder5
+    2300080: pCylinder6
+    2300082: pCylinder7
+    2300084: polySurface8
+    2300086: pPipe2
+    2300088: pPipe3
+    2300090: pTorus3
+    2300092: pTorus5
+    2300094: sac
+    2300096: strap
+    2300098: strap 1
+    2300100: strap 2
+    2300102: strap 3
+    2300104: strap 4
+    2300106: strap 5
+    2300108: strap 6
+    2300110: strap1
+    2300112: tete 1
+    2300114: Torso
+    2300116: tube
+    2300118: TubeMesh1
+    2300120: TubeMesh2
+    2300122: TubeMesh3
+    3300000: artefact2
+    3300002: Bidules_gaztank01
+    3300004: Bidules_gaztank02
+    3300006: Bidules_gaztank03
+    3300008: Bidules_gaztank04
+    3300010: boucle
+    3300012: buckle
+    3300014: buckle 1
+    3300016: buckle 2
+    3300018: buckle 3
+    3300020: buckle 4
+    3300022: buckle 5
+    3300024: buckle 6
+    3300026: buckle 7
+    3300028: buckle1
+    3300030: buckle_02
+    3300032: capsule
+    3300034: casque
+    3300036: cord
+    3300038: cord 1
+    3300040: cord 2
+    3300042: cord 3
+    3300044: cord 4
+    3300046: cord 5
+    3300048: cord 6
+    3300050: cord 7
+    3300052: epauliere_D
+    3300054: epauliere_G
+    3300056: flap
+    3300058: glass
+    3300060: helmet 1
+    3300062: manche
+    3300064: oxy_meter
+    3300066: oxytank 1
+    3300068: pCube3
+    3300070: pCube3 1
+    3300072: pCube4
+    3300074: pCube5
+    3300076: pCylinder4
+    3300078: pCylinder5
+    3300080: pCylinder6
+    3300082: pCylinder7
+    3300084: polySurface8
+    3300086: pPipe2
+    3300088: pPipe3
+    3300090: pTorus3
+    3300092: pTorus5
+    3300094: sac
+    3300096: strap
+    3300098: strap 1
+    3300100: strap 2
+    3300102: strap 3
+    3300104: strap 4
+    3300106: strap 5
+    3300108: strap 6
+    3300110: strap1
+    3300112: tete 1
+    3300114: Torso
+    3300116: tube
+    3300118: TubeMesh1
+    3300120: TubeMesh2
+    3300122: TubeMesh3
+    4300000: Torso
+    4300002: epauliere_D
+    4300004: epauliere_G
+    4300006: helmet
+    4300008: polySurface8
+    4300010: casque
+    4300012: tube
+    4300014: pCylinder7
+    4300016: pCylinder6
+    4300018: pCylinder5
+    4300020: pCylinder4
+    4300022: TubeMesh2
+    4300024: TubeMesh1
+    4300026: flap
+    4300028: sac
+    4300030: pCube4
+    4300032: pCube3
+    4300034: pCube5
+    4300036: buckle_02
+    4300038: buckle
+    4300040: pCube3
+    4300042: pPipe2
+    4300044: oxytank
+    4300046: pPipe3
+    4300048: oxy_meter
+    4300050: Bidules_gaztank01
+    4300052: Bidules_gaztank02
+    4300054: Bidules_gaztank03
+    4300056: Bidules_gaztank04
+    4300058: strap
+    4300060: buckle
+    4300062: cord
+    4300064: strap
+    4300066: buckle
+    4300068: cord
+    4300070: strap
+    4300072: buckle
+    4300074: cord
+    4300076: buckle1
+    4300078: cord
+    4300080: strap1
+    4300082: strap
+    4300084: buckle
+    4300086: cord
+    4300088: strap
+    4300090: buckle
+    4300092: cord
+    4300094: strap
+    4300096: buckle
+    4300098: cord
+    4300100: strap
+    4300102: buckle
+    4300104: cord
+    4300106: boucle
+    4300108: capsule
+    4300110: glass
+    4300112: tete
+    4300114: manche
+    4300116: pTorus3
+    4300118: pTorus5
+    4300120: TubeMesh3
+    4300122: artefact2
+    4300124: tuyau
+    4300126: tuyau1
+    4300128: handR
+    4300130: bras_R1
+    4300132: handR
+    4300134: bras_R1
+    4300136: bide
+    4300138: belt4
+    4300140: sangle1
+    4300142: polySurface10
+    4300144: belt_buckle
+    4300146: arriere_belt
+    4300148: Pants
+    4300150: shoe
+    4300152: shoe1
+    4300154: shoe
+    4300156: shoe1
+    9500000: //RootNode
+    13700000: arriere_belt
+    13700002: belt4
+    13700004: belt_buckle
+    13700006: bide
+    13700008: bras_R1
+    13700010: bras_R1 1
+    13700012: handR
+    13700014: handR 1
+    13700016: Pants
+    13700018: polySurface10
+    13700020: sangle1
+    13700022: shoe
+    13700024: shoe 1
+    13700026: shoe1
+    13700028: shoe1 1
+    13700030: tuyau
+    13700032: tuyau1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
