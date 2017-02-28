@@ -5,10 +5,12 @@ using UnityEngine;
 public class Event1 : MonoBehaviour {
 	DetectableLocalManager DLM;
 
-	bool tutorialFinished = false;
+	public bool tutorialFinished = false;
 	bool pressed = false;
 	bool pressed2 = false;
 	bool artefactBloquer = false;
+
+	public float secondstoWait;
 
 	//parametre d'animation
 	public Animator anim;
@@ -38,7 +40,7 @@ public class Event1 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-	
+		bool finishedAndPlayerNear = false;
 		//demander au joueur d'appuyer sur submit (espace ou entrée)
 
 		if (DLM.isPlayerHere && !tutorialFinished && Input.GetButtonDown ("Submit") && !pressed) {
@@ -57,6 +59,8 @@ public class Event1 : MonoBehaviour {
 		if (artefactBloquer && Input.GetButtonDown ("Submit") && !pressed2) {
 			tutorialFinished = true;
 
+			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverActionDisponibleLacherCube ();
+
 			artefactTuto.SetActive (false);
 			artefactSurFesses.SetActive (true);
 			artefactSurUI.SetActive (true);
@@ -65,10 +69,10 @@ public class Event1 : MonoBehaviour {
 
 			pressed2 = true;
 		}
+
 	}
 
 	IEnumerator animationQuiBloqueAMoitieLeCube () {
-		yield return new WaitForSeconds (0.1f);
 		//
 		animation = true;
 		artefactTuto.SetActive (true);
@@ -80,7 +84,7 @@ public class Event1 : MonoBehaviour {
 
 
 		//fin animation
-		yield return new WaitForSeconds (3.5f);
+		yield return new WaitForSeconds (secondstoWait);
 
 		artefactBloquer = true;
 
