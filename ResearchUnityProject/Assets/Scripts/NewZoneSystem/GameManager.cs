@@ -208,7 +208,9 @@ public class GameManager : MonoBehaviour {
 	void ActionDisponibleLacherCube()
 	{
 		//son
-		PanelPressSpace.SetActive (true);
+		if (PanelPressSpace.activeSelf == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
+			PanelPressSpace.SetActive (true);
+		}
 		if (!playSoundOncePressE) {
 			AudioSource AS;
 			AS = GameObject.Find ("Sound1").GetComponent<AudioSource> ();
@@ -219,9 +221,11 @@ public class GameManager : MonoBehaviour {
 
 	}
 
-	void DesactiverActionDisponibleLacherCube()
+	public void DesactiverActionDisponibleLacherCube()
 	{
-		PanelPressSpace.SetActive (false);
+		if (PanelPressSpace.activeSelf == true) {
+			PanelPressSpace.SetActive (false);
+		}
 		playSoundOncePressE = false;
 		// Bouton press E disparaitre de l'écran
 	}

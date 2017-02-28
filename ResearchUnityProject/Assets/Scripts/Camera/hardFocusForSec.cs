@@ -23,5 +23,6 @@ public class hardFocusForSec : MonoBehaviour {
 	IEnumerator returnHardFocus (){
 		yield return new WaitForSeconds (secondOfHardFocus);
 		LockTargetScript.hardFocus = false;
+		this.gameObject.SetActive (false);
 	}
 }
