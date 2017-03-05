@@ -9,6 +9,9 @@ public class SmallItem3 : MonoBehaviour {
 	GameObject Player;
 	GameObject colliders;
 
+	Animator anim;
+	GameObject artefactSurUI;
+
 	DetectableLocalManager DetectL;
 	public string tag;
 	float amout;
@@ -20,6 +23,7 @@ public class SmallItem3 : MonoBehaviour {
 
 	void Start () {
 		Player = GameObject.Find ("Player");
+		anim = GameObject.Find ("SmallItem3Object").GetComponent<Animator> ();
 		Mesh = GameObject.FindGameObjectsWithTag (tag);
 		DetectL = GameObject.Find("SmallItem3").GetComponent<DetectableLocalManager> ();
 		colliders = GameObject.Find ("SmallItem3Colliders");
@@ -30,6 +34,13 @@ public class SmallItem3 : MonoBehaviour {
 			Mesh [i].GetComponent<MeshRenderer> ().receiveShadows = false;
 			Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
 		}
+
+		StartCoroutine ("waitforIntro");
+	}
+
+	IEnumerator waitforIntro(){
+		yield return new WaitForSeconds (6.0f);
+		artefactSurUI =  GameObject.Find ("artefactNewCanvasChaudFroid");
 	}
 
 	void Update (){
@@ -45,7 +56,9 @@ public class SmallItem3 : MonoBehaviour {
 		if (didICheck && distance < 10 && Input.GetButtonDown("Submit") && !didIdoneThisonce) {
 			didIdoneThisonce = true;
 			StartCoroutine ("appear");
+			artefactSurUI.SetActive (false);
 			launch = true;
+			anim.SetBool ("ActivateSmallItem2",launch);
 		}
 
 		if (launch) {
@@ -63,5 +76,6 @@ public class SmallItem3 : MonoBehaviour {
 			Mesh [i].GetComponent<MeshRenderer> ().receiveShadows = true;
 		}
 		colliders.SetActive (true);
+		artefactSurUI.SetActive (true);
 	}
 }

@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour {
 	public GameObject[] T;
 	GameObject Player;
 
+	GameObject RadarSmall;
+	GameObject RadarBig;
+
 	public Animator PanelPressSpace;
 	bool PressEScript;
 
@@ -96,6 +99,10 @@ public class GameManager : MonoBehaviour {
 		anim =  GameObject.Find ("ArtefactAnimation").GetComponent<Animator>();
 	//	animArtefact = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<Animator>();
 		PanelPressSpace = GameObject.Find ("PanelPressSpaceAnimator").GetComponent<Animator>();
+		RadarBig = GameObject.Find ("RadarFeedBackRotationBig");
+		RadarSmall = GameObject.Find ("RadarFeedBackRotationSmall");
+		RadarBig.SetActive (false);
+		RadarSmall.SetActive (false);
 		StartCoroutine ("CheckEveryHalfSec");
 	}
 	IEnumerator CheckEveryHalfSec () {
@@ -115,7 +122,7 @@ public class GameManager : MonoBehaviour {
 					//det [i].isDetectedFarCircle = true;
 
 					//Envoyer au détectable spécifique le fait qu'il a été vu de loin 
-
+					RadarBig.SetActive (true);
 					GameObject.Find (det[i].Name).GetComponent<DetectableLocalManager>().ImDetectedFar();
 					T[i].transform.GetChild(0).gameObject.SetActive (true);
 
@@ -188,7 +195,7 @@ public class GameManager : MonoBehaviour {
 			playSoundOnceHC = true;
 		}
 
-
+		RadarSmall.SetActive (true);
 		//QTSurfShad.scaleModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
 		//	QTSurfShad.speedModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
 		//QTSurfShad.noiseStrength = (distanceChaudFroid - DistanceLaPlusProche) / distanceChaudFroid/2;
@@ -204,7 +211,7 @@ public class GameManager : MonoBehaviour {
 		//QTSurfShad.speedModifier = 0;
 		//QTSurfShad.noiseStrength = 0;
 		anim.speed = 1.0f;
-
+		RadarSmall.SetActive (false);
 		playSoundOnceHC = false;
 	}
 

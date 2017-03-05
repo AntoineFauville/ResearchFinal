@@ -45,7 +45,7 @@ public class VillageDecouvertBlocageCube : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Player = GameObject.Find ("Player");
-		CubeOnAss = GameObject.Find ("ArtefactOnAss");
+	//	CubeOnAss = GameObject.Find ("ArtefactOnAss");
 		CubeTotem = GameObject.Find ("ActualCubeTotem");
 		artefactNewCanvas = GameObject.Find ("ARtefactOverLayInteraction");
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager>();
@@ -68,7 +68,7 @@ public class VillageDecouvertBlocageCube : MonoBehaviour {
 			EnigmaResolving = true;
 			checkThisOnce = true;
 			CubeTotem.SetActive (true);
-			CubeOnAss.SetActive (false);
+//			CubeOnAss.SetActive (false);
 			//Player.GetComponent<DropCube> ().enabled = false;
 		}
 
@@ -142,9 +142,9 @@ public class VillageDecouvertBlocageCube : MonoBehaviour {
 		Player.transform.position = RespawnEnigmeTotem.transform.position;
 		GM.DesactiverChaudFroid ();
 		Player.GetComponent<DeathSystem> ().EnigmeActiveeMortSystemOn = false;
-		artefactNewCanvas.SetActive (true);
+//		artefactNewCanvas.SetActive (true);
 		MainCamera.SetActive (true);
-		CubeOnAss.SetActive (true);
+	//	CubeOnAss.SetActive (true);
 		CubeTotem.SetActive (false);
 
 		PilierCentralDeg.SetActive (false);

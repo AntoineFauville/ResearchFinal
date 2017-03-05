@@ -8,7 +8,7 @@ public class ActivateTotemEnigma : MonoBehaviour {
 	public bool amIOn = false;
 
 	GameObject player;
-	GameObject playerWrong;
+	//GameObject playerWrong;
 	GameObject cam1;
 	GameObject cam2;
 
@@ -23,11 +23,11 @@ public class ActivateTotemEnigma : MonoBehaviour {
 
 	void Start () {
 		player = GameObject.Find ("Player");
-		playerWrong = GameObject.Find ("CrounchingPlayerPuzzleTotem");
+	//	playerWrong = GameObject.Find ("CrounchingPlayerPuzzleTotem");
 		cam1 = GameObject.Find ("Main Camera Main");
 		cam2 = GameObject.Find ("CameraEnigmeTotem");
 		//jouer et camera
-		playerWrong.SetActive (false);
+//		playerWrong.SetActive (false);
 		cam2.SetActive (false);
 	}
 
@@ -41,7 +41,7 @@ public class ActivateTotemEnigma : MonoBehaviour {
 				StartCoroutine ("waitInBetweenGetInGetOut");
 			//joueur
 				player.SetActive (false);
-				playerWrong.SetActive (true);
+			//	playerWrong.SetActive (true);
 				cam1.SetActive (false);
 				cam2.SetActive (true);
 
@@ -62,7 +62,7 @@ public class ActivateTotemEnigma : MonoBehaviour {
 				StartCoroutine ("waitInBetweenGetInGetOut");
 
 				player.SetActive (true);
-				playerWrong.SetActive (false);
+			//	playerWrong.SetActive (false);
 				cam1.SetActive (true);
 				cam2.SetActive (false);
 
