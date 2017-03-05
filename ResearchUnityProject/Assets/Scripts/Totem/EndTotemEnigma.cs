@@ -24,8 +24,8 @@ public class EndTotemEnigma : MonoBehaviour {
 
 	public GestionSelectionParts GSP;
 
-	public TriggerSendingInfoTotem1 Trigger01;
-	public TriggerSendingInfoTotem2 Trigger02;
+	//public TriggerSendingInfoTotem1 Trigger01;
+	//public TriggerSendingInfoTotem2 Trigger02;
 
 	void Start () {
 		//Trigger01 = GameObject.Find ("TriggerForResolution01").GetComponent<TriggerSendingInfoTotem1>();
@@ -52,25 +52,25 @@ public class EndTotemEnigma : MonoBehaviour {
 		float rot3 = Mathf.Abs (currentRotationPart3.y);
 
 		//if (Trigger01.GoodToGoTotem01 && Trigger02.GoodToGoTotem02 && !gotThisOnce) {
-			if(rot2 == 1.0f && rot3 == 1.0f  && !gotThisOnce){
-				EnigmaIsDone = true;
+		if(rot2 == 1.0f && rot3 == 1.0f  && !gotThisOnce){
+			EnigmaIsDone = true;
 
-				TopPartScript.GetComponent<AnimTopPartNotMoving> ().enabled = false;
-				MidPartScript.GetComponent<RotationEnigmeLazer> ().enabled = false;
-				DownPartScript.GetComponent<RotationEnigmeLazer> ().enabled = false;
+			TopPartScript.GetComponent<AnimTopPartNotMoving> ().enabled = false;
+			MidPartScript.GetComponent<RotationEnigmeLazer> ().enabled = false;
+			DownPartScript.GetComponent<RotationEnigmeLazer> ().enabled = false;
 
-				GSP.state1 = false;
-				GSP.state2 = false;
-				GSP.state3 = false;
+			GSP.state1 = false;
+			GSP.state2 = false;
+			GSP.state3 = false;
 
-				TopOutLineTotem.SetActive (false);
-				MidOutLineTotem.SetActive (false);
-				DownOutLineTotem.SetActive (false);
+			TopOutLineTotem.SetActive (false);
+			MidOutLineTotem.SetActive (false);
+			DownOutLineTotem.SetActive (false);
 
-				GSP.enabled = false;
+			GSP.enabled = false;
 
-				print ("EnigmaTotemDone");
-				gotThisOnce = true;
+			print ("EnigmaTotemDone");
+			gotThisOnce = true;
 		//	}
 		}
 	}

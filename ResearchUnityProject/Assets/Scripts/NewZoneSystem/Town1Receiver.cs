@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Town1Receiver : MonoBehaviour {
-
+	/*
 	GameObject MainCamera;
 	GameObject Player;
 
@@ -76,5 +76,5 @@ public class Town1Receiver : MonoBehaviour {
 		//print ("hey");
 		//Player.SetActive(true);
 		//MainCamera.SetActive (true);
-	}
+	}*/
 }
