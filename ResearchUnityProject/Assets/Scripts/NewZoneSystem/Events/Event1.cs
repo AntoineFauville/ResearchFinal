@@ -32,14 +32,22 @@ public class Event1 : MonoBehaviour {
 		Player = GameObject.Find ("Player");
 		artefactTuto = GameObject.Find ("ArtefactTuto");
 		artefactTuto.SetActive (false);
-		artefactSurFesses = GameObject.Find ("ArtefactOnAss");
-		artefactSurUI =  GameObject.Find ("artefactNewCanvasChaudFroid");
+		//artefactSurFesses = GameObject.Find ("ArtefactOnAss");
+
 		DLM = GameObject.Find ("SmallItem1").GetComponent<DetectableLocalManager> ();
+
+		StartCoroutine ("waitforIntro");
 	}
 	
 
-	// Update is called once per frame
-	void Update () {
+	IEnumerator waitforIntro(){
+		yield return new WaitForSeconds (6.0f);
+		artefactSurUI =  GameObject.Find ("artefactNewCanvasChaudFroid");
+		StartCoroutine ("NewUpdate");
+	}
+
+	IEnumerator NewUpdate(){
+		yield return new WaitForSeconds (0.005f);
 		bool finishedAndPlayerNear = false;
 		//demander au joueur d'appuyer sur submit (espace ou entrée)
 
@@ -62,14 +70,14 @@ public class Event1 : MonoBehaviour {
 			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverActionDisponibleLacherCube ();
 
 			artefactTuto.SetActive (false);
-			artefactSurFesses.SetActive (true);
+	//		artefactSurFesses.SetActive (true);
 			artefactSurUI.SetActive (true);
 
 			DS.tutoMort = false;
 
 			pressed2 = true;
 		}
-
+		StartCoroutine ("NewUpdate");
 	}
 
 	IEnumerator animationQuiBloqueAMoitieLeCube () {
@@ -90,10 +98,9 @@ public class Event1 : MonoBehaviour {
 
 		MainCamera.SetActive(true);
 		Player.SetActive(true);
-
 		DS.tutoMort = true;
 
-		artefactSurFesses.SetActive (false);
+//		artefactSurFesses.SetActive (false);
 		artefactSurUI.SetActive (false);
 	}
 }

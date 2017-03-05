@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject[] T;
 	GameObject Player;
 
-	GameObject PanelPressSpace;
+	public Animator PanelPressSpace;
+	bool PressEScript;
 
 	ArrayList isDetectedAround;
 
@@ -28,7 +29,8 @@ public class GameManager : MonoBehaviour {
 	//systeme chaud froid.
 
 	Animator anim;
-	QT_SurfaceNoise2 QTSurfShad;
+//	Animator animArtefact;
+	//QT_SurfaceNoise2 QTSurfShad;
 
 	//variable temporaire
 	bool didIsendOnceToParticularObject = false;
@@ -79,24 +81,25 @@ public class GameManager : MonoBehaviour {
 		}
 
 
+
 		//check si l'objet le plus proche est a moins de distancePremierCercleDetection
 		DistanceLaPlusProche = (Mathf.Min (distance));
 		//print (Array.IndexOf(distance, Mathf.Min(distance)));
 
-		StartCoroutine ("CheckEveryHalfSec");
+		StartCoroutine ("WaitIntroToStart");
 
 		//systeme chaud froid
 
-		anim =  GameObject.Find ("ArtefactAnimation").GetComponent<Animator>();
-		QTSurfShad = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<QT_SurfaceNoise2>();
-
-		PanelPressSpace = GameObject.Find ("PanelPressSpace");
-		PanelPressSpace.SetActive (false);
-
 	}
-
+	IEnumerator WaitIntroToStart(){
+		yield return new WaitForSeconds (7.0f);
+		anim =  GameObject.Find ("ArtefactAnimation").GetComponent<Animator>();
+	//	animArtefact = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<Animator>();
+		PanelPressSpace = GameObject.Find ("PanelPressSpaceAnimator").GetComponent<Animator>();
+		StartCoroutine ("CheckEveryHalfSec");
+	}
 	IEnumerator CheckEveryHalfSec () {
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (0.1f);
 
 		for (int i = 0; i < T.Length; i++) {
 			distance [i] = Vector3.Distance (det [i].pos, Player.transform.position);
@@ -186,18 +189,20 @@ public class GameManager : MonoBehaviour {
 		}
 
 
-		QTSurfShad.scaleModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
-		QTSurfShad.speedModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
-		QTSurfShad.noiseStrength = (distanceChaudFroid - DistanceLaPlusProche) / distanceChaudFroid/2;
+		//QTSurfShad.scaleModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
+		//	QTSurfShad.speedModifier = (distanceChaudFroid - DistanceLaPlusProche)/4;
+		//QTSurfShad.noiseStrength = (distanceChaudFroid - DistanceLaPlusProche) / distanceChaudFroid/2;
 
 		anim.speed = (distanceChaudFroid - DistanceLaPlusProche) / (distanceChaudFroid/4);
+	//	animArtefact.speed = (distanceChaudFroid - DistanceLaPlusProche) / (distanceChaudFroid/4);
 	}
 
 	public void DesactiverChaudFroid()
 	{
-		QTSurfShad.scaleModifier = 0;
-		QTSurfShad.speedModifier = 0;
-		QTSurfShad.noiseStrength = 0;
+//		animArtefact.speed = 0.0f;
+		//QTSurfShad.scaleModifier = 0;
+		//QTSurfShad.speedModifier = 0;
+		//QTSurfShad.noiseStrength = 0;
 		anim.speed = 1.0f;
 
 		playSoundOnceHC = false;
@@ -208,8 +213,13 @@ public class GameManager : MonoBehaviour {
 	void ActionDisponibleLacherCube()
 	{
 		//son
-		if (PanelPressSpace.activeSelf == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
-			PanelPressSpace.SetActive (true);
+
+		PanelPressSpace.SetBool ("PressE",PressEScript);
+
+		if (PressEScript == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
+			PanelPressSpace.SetBool ("PressE",PressEScript);
+			PressEScript = true;
+			PanelPressSpace.SetBool ("PressE",PressEScript);
 		}
 		if (!playSoundOncePressE) {
 			AudioSource AS;
@@ -223,8 +233,10 @@ public class GameManager : MonoBehaviour {
 
 	public void DesactiverActionDisponibleLacherCube()
 	{
-		if (PanelPressSpace.activeSelf == true) {
-			PanelPressSpace.SetActive (false);
+		if (PressEScript == true) {
+			PanelPressSpace.SetBool ("PressE",PressEScript);
+			PressEScript = false;
+			PanelPressSpace.SetBool ("PressE",PressEScript);
 		}
 		playSoundOncePressE = false;
 		// Bouton press E disparaitre de l'écran
