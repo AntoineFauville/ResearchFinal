@@ -40,7 +40,7 @@ public class SmallItem3 : MonoBehaviour {
 
 	IEnumerator waitforIntro(){
 		yield return new WaitForSeconds (6.0f);
-		artefactSurUI =  GameObject.Find ("artefactNewCanvasChaudFroid");
+		artefactSurUI =  GameObject.Find ("animartefact_1");
 	}
 
 	void Update (){

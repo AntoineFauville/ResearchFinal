@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour {
 	}
 	IEnumerator WaitIntroToStart(){
 		yield return new WaitForSeconds (7.0f);
-		anim =  GameObject.Find ("ArtefactAnimation").GetComponent<Animator>();
+		anim =  GameObject.Find ("animartefact_1").GetComponent<Animator>();
 	//	animArtefact = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<Animator>();
 		PanelPressSpace = GameObject.Find ("PanelPressSpaceAnimator").GetComponent<Animator>();
 		RadarBig = GameObject.Find ("RadarFeedBackRotationBig");
@@ -210,7 +210,7 @@ public class GameManager : MonoBehaviour {
 		//QTSurfShad.scaleModifier = 0;
 		//QTSurfShad.speedModifier = 0;
 		//QTSurfShad.noiseStrength = 0;
-		anim.speed = 1.0f;
+		anim.speed = 0.0f;
 		RadarSmall.SetActive (false);
 		playSoundOnceHC = false;
 	}

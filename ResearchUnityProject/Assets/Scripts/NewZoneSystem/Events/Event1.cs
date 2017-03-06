@@ -42,7 +42,7 @@ public class Event1 : MonoBehaviour {
 
 	IEnumerator waitforIntro(){
 		yield return new WaitForSeconds (6.0f);
-		artefactSurUI =  GameObject.Find ("artefactNewCanvasChaudFroid");
+		artefactSurUI =  GameObject.Find ("animartefact_1");
 		StartCoroutine ("NewUpdate");
 	}
 

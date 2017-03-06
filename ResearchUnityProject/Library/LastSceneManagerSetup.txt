@@ -2,3 +2,6 @@ sceneSetups:
 - path: Assets/Scenes/PremiereScene.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Raph_export/Raph_export.unity
+  isLoaded: 1
+  isActive: 0
