@@ -24,7 +24,8 @@ public class NewTotem : MonoBehaviour {
 	canIUseItMid,
 	canIUseItUp,
 	returnAxisBool,
-	totemBoolgoAnimtot;
+	totemBoolgoAnimtot,
+	goOnce;
 
 	Animator anim,animCamTotem;
 
@@ -32,7 +33,10 @@ public class NewTotem : MonoBehaviour {
 	Artefact,
 	Player,
 	//CameraTotem,
-	CameraMap;
+	//CameraMap,
+	ArtefactTotem,
+	forResolution1,
+	forResolution2;
 
 	public GameObject 
 	OutlineDown,
@@ -44,17 +48,24 @@ public class NewTotem : MonoBehaviour {
 	public RotationEnigmeLazer RotationDown;
 	public RotationEnigmeLazer RotationMid;
 	public AnimTopPartNotMoving RotationUp;
-
+	GameManager GM;
+	DeathSystem DS;
 
 	// Use this for initialization
 	void Start () {
 		state = IDLE;
+		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
+		DS = GameObject.Find ("Player").GetComponent<DeathSystem> ();
+		ArtefactTotem = GameObject.Find ("ActualCubeTotem");
 		anim = GameObject.Find ("referenceCubeAnim").GetComponent<Animator>();
 		animCamTotem = GameObject.Find ("AnimatorCameraTotem").GetComponent<Animator>();
 		StartCoroutine ("waitForAnimIntro");
-
+		forResolution1 = GameObject.Find ("ForResolution01");
+		forResolution1.SetActive (false);
+		forResolution2 = GameObject.Find ("ForResolution02");
+		forResolution2.SetActive (false);
 		Player = GameObject.Find ("Player");
-		CameraMap = GameObject.Find ("CameraMap");
+
 		//CameraTotem = GameObject.Find ("CameraEnigmeTotem");
 
 		// rotation gestion totem
@@ -71,6 +82,7 @@ public class NewTotem : MonoBehaviour {
 	IEnumerator waitForAnimIntro(){
 		yield return new WaitForSeconds (6.0f);
 		Artefact = GameObject.Find ("ARtefactOverLayInteraction");
+		//CameraMap = GameObject.Find ("CameraMap");
 	}
 	
 	// Update is called once per frame
@@ -82,7 +94,7 @@ public class NewTotem : MonoBehaviour {
 			if (Input.GetButtonDown ("Submit") && playerIsHere) {
 				state = ANIMINTRO;
 			}
-
+			ArtefactTotem.SetActive (false);
 			break;
 
 		case ANIMINTRO:
@@ -90,20 +102,25 @@ public class NewTotem : MonoBehaviour {
 			totemBool = true;
 			anim.SetBool ("GoAnim", totemBool);
 			Artefact.SetActive (false);
+			ArtefactTotem.SetActive (true);
+			DS.EnigmeActiveeMortSystemOn = true;
+			forResolution1.SetActive (true);
+			forResolution2.SetActive (true);
 			state = BLOQUER;
+
 			break;
 
 		case BLOQUER:
 
 			if (Input.GetButtonDown ("Submit") && playerIsHere && !GetInGetOut) {
 				if (!iAmOn) {
+					//CameraMap.SetActive (false);
 					Player.SetActive (false);
 					totemBoolgoAnimtot = true;
 					animCamTotem.SetBool ("goAnimtot",totemBoolgoAnimtot);
 					iAmOn = true;
 					GetInGetOut = true;
 					state1 = true;
-					CameraMap.SetActive (false);
 					StartCoroutine ("WaitHalfSecBeforeAction");
 				} else {
 					StartCoroutine ("waitforcamtocomeback");
@@ -111,7 +128,7 @@ public class NewTotem : MonoBehaviour {
 					animCamTotem.SetBool ("goAnimtot",totemBoolgoAnimtot);
 					iAmOn = false;
 					GetInGetOut = true;
-					CameraMap.SetActive (true);
+					//CameraMap.SetActive (true);
 
 					state1 = false;
 					state2 = false;
@@ -197,7 +214,7 @@ public class NewTotem : MonoBehaviour {
 				animCamTotem.SetBool ("goAnimtot",totemBoolgoAnimtot);
 				iAmOn = false;
 				GetInGetOut = true;
-				CameraMap.SetActive (true);
+				//CameraMap.SetActive (true);
 
 				TopPartScript.GetComponent<AnimTopPartNotMoving> ().enabled = false;
 				MidPartScript.GetComponent<RotationEnigmeLazer> ().enabled = false;
@@ -241,11 +258,20 @@ public class NewTotem : MonoBehaviour {
 			totemBool = false;
 			anim.SetBool ("GoAnim", totemBool);
 			Artefact.SetActive (true);
+			ArtefactTotem.SetActive (false);
+			forResolution1.SetActive (false);
+			forResolution2.SetActive (false);
+			DS.EnigmeActiveeMortSystemOn = false;
 			state = IDLEFIN;
 
 			break;
 
 		case IDLEFIN:
+
+			if (!goOnce) {
+				GM.DesactiverActionDisponibleLacherCube ();
+				goOnce = true;
+			}
 			break;
 
 		default:
