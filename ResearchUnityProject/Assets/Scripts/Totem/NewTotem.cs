@@ -27,6 +27,8 @@ public class NewTotem : MonoBehaviour {
 	totemBoolgoAnimtot,
 	goOnce;
 
+	public bool totemScript;
+
 	Animator anim,animCamTotem;
 
 	GameObject 	
@@ -233,9 +235,8 @@ public class NewTotem : MonoBehaviour {
 				canIUseItUp = false;
 
 				print ("EnigmaTotemDone");
-				state = RESOLUTION;
-
 				gotThisOnce = true;
+				state = RESOLUTION;
 				//	}
 			}
 
@@ -256,12 +257,14 @@ public class NewTotem : MonoBehaviour {
 			canIUseItUp = false;
 
 			totemBool = false;
+			totemScript = true;
 			anim.SetBool ("GoAnim", totemBool);
 			Artefact.SetActive (true);
 			ArtefactTotem.SetActive (false);
 			forResolution1.SetActive (false);
 			forResolution2.SetActive (false);
 			DS.EnigmeActiveeMortSystemOn = false;
+
 			state = IDLEFIN;
 
 			break;

@@ -222,12 +222,21 @@ public class GameManager : MonoBehaviour {
 		//son
 
 		PanelPressSpace.SetBool ("PressE",PressEScript);
+		PressEScript = true;
+		PanelPressSpace.SetBool ("PressE",PressEScript);
 
-		if (PressEScript == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
+
+		/*if (PressEScript == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
 			PanelPressSpace.SetBool ("PressE",PressEScript);
 			PressEScript = true;
 			PanelPressSpace.SetBool ("PressE",PressEScript);
 		}
+
+		if(PressEScript == false && GameObject.Find("TriggerScript").GetComponent<NewTotem>().totemScript == false) {
+			PressEScript = true;
+			PanelPressSpace.SetBool ("PressE",PressEScript);
+		}*/
+
 		if (!playSoundOncePressE) {
 			AudioSource AS;
 			AS = GameObject.Find ("Sound1").GetComponent<AudioSource> ();
