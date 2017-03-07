@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 791296a2331b7f24499687b0967cfd54
+timeCreated: 1488807642
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cordes1_maison_02
+    100002: Maison1_base
+    100004: Maison1_tapis_01
+    100006: Maison1_tapis_02
+    100008: Maison1_tapis_03
+    100010: maison1_tiseur_fenetre
+    100012: maison_02_pot_de_fleur_10_cordes
+    100014: maison_02_pot_de_fleur_10_pot
+    100016: maison_02_pot_de_fleur_1_cordes
+    100018: maison_02_pot_de_fleur_1_pot
+    100020: maison_02_pot_de_fleur_2_cordes
+    100022: maison_02_pot_de_fleur_2_pot
+    100024: maison_02_pot_de_fleur_3_cordes
+    100026: maison_02_pot_de_fleur_3_pot
+    100028: maison_02_pot_de_fleur_4_cordes
+    100030: maison_02_pot_de_fleur_4_pot
+    100032: maison_02_pot_de_fleur_5_cordes
+    100034: maison_02_pot_de_fleur_5_pot
+    100036: maison_02_pot_de_fleur_6_cordes
+    100038: maison_02_pot_de_fleur_6_pot
+    100040: maison_02_pot_de_fleur_7_cordes
+    100042: maison_02_pot_de_fleur_7_pot
+    100044: maison_02_pot_de_fleur_8_cordes
+    100046: maison_02_pot_de_fleur_8_pot
+    100048: maison_02_pot_de_fleur_9_cordes
+    100050: maison_02_pot_de_fleur_9_pot
+    100052: //RootNode
+    100054: pot_de_fleur_1
+    100056: pot_de_fleur_10
+    100058: pot_de_fleur_2
+    100060: pot_de_fleur_3
+    100062: pot_de_fleur_4
+    100064: pot_de_fleur_5
+    100066: pot_de_fleur_6
+    100068: pot_de_fleur_7
+    100070: pot_de_fleur_8
+    100072: pot_de_fleur_9
+    100074: pots_de_fleur_maison_02
+    100076: store
+    100078: store 1
+    100080: store_part_01
+    100082: store_part_01 1
+    100084: store_part_02
+    100086: store_part_02 1
+    100088: store_part_03
+    100090: store_part_03 1
+    100092: store_part_04
+    100094: store_part_04 1
+    100096: tapis_02
+    100098: tapis_02 1
+    100100: tapis_04
+    100102: tapis_04 1
+    100104: tapis_04 2
+    100106: tapis_04 3
+    100108: tapis_04 4
+    100110: tapis_04 5
+    100112: tapis_09
+    100114: tapis_09 1
+    100116: tapis_09 2
+    100118: tapis_09 3
+    100120: tapis_09 4
+    100122: Tiiseur_porte2
+    100124: Tiiseur_porte2_base01
+    100126: Tiiseur_porte2_base01 1
+    100128: Tiiseur_porte4
+    100130: Tisseur_fenetre_010
+    100132: Tisseur_fenetre_011
+    100134: Tisseur_fenetre_012
+    100136: Tisseur_fenetre_013
+    100138: Tisseur_fenetre_014
+    100140: Tisseur_fenetre_031
+    100142: Tisseur_fenetre_032
+    100144: Tisseur_fenetre_04
+    100146: Tisseur_fenetre_05
+    100148: Tisseur_fenetre_06
+    100150: Tisseur_fenetre_07
+    100152: Tisseur_fenetre_08
+    100154: Tisseur_fenetre_09
+    100156: tisseur_fenetre_base_04
+    100158: tisseur_fenetre_base_04 1
+    100160: tisseur_fenetre_base_05
+    100162: tisseur_fenetre_base_05 1
+    100164: tisseur_fenetre_base_05 2
+    100166: tisseur_fenetre_base_05 3
+    100168: tisseur_fenetre_base_05 4
+    100170: tisseur_fenetre_base_05 5
+    100172: tisseur_fenetre_base_06
+    100174: tisseur_fenetre_base_06 1
+    100176: tisseur_fenetre_base_06 2
+    100178: tisseur_fenetre_base_06 3
+    100180: tisseur_fenetre_base_06 4
+    100182: tisseur_fenetre_poutre_04
+    100184: tisseur_fenetre_poutre_04 1
+    100186: tisseur_fenetre_poutre_05
+    100188: tisseur_fenetre_poutre_05 1
+    100190: tisseur_fenetre_poutre_05 2
+    100192: tisseur_fenetre_poutre_05 3
+    100194: tisseur_fenetre_poutre_05 4
+    100196: tisseur_fenetre_poutre_05 5
+    100198: tisseur_fenetre_poutre_06
+    100200: tisseur_fenetre_poutre_06 1
+    100202: tisseur_fenetre_poutre_06 2
+    100204: tisseur_fenetre_poutre_06 3
+    100206: tisseur_fenetre_poutre_06 4
+    400000: cordes1_maison_02
+    400002: Maison1_base
+    400004: Maison1_tapis_01
+    400006: Maison1_tapis_02
+    400008: Maison1_tapis_03
+    400010: maison1_tiseur_fenetre
+    400012: maison_02_pot_de_fleur_10_cordes
+    400014: maison_02_pot_de_fleur_10_pot
+    400016: maison_02_pot_de_fleur_1_cordes
+    400018: maison_02_pot_de_fleur_1_pot
+    400020: maison_02_pot_de_fleur_2_cordes
+    400022: maison_02_pot_de_fleur_2_pot
+    400024: maison_02_pot_de_fleur_3_cordes
+    400026: maison_02_pot_de_fleur_3_pot
+    400028: maison_02_pot_de_fleur_4_cordes
+    400030: maison_02_pot_de_fleur_4_pot
+    400032: maison_02_pot_de_fleur_5_cordes
+    400034: maison_02_pot_de_fleur_5_pot
+    400036: maison_02_pot_de_fleur_6_cordes
+    400038: maison_02_pot_de_fleur_6_pot
+    400040: maison_02_pot_de_fleur_7_cordes
+    400042: maison_02_pot_de_fleur_7_pot
+    400044: maison_02_pot_de_fleur_8_cordes
+    400046: maison_02_pot_de_fleur_8_pot
+    400048: maison_02_pot_de_fleur_9_cordes
+    400050: maison_02_pot_de_fleur_9_pot
+    400052: //RootNode
+    400054: pot_de_fleur_1
+    400056: pot_de_fleur_10
+    400058: pot_de_fleur_2
+    400060: pot_de_fleur_3
+    400062: pot_de_fleur_4
+    400064: pot_de_fleur_5
+    400066: pot_de_fleur_6
+    400068: pot_de_fleur_7
+    400070: pot_de_fleur_8
+    400072: pot_de_fleur_9
+    400074: pots_de_fleur_maison_02
+    400076: store
+    400078: store 1
+    400080: store_part_01
+    400082: store_part_01 1
+    400084: store_part_02
+    400086: store_part_02 1
+    400088: store_part_03
+    400090: store_part_03 1
+    400092: store_part_04
+    400094: store_part_04 1
+    400096: tapis_02
+    400098: tapis_02 1
+    400100: tapis_04
+    400102: tapis_04 1
+    400104: tapis_04 2
+    400106: tapis_04 3
+    400108: tapis_04 4
+    400110: tapis_04 5
+    400112: tapis_09
+    400114: tapis_09 1
+    400116: tapis_09 2
+    400118: tapis_09 3
+    400120: tapis_09 4
+    400122: Tiiseur_porte2
+    400124: Tiiseur_porte2_base01
+    400126: Tiiseur_porte2_base01 1
+    400128: Tiiseur_porte4
+    400130: Tisseur_fenetre_010
+    400132: Tisseur_fenetre_011
+    400134: Tisseur_fenetre_012
+    400136: Tisseur_fenetre_013
+    400138: Tisseur_fenetre_014
+    400140: Tisseur_fenetre_031
+    400142: Tisseur_fenetre_032
+    400144: Tisseur_fenetre_04
+    400146: Tisseur_fenetre_05
+    400148: Tisseur_fenetre_06
+    400150: Tisseur_fenetre_07
+    400152: Tisseur_fenetre_08
+    400154: Tisseur_fenetre_09
+    400156: tisseur_fenetre_base_04
+    400158: tisseur_fenetre_base_04 1
+    400160: tisseur_fenetre_base_05
+    400162: tisseur_fenetre_base_05 1
+    400164: tisseur_fenetre_base_05 2
+    400166: tisseur_fenetre_base_05 3
+    400168: tisseur_fenetre_base_05 4
+    400170: tisseur_fenetre_base_05 5
+    400172: tisseur_fenetre_base_06
+    400174: tisseur_fenetre_base_06 1
+    400176: tisseur_fenetre_base_06 2
+    400178: tisseur_fenetre_base_06 3
+    400180: tisseur_fenetre_base_06 4
+    400182: tisseur_fenetre_poutre_04
+    400184: tisseur_fenetre_poutre_04 1
+    400186: tisseur_fenetre_poutre_05
+    400188: tisseur_fenetre_poutre_05 1
+    400190: tisseur_fenetre_poutre_05 2
+    400192: tisseur_fenetre_poutre_05 3
+    400194: tisseur_fenetre_poutre_05 4
+    400196: tisseur_fenetre_poutre_05 5
+    400198: tisseur_fenetre_poutre_06
+    400200: tisseur_fenetre_poutre_06 1
+    400202: tisseur_fenetre_poutre_06 2
+    400204: tisseur_fenetre_poutre_06 3
+    400206: tisseur_fenetre_poutre_06 4
+    2300000: cordes1_maison_02
+    2300002: Maison1_base
+    2300004: Maison1_tapis_01
+    2300006: Maison1_tapis_02
+    2300008: Maison1_tapis_03
+    2300010: maison_02_pot_de_fleur_10_cordes
+    2300012: maison_02_pot_de_fleur_10_pot
+    2300014: maison_02_pot_de_fleur_1_cordes
+    2300016: maison_02_pot_de_fleur_1_pot
+    2300018: maison_02_pot_de_fleur_2_cordes
+    2300020: maison_02_pot_de_fleur_2_pot
+    2300022: maison_02_pot_de_fleur_3_cordes
+    2300024: maison_02_pot_de_fleur_3_pot
+    2300026: maison_02_pot_de_fleur_4_cordes
+    2300028: maison_02_pot_de_fleur_4_pot
+    2300030: maison_02_pot_de_fleur_5_cordes
+    2300032: maison_02_pot_de_fleur_5_pot
+    2300034: maison_02_pot_de_fleur_6_cordes
+    2300036: maison_02_pot_de_fleur_6_pot
+    2300038: maison_02_pot_de_fleur_7_cordes
+    2300040: maison_02_pot_de_fleur_7_pot
+    2300042: maison_02_pot_de_fleur_8_cordes
+    2300044: maison_02_pot_de_fleur_8_pot
+    2300046: maison_02_pot_de_fleur_9_cordes
+    2300048: maison_02_pot_de_fleur_9_pot
+    2300050: store_part_01
+    2300052: store_part_01 1
+    2300054: store_part_02
+    2300056: store_part_02 1
+    2300058: store_part_03
+    2300060: store_part_03 1
+    2300062: store_part_04
+    2300064: store_part_04 1
+    2300066: tapis_02
+    2300068: tapis_02 1
+    2300070: tapis_04
+    2300072: tapis_04 1
+    2300074: tapis_04 2
+    2300076: tapis_04 3
+    2300078: tapis_04 4
+    2300080: tapis_04 5
+    2300082: tapis_09
+    2300084: tapis_09 1
+    2300086: tapis_09 2
+    2300088: tapis_09 3
+    2300090: tapis_09 4
+    2300092: Tiiseur_porte2_base01
+    2300094: Tiiseur_porte2_base01 1
+    2300096: tisseur_fenetre_base_04
+    2300098: tisseur_fenetre_base_04 1
+    2300100: tisseur_fenetre_base_05
+    2300102: tisseur_fenetre_base_05 1
+    2300104: tisseur_fenetre_base_05 2
+    2300106: tisseur_fenetre_base_05 3
+    2300108: tisseur_fenetre_base_05 4
+    2300110: tisseur_fenetre_base_05 5
+    2300112: tisseur_fenetre_base_06
+    2300114: tisseur_fenetre_base_06 1
+    2300116: tisseur_fenetre_base_06 2
+    2300118: tisseur_fenetre_base_06 3
+    2300120: tisseur_fenetre_base_06 4
+    2300122: tisseur_fenetre_poutre_04
+    2300124: tisseur_fenetre_poutre_04 1
+    2300126: tisseur_fenetre_poutre_05
+    2300128: tisseur_fenetre_poutre_05 1
+    2300130: tisseur_fenetre_poutre_05 2
+    2300132: tisseur_fenetre_poutre_05 3
+    2300134: tisseur_fenetre_poutre_05 4
+    2300136: tisseur_fenetre_poutre_05 5
+    2300138: tisseur_fenetre_poutre_06
+    2300140: tisseur_fenetre_poutre_06 1
+    2300142: tisseur_fenetre_poutre_06 2
+    2300144: tisseur_fenetre_poutre_06 3
+    2300146: tisseur_fenetre_poutre_06 4
+    3300000: cordes1_maison_02
+    3300002: Maison1_base
+    3300004: Maison1_tapis_01
+    3300006: Maison1_tapis_02
+    3300008: Maison1_tapis_03
+    3300010: maison_02_pot_de_fleur_10_cordes
+    3300012: maison_02_pot_de_fleur_10_pot
+    3300014: maison_02_pot_de_fleur_1_cordes
+    3300016: maison_02_pot_de_fleur_1_pot
+    3300018: maison_02_pot_de_fleur_2_cordes
+    3300020: maison_02_pot_de_fleur_2_pot
+    3300022: maison_02_pot_de_fleur_3_cordes
+    3300024: maison_02_pot_de_fleur_3_pot
+    3300026: maison_02_pot_de_fleur_4_cordes
+    3300028: maison_02_pot_de_fleur_4_pot
+    3300030: maison_02_pot_de_fleur_5_cordes
+    3300032: maison_02_pot_de_fleur_5_pot
+    3300034: maison_02_pot_de_fleur_6_cordes
+    3300036: maison_02_pot_de_fleur_6_pot
+    3300038: maison_02_pot_de_fleur_7_cordes
+    3300040: maison_02_pot_de_fleur_7_pot
+    3300042: maison_02_pot_de_fleur_8_cordes
+    3300044: maison_02_pot_de_fleur_8_pot
+    3300046: maison_02_pot_de_fleur_9_cordes
+    3300048: maison_02_pot_de_fleur_9_pot
+    3300050: store_part_01
+    3300052: store_part_01 1
+    3300054: store_part_02
+    3300056: store_part_02 1
+    3300058: store_part_03
+    3300060: store_part_03 1
+    3300062: store_part_04
+    3300064: store_part_04 1
+    3300066: tapis_02
+    3300068: tapis_02 1
+    3300070: tapis_04
+    3300072: tapis_04 1
+    3300074: tapis_04 2
+    3300076: tapis_04 3
+    3300078: tapis_04 4
+    3300080: tapis_04 5
+    3300082: tapis_09
+    3300084: tapis_09 1
+    3300086: tapis_09 2
+    3300088: tapis_09 3
+    3300090: tapis_09 4
+    3300092: Tiiseur_porte2_base01
+    3300094: Tiiseur_porte2_base01 1
+    3300096: tisseur_fenetre_base_04
+    3300098: tisseur_fenetre_base_04 1
+    3300100: tisseur_fenetre_base_05
+    3300102: tisseur_fenetre_base_05 1
+    3300104: tisseur_fenetre_base_05 2
+    3300106: tisseur_fenetre_base_05 3
+    3300108: tisseur_fenetre_base_05 4
+    3300110: tisseur_fenetre_base_05 5
+    3300112: tisseur_fenetre_base_06
+    3300114: tisseur_fenetre_base_06 1
+    3300116: tisseur_fenetre_base_06 2
+    3300118: tisseur_fenetre_base_06 3
+    3300120: tisseur_fenetre_base_06 4
+    3300122: tisseur_fenetre_poutre_04
+    3300124: tisseur_fenetre_poutre_04 1
+    3300126: tisseur_fenetre_poutre_05
+    3300128: tisseur_fenetre_poutre_05 1
+    3300130: tisseur_fenetre_poutre_05 2
+    3300132: tisseur_fenetre_poutre_05 3
+    3300134: tisseur_fenetre_poutre_05 4
+    3300136: tisseur_fenetre_poutre_05 5
+    3300138: tisseur_fenetre_poutre_06
+    3300140: tisseur_fenetre_poutre_06 1
+    3300142: tisseur_fenetre_poutre_06 2
+    3300144: tisseur_fenetre_poutre_06 3
+    3300146: tisseur_fenetre_poutre_06 4
+    4300000: Maison1_base
+    4300002: cordes1_maison_02
+    4300004: maison_02_pot_de_fleur_1_cordes
+    4300006: maison_02_pot_de_fleur_1_pot
+    4300008: maison_02_pot_de_fleur_2_pot
+    4300010: maison_02_pot_de_fleur_2_cordes
+    4300012: maison_02_pot_de_fleur_3_pot
+    4300014: maison_02_pot_de_fleur_3_cordes
+    4300016: maison_02_pot_de_fleur_4_pot
+    4300018: maison_02_pot_de_fleur_4_cordes
+    4300020: maison_02_pot_de_fleur_5_pot
+    4300022: maison_02_pot_de_fleur_5_cordes
+    4300024: maison_02_pot_de_fleur_6_pot
+    4300026: maison_02_pot_de_fleur_6_cordes
+    4300028: maison_02_pot_de_fleur_7_pot
+    4300030: maison_02_pot_de_fleur_7_cordes
+    4300032: maison_02_pot_de_fleur_8_pot
+    4300034: maison_02_pot_de_fleur_8_cordes
+    4300036: maison_02_pot_de_fleur_9_pot
+    4300038: maison_02_pot_de_fleur_9_cordes
+    4300040: maison_02_pot_de_fleur_10_pot
+    4300042: maison_02_pot_de_fleur_10_cordes
+    4300044: Maison1_tapis_01
+    4300046: Maison1_tapis_02
+    4300048: Maison1_tapis_03
+    4300050: Tiiseur_porte2_base01
+    4300052: store_part_01
+    4300054: store_part_02
+    4300056: store_part_03
+    4300058: store_part_04
+    4300060: Tiiseur_porte2_base01
+    4300062: store_part_01
+    4300064: store_part_02
+    4300066: store_part_03
+    4300068: store_part_04
+    4300070: tisseur_fenetre_poutre_04
+    4300072: tisseur_fenetre_base_04
+    4300074: tapis_02
+    4300076: tisseur_fenetre_poutre_05
+    4300078: tisseur_fenetre_base_05
+    4300080: tapis_04
+    4300082: tisseur_fenetre_poutre_06
+    4300084: tisseur_fenetre_base_06
+    4300086: tapis_09
+    4300088: tisseur_fenetre_poutre_05
+    4300090: tisseur_fenetre_base_05
+    4300092: tapis_04
+    4300094: tisseur_fenetre_poutre_06
+    4300096: tisseur_fenetre_base_06
+    4300098: tapis_09
+    4300100: tisseur_fenetre_poutre_05
+    4300102: tisseur_fenetre_base_05
+    4300104: tapis_04
+    4300106: tisseur_fenetre_poutre_05
+    4300108: tisseur_fenetre_base_05
+    4300110: tapis_04
+    4300112: tisseur_fenetre_poutre_06
+    4300114: tisseur_fenetre_base_06
+    4300116: tapis_09
+    4300118: tisseur_fenetre_poutre_06
+    4300120: tisseur_fenetre_base_06
+    4300122: tapis_09
+    4300124: tisseur_fenetre_poutre_06
+    4300126: tisseur_fenetre_base_06
+    4300128: tapis_09
+    4300130: tisseur_fenetre_poutre_04
+    4300132: tisseur_fenetre_base_04
+    4300134: tapis_02
+    4300136: tisseur_fenetre_poutre_05
+    4300138: tisseur_fenetre_base_05
+    4300140: tapis_04
+    4300142: tisseur_fenetre_poutre_05
+    4300144: tisseur_fenetre_base_05
+    4300146: tapis_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 38f2c3867b5b4054ead3e60a39cd4950
+timeCreated: 1488807639
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: poto_02_base
+    100004: poto_02_cordes_bas
+    100006: poto_02_cordes_bas_01
+    100008: poto_02_cordes_bas_02
+    100010: poto_02_cordes_bas_03
+    100012: poto_02_cordes_haut
+    100014: poto_02_cordes_haut_01
+    100016: poto_02_cordes_haut_02
+    100018: poto_02_cordes_haut_03
+    100020: poto_02_cordes_haut_04
+    100022: poto_02_cordes_haut_05
+    100024: poto_02_cordes_haut_06
+    100026: poto_02_cordes_haut_07
+    100028: poto_02_cordes_middle
+    100030: pTorus28
+    400000: //RootNode
+    400002: poto_02_base
+    400004: poto_02_cordes_bas
+    400006: poto_02_cordes_bas_01
+    400008: poto_02_cordes_bas_02
+    400010: poto_02_cordes_bas_03
+    400012: poto_02_cordes_haut
+    400014: poto_02_cordes_haut_01
+    400016: poto_02_cordes_haut_02
+    400018: poto_02_cordes_haut_03
+    400020: poto_02_cordes_haut_04
+    400022: poto_02_cordes_haut_05
+    400024: poto_02_cordes_haut_06
+    400026: poto_02_cordes_haut_07
+    400028: poto_02_cordes_middle
+    400030: pTorus28
+    2300000: poto_02_base
+    2300002: poto_02_cordes_bas_01
+    2300004: poto_02_cordes_bas_02
+    2300006: poto_02_cordes_bas_03
+    2300008: poto_02_cordes_haut_01
+    2300010: poto_02_cordes_haut_02
+    2300012: poto_02_cordes_haut_03
+    2300014: poto_02_cordes_haut_04
+    2300016: poto_02_cordes_haut_05
+    2300018: poto_02_cordes_haut_06
+    2300020: poto_02_cordes_haut_07
+    2300022: poto_02_cordes_middle
+    2300024: pTorus28
+    3300000: poto_02_base
+    3300002: poto_02_cordes_bas_01
+    3300004: poto_02_cordes_bas_02
+    3300006: poto_02_cordes_bas_03
+    3300008: poto_02_cordes_haut_01
+    3300010: poto_02_cordes_haut_02
+    3300012: poto_02_cordes_haut_03
+    3300014: poto_02_cordes_haut_04
+    3300016: poto_02_cordes_haut_05
+    3300018: poto_02_cordes_haut_06
+    3300020: poto_02_cordes_haut_07
+    3300022: poto_02_cordes_middle
+    3300024: pTorus28
+    4300000: poto_02_base
+    4300002: poto_02_cordes_haut_01
+    4300004: poto_02_cordes_haut_02
+    4300006: poto_02_cordes_haut_03
+    4300008: poto_02_cordes_haut_04
+    4300010: poto_02_cordes_haut_05
+    4300012: poto_02_cordes_haut_06
+    4300014: poto_02_cordes_haut_07
+    4300016: poto_02_cordes_middle
+    4300018: poto_02_cordes_bas_01
+    4300020: poto_02_cordes_bas_02
+    4300022: poto_02_cordes_bas_03
+    4300024: pTorus28
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

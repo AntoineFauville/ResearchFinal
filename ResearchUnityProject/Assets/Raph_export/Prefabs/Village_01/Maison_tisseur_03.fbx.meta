@@ -1,0 +1,1350 @@
+fileFormatVersion: 2
+guid: 9800b8f85ff724e4088076666d1d7741
+timeCreated: 1488807640
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cordes4
+    100002: group11
+    100004: group11 1
+    100006: group11 2
+    100008: group11 3
+    100010: Maison2 1
+    100012: Maison2_base
+    100014: Maison2_fenetres
+    100016: Maison2_tapis_01
+    100018: Maison2_tapis_02
+    100020: Maison2_tapis_03
+    100022: Maison2_tapis_04
+    100024: //RootNode
+    100026: pCube25
+    100028: pCube25 1
+    100030: pCube25 2
+    100032: pCube25 3
+    100034: pCube25 4
+    100036: polySurface2
+    100038: polySurface2 1
+    100040: polySurface2 2
+    100042: polySurface2 3
+    100044: polySurface2 4
+    100046: rideau3
+    100048: rideau3 1
+    100050: rideau3 2
+    100052: rideau3 3
+    100054: rideau3_part_01
+    100056: rideau3_part_01 1
+    100058: rideau3_part_01 2
+    100060: rideau3_part_01 3
+    100062: rideau3_part_02
+    100064: rideau3_part_02 1
+    100066: rideau3_part_02 2
+    100068: rideau3_part_02 3
+    100070: rideau3_part_03
+    100072: rideau3_part_03 1
+    100074: rideau3_part_03 2
+    100076: rideau3_part_03 3
+    100078: rideau3_part_04
+    100080: rideau3_part_04 1
+    100082: rideau3_part_04 2
+    100084: rideau3_part_04 3
+    100086: rideau3_part_05
+    100088: rideau3_part_05 1
+    100090: rideau3_part_05 2
+    100092: rideau3_part_05 3
+    100094: rideau3_part_06
+    100096: rideau3_part_06 1
+    100098: rideau3_part_06 2
+    100100: rideau3_part_06 3
+    100102: rideau3_part_07
+    100104: rideau3_part_07 1
+    100106: rideau3_part_07 2
+    100108: rideau3_part_07 3
+    100110: rideau3_part_08
+    100112: rideau3_part_08 1
+    100114: rideau3_part_08 2
+    100116: rideau3_part_08 3
+    100118: rideau3_part_09
+    100120: rideau3_part_09 1
+    100122: rideau3_part_09 2
+    100124: rideau3_part_09 3
+    100126: rideau3_part_10
+    100128: rideau3_part_10 1
+    100130: rideau3_part_10 2
+    100132: rideau3_part_10 3
+    100134: rideau3_part_11
+    100136: rideau3_part_11 1
+    100138: rideau3_part_11 2
+    100140: rideau3_part_11 3
+    100142: rideau3_part_12
+    100144: rideau3_part_12 1
+    100146: rideau3_part_12 2
+    100148: rideau3_part_12 3
+    100150: rideau3_part_13
+    100152: rideau3_part_13 1
+    100154: rideau3_part_13 2
+    100156: rideau3_part_13 3
+    100158: rideau3_part_14
+    100160: rideau3_part_14 1
+    100162: rideau3_part_14 2
+    100164: rideau3_part_14 3
+    100166: rideau3_part_15
+    100168: rideau3_part_15 1
+    100170: rideau3_part_15 2
+    100172: rideau3_part_15 3
+    100174: rideau3_part_16
+    100176: rideau3_part_16 1
+    100178: rideau3_part_16 2
+    100180: rideau3_part_16 3
+    100182: rideau3_part_17
+    100184: rideau3_part_17 1
+    100186: rideau3_part_17 2
+    100188: rideau3_part_17 3
+    100190: rideau3_part_18
+    100192: rideau3_part_18 1
+    100194: rideau3_part_18 2
+    100196: rideau3_part_18 3
+    100198: rideau3_part_19
+    100200: rideau3_part_19 1
+    100202: rideau3_part_19 2
+    100204: rideau3_part_19 3
+    100206: rideau3_part_20
+    100208: rideau3_part_20 1
+    100210: rideau3_part_20 2
+    100212: rideau3_part_20 3
+    100214: rideau3_part_21
+    100216: rideau3_part_21 1
+    100218: rideau3_part_21 2
+    100220: rideau3_part_21 3
+    100222: rideau3_part_22
+    100224: rideau3_part_22 1
+    100226: rideau3_part_22 2
+    100228: rideau3_part_22 3
+    100230: rideau3_part_23
+    100232: rideau3_part_23 1
+    100234: rideau3_part_23 2
+    100236: rideau3_part_23 3
+    100238: rideau3_part_24
+    100240: rideau3_part_24 1
+    100242: rideau3_part_24 2
+    100244: rideau3_part_24 3
+    100246: rideau3_part_25
+    100248: rideau3_part_25 1
+    100250: rideau3_part_25 2
+    100252: rideau3_part_25 3
+    100254: rideau3_part_26
+    100256: rideau3_part_26 1
+    100258: rideau3_part_26 2
+    100260: rideau3_part_26 3
+    100262: rideau3_part_27
+    100264: rideau3_part_27 1
+    100266: rideau3_part_27 2
+    100268: rideau3_part_27 3
+    100270: rideau3_part_28
+    100272: rideau3_part_28 1
+    100274: rideau3_part_28 2
+    100276: rideau3_part_28 3
+    100278: rideau3_part_29
+    100280: rideau3_part_29 1
+    100282: rideau3_part_29 2
+    100284: rideau3_part_29 3
+    100286: rideau3_part_30
+    100288: rideau3_part_30 1
+    100290: rideau3_part_30 2
+    100292: rideau3_part_30 3
+    100294: rideau3_part_31
+    100296: rideau3_part_31 1
+    100298: rideau3_part_31 2
+    100300: rideau3_part_31 3
+    100302: rideau3_part_32
+    100304: rideau3_part_32 1
+    100306: rideau3_part_32 2
+    100308: rideau3_part_32 3
+    100310: rideau3_part_33
+    100312: rideau3_part_33 1
+    100314: rideau3_part_33 2
+    100316: rideau3_part_33 3
+    100318: rideau3_part_34
+    100320: rideau3_part_34 1
+    100322: rideau3_part_34 2
+    100324: rideau3_part_34 3
+    100326: rideau3_part_35
+    100328: rideau3_part_35 1
+    100330: rideau3_part_35 2
+    100332: rideau3_part_35 3
+    100334: rideau3_part_36
+    100336: rideau3_part_36 1
+    100338: rideau3_part_36 2
+    100340: rideau3_part_36 3
+    100342: rideau3_part_37
+    100344: rideau3_part_37 1
+    100346: rideau3_part_37 2
+    100348: rideau3_part_37 3
+    100350: rideau3_part_38
+    100352: rideau3_part_38 1
+    100354: rideau3_part_38 2
+    100356: rideau3_part_38 3
+    100358: rideau3_part_39
+    100360: rideau3_part_39 1
+    100362: rideau3_part_39 2
+    100364: rideau3_part_39 3
+    100366: rideau3_part_40
+    100368: rideau3_part_40 1
+    100370: rideau3_part_40 2
+    100372: rideau3_part_40 3
+    100374: rideau3_part_41
+    100376: rideau3_part_41 1
+    100378: rideau3_part_41 2
+    100380: rideau3_part_41 3
+    100382: rideau3_part_42
+    100384: rideau3_part_42 1
+    100386: rideau3_part_42 2
+    100388: rideau3_part_42 3
+    100390: rideau3_part_43
+    100392: rideau3_part_43 1
+    100394: rideau3_part_43 2
+    100396: rideau3_part_43 3
+    100398: rideau3_part_44
+    100400: rideau3_part_44 1
+    100402: rideau3_part_44 2
+    100404: rideau3_part_44 3
+    100406: rideau3_part_45
+    100408: rideau3_part_45 1
+    100410: rideau3_part_45 2
+    100412: rideau3_part_45 3
+    100414: rideau3_part_46
+    100416: rideau3_part_46 1
+    100418: rideau3_part_46 2
+    100420: rideau3_part_46 3
+    100422: rideau3_part_47
+    100424: rideau3_part_47 1
+    100426: rideau3_part_47 2
+    100428: rideau3_part_47 3
+    100430: tapis_02
+    100432: tapis_02 1
+    100434: tapis_02 2
+    100436: tapis_02 3
+    100438: tapis_02 4
+    100440: tapis_05
+    100442: tapis_05 1
+    100444: tapis_05 2
+    100446: tapis_07
+    100448: tapis_07 1
+    100450: tapis_07 2
+    100452: tapis_07 3
+    100454: tapis_07 4
+    100456: tapis_07 5
+    100458: tapis_07 6
+    100460: tapis_07 7
+    100462: Tiiseur_porte3
+    100464: Tiiseur_porte3_base01
+    100466: Tiiseur_porte3_base01 1
+    100468: Tiiseur_porte3_base01 2
+    100470: Tiiseur_porte3_base01 3
+    100472: Tiiseur_porte5
+    100474: Tiiseur_porte6
+    100476: Tiiseur_porte7
+    100478: Tisseur_fenetre_015
+    100480: Tisseur_fenetre_016
+    100482: Tisseur_fenetre_017
+    100484: Tisseur_fenetre_018
+    100486: Tisseur_fenetre_019
+    100488: Tisseur_fenetre_020
+    100490: Tisseur_fenetre_021
+    100492: Tisseur_fenetre_022
+    100494: Tisseur_fenetre_023
+    100496: Tisseur_fenetre_024
+    100498: Tisseur_fenetre_025
+    100500: Tisseur_fenetre_026
+    100502: Tisseur_fenetre_027
+    100504: tisseur_fenetre_base_03
+    100506: tisseur_fenetre_base_03 1
+    100508: tisseur_fenetre_base_03 2
+    100510: tisseur_fenetre_base_03 3
+    100512: tisseur_fenetre_base_03 4
+    100514: tisseur_fenetre_base_03 5
+    100516: tisseur_fenetre_base_03 6
+    100518: tisseur_fenetre_base_03 7
+    100520: tisseur_fenetre_poutre_03
+    100522: tisseur_fenetre_poutre_03 1
+    100524: tisseur_fenetre_poutre_03 2
+    100526: tisseur_fenetre_poutre_03 3
+    100528: tisseur_fenetre_poutre_03 4
+    100530: tisseur_fenetre_poutre_03 5
+    100532: tisseur_fenetre_poutre_03 6
+    100534: tisseur_fenetre_poutre_03 7
+    100536: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    100538: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    100540: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    400000: cordes4
+    400002: group11
+    400004: group11 1
+    400006: group11 2
+    400008: group11 3
+    400010: Maison2 1
+    400012: Maison2_base
+    400014: Maison2_fenetres
+    400016: Maison2_tapis_01
+    400018: Maison2_tapis_02
+    400020: Maison2_tapis_03
+    400022: Maison2_tapis_04
+    400024: //RootNode
+    400026: pCube25
+    400028: pCube25 1
+    400030: pCube25 2
+    400032: pCube25 3
+    400034: pCube25 4
+    400036: polySurface2
+    400038: polySurface2 1
+    400040: polySurface2 2
+    400042: polySurface2 3
+    400044: polySurface2 4
+    400046: rideau3
+    400048: rideau3 1
+    400050: rideau3 2
+    400052: rideau3 3
+    400054: rideau3_part_01
+    400056: rideau3_part_01 1
+    400058: rideau3_part_01 2
+    400060: rideau3_part_01 3
+    400062: rideau3_part_02
+    400064: rideau3_part_02 1
+    400066: rideau3_part_02 2
+    400068: rideau3_part_02 3
+    400070: rideau3_part_03
+    400072: rideau3_part_03 1
+    400074: rideau3_part_03 2
+    400076: rideau3_part_03 3
+    400078: rideau3_part_04
+    400080: rideau3_part_04 1
+    400082: rideau3_part_04 2
+    400084: rideau3_part_04 3
+    400086: rideau3_part_05
+    400088: rideau3_part_05 1
+    400090: rideau3_part_05 2
+    400092: rideau3_part_05 3
+    400094: rideau3_part_06
+    400096: rideau3_part_06 1
+    400098: rideau3_part_06 2
+    400100: rideau3_part_06 3
+    400102: rideau3_part_07
+    400104: rideau3_part_07 1
+    400106: rideau3_part_07 2
+    400108: rideau3_part_07 3
+    400110: rideau3_part_08
+    400112: rideau3_part_08 1
+    400114: rideau3_part_08 2
+    400116: rideau3_part_08 3
+    400118: rideau3_part_09
+    400120: rideau3_part_09 1
+    400122: rideau3_part_09 2
+    400124: rideau3_part_09 3
+    400126: rideau3_part_10
+    400128: rideau3_part_10 1
+    400130: rideau3_part_10 2
+    400132: rideau3_part_10 3
+    400134: rideau3_part_11
+    400136: rideau3_part_11 1
+    400138: rideau3_part_11 2
+    400140: rideau3_part_11 3
+    400142: rideau3_part_12
+    400144: rideau3_part_12 1
+    400146: rideau3_part_12 2
+    400148: rideau3_part_12 3
+    400150: rideau3_part_13
+    400152: rideau3_part_13 1
+    400154: rideau3_part_13 2
+    400156: rideau3_part_13 3
+    400158: rideau3_part_14
+    400160: rideau3_part_14 1
+    400162: rideau3_part_14 2
+    400164: rideau3_part_14 3
+    400166: rideau3_part_15
+    400168: rideau3_part_15 1
+    400170: rideau3_part_15 2
+    400172: rideau3_part_15 3
+    400174: rideau3_part_16
+    400176: rideau3_part_16 1
+    400178: rideau3_part_16 2
+    400180: rideau3_part_16 3
+    400182: rideau3_part_17
+    400184: rideau3_part_17 1
+    400186: rideau3_part_17 2
+    400188: rideau3_part_17 3
+    400190: rideau3_part_18
+    400192: rideau3_part_18 1
+    400194: rideau3_part_18 2
+    400196: rideau3_part_18 3
+    400198: rideau3_part_19
+    400200: rideau3_part_19 1
+    400202: rideau3_part_19 2
+    400204: rideau3_part_19 3
+    400206: rideau3_part_20
+    400208: rideau3_part_20 1
+    400210: rideau3_part_20 2
+    400212: rideau3_part_20 3
+    400214: rideau3_part_21
+    400216: rideau3_part_21 1
+    400218: rideau3_part_21 2
+    400220: rideau3_part_21 3
+    400222: rideau3_part_22
+    400224: rideau3_part_22 1
+    400226: rideau3_part_22 2
+    400228: rideau3_part_22 3
+    400230: rideau3_part_23
+    400232: rideau3_part_23 1
+    400234: rideau3_part_23 2
+    400236: rideau3_part_23 3
+    400238: rideau3_part_24
+    400240: rideau3_part_24 1
+    400242: rideau3_part_24 2
+    400244: rideau3_part_24 3
+    400246: rideau3_part_25
+    400248: rideau3_part_25 1
+    400250: rideau3_part_25 2
+    400252: rideau3_part_25 3
+    400254: rideau3_part_26
+    400256: rideau3_part_26 1
+    400258: rideau3_part_26 2
+    400260: rideau3_part_26 3
+    400262: rideau3_part_27
+    400264: rideau3_part_27 1
+    400266: rideau3_part_27 2
+    400268: rideau3_part_27 3
+    400270: rideau3_part_28
+    400272: rideau3_part_28 1
+    400274: rideau3_part_28 2
+    400276: rideau3_part_28 3
+    400278: rideau3_part_29
+    400280: rideau3_part_29 1
+    400282: rideau3_part_29 2
+    400284: rideau3_part_29 3
+    400286: rideau3_part_30
+    400288: rideau3_part_30 1
+    400290: rideau3_part_30 2
+    400292: rideau3_part_30 3
+    400294: rideau3_part_31
+    400296: rideau3_part_31 1
+    400298: rideau3_part_31 2
+    400300: rideau3_part_31 3
+    400302: rideau3_part_32
+    400304: rideau3_part_32 1
+    400306: rideau3_part_32 2
+    400308: rideau3_part_32 3
+    400310: rideau3_part_33
+    400312: rideau3_part_33 1
+    400314: rideau3_part_33 2
+    400316: rideau3_part_33 3
+    400318: rideau3_part_34
+    400320: rideau3_part_34 1
+    400322: rideau3_part_34 2
+    400324: rideau3_part_34 3
+    400326: rideau3_part_35
+    400328: rideau3_part_35 1
+    400330: rideau3_part_35 2
+    400332: rideau3_part_35 3
+    400334: rideau3_part_36
+    400336: rideau3_part_36 1
+    400338: rideau3_part_36 2
+    400340: rideau3_part_36 3
+    400342: rideau3_part_37
+    400344: rideau3_part_37 1
+    400346: rideau3_part_37 2
+    400348: rideau3_part_37 3
+    400350: rideau3_part_38
+    400352: rideau3_part_38 1
+    400354: rideau3_part_38 2
+    400356: rideau3_part_38 3
+    400358: rideau3_part_39
+    400360: rideau3_part_39 1
+    400362: rideau3_part_39 2
+    400364: rideau3_part_39 3
+    400366: rideau3_part_40
+    400368: rideau3_part_40 1
+    400370: rideau3_part_40 2
+    400372: rideau3_part_40 3
+    400374: rideau3_part_41
+    400376: rideau3_part_41 1
+    400378: rideau3_part_41 2
+    400380: rideau3_part_41 3
+    400382: rideau3_part_42
+    400384: rideau3_part_42 1
+    400386: rideau3_part_42 2
+    400388: rideau3_part_42 3
+    400390: rideau3_part_43
+    400392: rideau3_part_43 1
+    400394: rideau3_part_43 2
+    400396: rideau3_part_43 3
+    400398: rideau3_part_44
+    400400: rideau3_part_44 1
+    400402: rideau3_part_44 2
+    400404: rideau3_part_44 3
+    400406: rideau3_part_45
+    400408: rideau3_part_45 1
+    400410: rideau3_part_45 2
+    400412: rideau3_part_45 3
+    400414: rideau3_part_46
+    400416: rideau3_part_46 1
+    400418: rideau3_part_46 2
+    400420: rideau3_part_46 3
+    400422: rideau3_part_47
+    400424: rideau3_part_47 1
+    400426: rideau3_part_47 2
+    400428: rideau3_part_47 3
+    400430: tapis_02
+    400432: tapis_02 1
+    400434: tapis_02 2
+    400436: tapis_02 3
+    400438: tapis_02 4
+    400440: tapis_05
+    400442: tapis_05 1
+    400444: tapis_05 2
+    400446: tapis_07
+    400448: tapis_07 1
+    400450: tapis_07 2
+    400452: tapis_07 3
+    400454: tapis_07 4
+    400456: tapis_07 5
+    400458: tapis_07 6
+    400460: tapis_07 7
+    400462: Tiiseur_porte3
+    400464: Tiiseur_porte3_base01
+    400466: Tiiseur_porte3_base01 1
+    400468: Tiiseur_porte3_base01 2
+    400470: Tiiseur_porte3_base01 3
+    400472: Tiiseur_porte5
+    400474: Tiiseur_porte6
+    400476: Tiiseur_porte7
+    400478: Tisseur_fenetre_015
+    400480: Tisseur_fenetre_016
+    400482: Tisseur_fenetre_017
+    400484: Tisseur_fenetre_018
+    400486: Tisseur_fenetre_019
+    400488: Tisseur_fenetre_020
+    400490: Tisseur_fenetre_021
+    400492: Tisseur_fenetre_022
+    400494: Tisseur_fenetre_023
+    400496: Tisseur_fenetre_024
+    400498: Tisseur_fenetre_025
+    400500: Tisseur_fenetre_026
+    400502: Tisseur_fenetre_027
+    400504: tisseur_fenetre_base_03
+    400506: tisseur_fenetre_base_03 1
+    400508: tisseur_fenetre_base_03 2
+    400510: tisseur_fenetre_base_03 3
+    400512: tisseur_fenetre_base_03 4
+    400514: tisseur_fenetre_base_03 5
+    400516: tisseur_fenetre_base_03 6
+    400518: tisseur_fenetre_base_03 7
+    400520: tisseur_fenetre_poutre_03
+    400522: tisseur_fenetre_poutre_03 1
+    400524: tisseur_fenetre_poutre_03 2
+    400526: tisseur_fenetre_poutre_03 3
+    400528: tisseur_fenetre_poutre_03 4
+    400530: tisseur_fenetre_poutre_03 5
+    400532: tisseur_fenetre_poutre_03 6
+    400534: tisseur_fenetre_poutre_03 7
+    400536: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    400538: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    400540: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    2300000: cordes4
+    2300002: Maison2 1
+    2300004: Maison2_base
+    2300006: Maison2_tapis_01
+    2300008: Maison2_tapis_02
+    2300010: Maison2_tapis_03
+    2300012: Maison2_tapis_04
+    2300014: pCube25
+    2300016: pCube25 1
+    2300018: pCube25 2
+    2300020: pCube25 3
+    2300022: pCube25 4
+    2300024: polySurface2
+    2300026: polySurface2 1
+    2300028: polySurface2 2
+    2300030: polySurface2 3
+    2300032: polySurface2 4
+    2300034: rideau3_part_01
+    2300036: rideau3_part_01 1
+    2300038: rideau3_part_01 2
+    2300040: rideau3_part_01 3
+    2300042: rideau3_part_02
+    2300044: rideau3_part_02 1
+    2300046: rideau3_part_02 2
+    2300048: rideau3_part_02 3
+    2300050: rideau3_part_03
+    2300052: rideau3_part_03 1
+    2300054: rideau3_part_03 2
+    2300056: rideau3_part_03 3
+    2300058: rideau3_part_04
+    2300060: rideau3_part_04 1
+    2300062: rideau3_part_04 2
+    2300064: rideau3_part_04 3
+    2300066: rideau3_part_05
+    2300068: rideau3_part_05 1
+    2300070: rideau3_part_05 2
+    2300072: rideau3_part_05 3
+    2300074: rideau3_part_06
+    2300076: rideau3_part_06 1
+    2300078: rideau3_part_06 2
+    2300080: rideau3_part_06 3
+    2300082: rideau3_part_07
+    2300084: rideau3_part_07 1
+    2300086: rideau3_part_07 2
+    2300088: rideau3_part_07 3
+    2300090: rideau3_part_08
+    2300092: rideau3_part_08 1
+    2300094: rideau3_part_08 2
+    2300096: rideau3_part_08 3
+    2300098: rideau3_part_09
+    2300100: rideau3_part_09 1
+    2300102: rideau3_part_09 2
+    2300104: rideau3_part_09 3
+    2300106: rideau3_part_10
+    2300108: rideau3_part_10 1
+    2300110: rideau3_part_10 2
+    2300112: rideau3_part_10 3
+    2300114: rideau3_part_11
+    2300116: rideau3_part_11 1
+    2300118: rideau3_part_11 2
+    2300120: rideau3_part_11 3
+    2300122: rideau3_part_12
+    2300124: rideau3_part_12 1
+    2300126: rideau3_part_12 2
+    2300128: rideau3_part_12 3
+    2300130: rideau3_part_13
+    2300132: rideau3_part_13 1
+    2300134: rideau3_part_13 2
+    2300136: rideau3_part_13 3
+    2300138: rideau3_part_14
+    2300140: rideau3_part_14 1
+    2300142: rideau3_part_14 2
+    2300144: rideau3_part_14 3
+    2300146: rideau3_part_15
+    2300148: rideau3_part_15 1
+    2300150: rideau3_part_15 2
+    2300152: rideau3_part_15 3
+    2300154: rideau3_part_16
+    2300156: rideau3_part_16 1
+    2300158: rideau3_part_16 2
+    2300160: rideau3_part_16 3
+    2300162: rideau3_part_17
+    2300164: rideau3_part_17 1
+    2300166: rideau3_part_17 2
+    2300168: rideau3_part_17 3
+    2300170: rideau3_part_18
+    2300172: rideau3_part_18 1
+    2300174: rideau3_part_18 2
+    2300176: rideau3_part_18 3
+    2300178: rideau3_part_19
+    2300180: rideau3_part_19 1
+    2300182: rideau3_part_19 2
+    2300184: rideau3_part_19 3
+    2300186: rideau3_part_20
+    2300188: rideau3_part_20 1
+    2300190: rideau3_part_20 2
+    2300192: rideau3_part_20 3
+    2300194: rideau3_part_21
+    2300196: rideau3_part_21 1
+    2300198: rideau3_part_21 2
+    2300200: rideau3_part_21 3
+    2300202: rideau3_part_22
+    2300204: rideau3_part_22 1
+    2300206: rideau3_part_22 2
+    2300208: rideau3_part_22 3
+    2300210: rideau3_part_23
+    2300212: rideau3_part_23 1
+    2300214: rideau3_part_23 2
+    2300216: rideau3_part_23 3
+    2300218: rideau3_part_24
+    2300220: rideau3_part_24 1
+    2300222: rideau3_part_24 2
+    2300224: rideau3_part_24 3
+    2300226: rideau3_part_25
+    2300228: rideau3_part_25 1
+    2300230: rideau3_part_25 2
+    2300232: rideau3_part_25 3
+    2300234: rideau3_part_26
+    2300236: rideau3_part_26 1
+    2300238: rideau3_part_26 2
+    2300240: rideau3_part_26 3
+    2300242: rideau3_part_27
+    2300244: rideau3_part_27 1
+    2300246: rideau3_part_27 2
+    2300248: rideau3_part_27 3
+    2300250: rideau3_part_28
+    2300252: rideau3_part_28 1
+    2300254: rideau3_part_28 2
+    2300256: rideau3_part_28 3
+    2300258: rideau3_part_29
+    2300260: rideau3_part_29 1
+    2300262: rideau3_part_29 2
+    2300264: rideau3_part_29 3
+    2300266: rideau3_part_30
+    2300268: rideau3_part_30 1
+    2300270: rideau3_part_30 2
+    2300272: rideau3_part_30 3
+    2300274: rideau3_part_31
+    2300276: rideau3_part_31 1
+    2300278: rideau3_part_31 2
+    2300280: rideau3_part_31 3
+    2300282: rideau3_part_32
+    2300284: rideau3_part_32 1
+    2300286: rideau3_part_32 2
+    2300288: rideau3_part_32 3
+    2300290: rideau3_part_33
+    2300292: rideau3_part_33 1
+    2300294: rideau3_part_33 2
+    2300296: rideau3_part_33 3
+    2300298: rideau3_part_34
+    2300300: rideau3_part_34 1
+    2300302: rideau3_part_34 2
+    2300304: rideau3_part_34 3
+    2300306: rideau3_part_35
+    2300308: rideau3_part_35 1
+    2300310: rideau3_part_35 2
+    2300312: rideau3_part_35 3
+    2300314: rideau3_part_36
+    2300316: rideau3_part_36 1
+    2300318: rideau3_part_36 2
+    2300320: rideau3_part_36 3
+    2300322: rideau3_part_37
+    2300324: rideau3_part_37 1
+    2300326: rideau3_part_37 2
+    2300328: rideau3_part_37 3
+    2300330: rideau3_part_38
+    2300332: rideau3_part_38 1
+    2300334: rideau3_part_38 2
+    2300336: rideau3_part_38 3
+    2300338: rideau3_part_39
+    2300340: rideau3_part_39 1
+    2300342: rideau3_part_39 2
+    2300344: rideau3_part_39 3
+    2300346: rideau3_part_40
+    2300348: rideau3_part_40 1
+    2300350: rideau3_part_40 2
+    2300352: rideau3_part_40 3
+    2300354: rideau3_part_41
+    2300356: rideau3_part_41 1
+    2300358: rideau3_part_41 2
+    2300360: rideau3_part_41 3
+    2300362: rideau3_part_42
+    2300364: rideau3_part_42 1
+    2300366: rideau3_part_42 2
+    2300368: rideau3_part_42 3
+    2300370: rideau3_part_43
+    2300372: rideau3_part_43 1
+    2300374: rideau3_part_43 2
+    2300376: rideau3_part_43 3
+    2300378: rideau3_part_44
+    2300380: rideau3_part_44 1
+    2300382: rideau3_part_44 2
+    2300384: rideau3_part_44 3
+    2300386: rideau3_part_45
+    2300388: rideau3_part_45 1
+    2300390: rideau3_part_45 2
+    2300392: rideau3_part_45 3
+    2300394: rideau3_part_46
+    2300396: rideau3_part_46 1
+    2300398: rideau3_part_46 2
+    2300400: rideau3_part_46 3
+    2300402: rideau3_part_47
+    2300404: rideau3_part_47 1
+    2300406: rideau3_part_47 2
+    2300408: rideau3_part_47 3
+    2300410: tapis_02
+    2300412: tapis_02 1
+    2300414: tapis_02 2
+    2300416: tapis_02 3
+    2300418: tapis_02 4
+    2300420: tapis_05
+    2300422: tapis_05 1
+    2300424: tapis_05 2
+    2300426: tapis_07
+    2300428: tapis_07 1
+    2300430: tapis_07 2
+    2300432: tapis_07 3
+    2300434: tapis_07 4
+    2300436: tapis_07 5
+    2300438: tapis_07 6
+    2300440: tapis_07 7
+    2300442: Tiiseur_porte3_base01
+    2300444: Tiiseur_porte3_base01 1
+    2300446: Tiiseur_porte3_base01 2
+    2300448: Tiiseur_porte3_base01 3
+    2300450: tisseur_fenetre_base_03
+    2300452: tisseur_fenetre_base_03 1
+    2300454: tisseur_fenetre_base_03 2
+    2300456: tisseur_fenetre_base_03 3
+    2300458: tisseur_fenetre_base_03 4
+    2300460: tisseur_fenetre_base_03 5
+    2300462: tisseur_fenetre_base_03 6
+    2300464: tisseur_fenetre_base_03 7
+    2300466: tisseur_fenetre_poutre_03
+    2300468: tisseur_fenetre_poutre_03 1
+    2300470: tisseur_fenetre_poutre_03 2
+    2300472: tisseur_fenetre_poutre_03 3
+    2300474: tisseur_fenetre_poutre_03 4
+    2300476: tisseur_fenetre_poutre_03 5
+    2300478: tisseur_fenetre_poutre_03 6
+    2300480: tisseur_fenetre_poutre_03 7
+    2300482: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    2300484: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    2300486: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    3300000: cordes4
+    3300002: Maison2 1
+    3300004: Maison2_base
+    3300006: Maison2_tapis_01
+    3300008: Maison2_tapis_02
+    3300010: Maison2_tapis_03
+    3300012: Maison2_tapis_04
+    3300014: pCube25
+    3300016: pCube25 1
+    3300018: pCube25 2
+    3300020: pCube25 3
+    3300022: pCube25 4
+    3300024: polySurface2
+    3300026: polySurface2 1
+    3300028: polySurface2 2
+    3300030: polySurface2 3
+    3300032: polySurface2 4
+    3300034: rideau3_part_01
+    3300036: rideau3_part_01 1
+    3300038: rideau3_part_01 2
+    3300040: rideau3_part_01 3
+    3300042: rideau3_part_02
+    3300044: rideau3_part_02 1
+    3300046: rideau3_part_02 2
+    3300048: rideau3_part_02 3
+    3300050: rideau3_part_03
+    3300052: rideau3_part_03 1
+    3300054: rideau3_part_03 2
+    3300056: rideau3_part_03 3
+    3300058: rideau3_part_04
+    3300060: rideau3_part_04 1
+    3300062: rideau3_part_04 2
+    3300064: rideau3_part_04 3
+    3300066: rideau3_part_05
+    3300068: rideau3_part_05 1
+    3300070: rideau3_part_05 2
+    3300072: rideau3_part_05 3
+    3300074: rideau3_part_06
+    3300076: rideau3_part_06 1
+    3300078: rideau3_part_06 2
+    3300080: rideau3_part_06 3
+    3300082: rideau3_part_07
+    3300084: rideau3_part_07 1
+    3300086: rideau3_part_07 2
+    3300088: rideau3_part_07 3
+    3300090: rideau3_part_08
+    3300092: rideau3_part_08 1
+    3300094: rideau3_part_08 2
+    3300096: rideau3_part_08 3
+    3300098: rideau3_part_09
+    3300100: rideau3_part_09 1
+    3300102: rideau3_part_09 2
+    3300104: rideau3_part_09 3
+    3300106: rideau3_part_10
+    3300108: rideau3_part_10 1
+    3300110: rideau3_part_10 2
+    3300112: rideau3_part_10 3
+    3300114: rideau3_part_11
+    3300116: rideau3_part_11 1
+    3300118: rideau3_part_11 2
+    3300120: rideau3_part_11 3
+    3300122: rideau3_part_12
+    3300124: rideau3_part_12 1
+    3300126: rideau3_part_12 2
+    3300128: rideau3_part_12 3
+    3300130: rideau3_part_13
+    3300132: rideau3_part_13 1
+    3300134: rideau3_part_13 2
+    3300136: rideau3_part_13 3
+    3300138: rideau3_part_14
+    3300140: rideau3_part_14 1
+    3300142: rideau3_part_14 2
+    3300144: rideau3_part_14 3
+    3300146: rideau3_part_15
+    3300148: rideau3_part_15 1
+    3300150: rideau3_part_15 2
+    3300152: rideau3_part_15 3
+    3300154: rideau3_part_16
+    3300156: rideau3_part_16 1
+    3300158: rideau3_part_16 2
+    3300160: rideau3_part_16 3
+    3300162: rideau3_part_17
+    3300164: rideau3_part_17 1
+    3300166: rideau3_part_17 2
+    3300168: rideau3_part_17 3
+    3300170: rideau3_part_18
+    3300172: rideau3_part_18 1
+    3300174: rideau3_part_18 2
+    3300176: rideau3_part_18 3
+    3300178: rideau3_part_19
+    3300180: rideau3_part_19 1
+    3300182: rideau3_part_19 2
+    3300184: rideau3_part_19 3
+    3300186: rideau3_part_20
+    3300188: rideau3_part_20 1
+    3300190: rideau3_part_20 2
+    3300192: rideau3_part_20 3
+    3300194: rideau3_part_21
+    3300196: rideau3_part_21 1
+    3300198: rideau3_part_21 2
+    3300200: rideau3_part_21 3
+    3300202: rideau3_part_22
+    3300204: rideau3_part_22 1
+    3300206: rideau3_part_22 2
+    3300208: rideau3_part_22 3
+    3300210: rideau3_part_23
+    3300212: rideau3_part_23 1
+    3300214: rideau3_part_23 2
+    3300216: rideau3_part_23 3
+    3300218: rideau3_part_24
+    3300220: rideau3_part_24 1
+    3300222: rideau3_part_24 2
+    3300224: rideau3_part_24 3
+    3300226: rideau3_part_25
+    3300228: rideau3_part_25 1
+    3300230: rideau3_part_25 2
+    3300232: rideau3_part_25 3
+    3300234: rideau3_part_26
+    3300236: rideau3_part_26 1
+    3300238: rideau3_part_26 2
+    3300240: rideau3_part_26 3
+    3300242: rideau3_part_27
+    3300244: rideau3_part_27 1
+    3300246: rideau3_part_27 2
+    3300248: rideau3_part_27 3
+    3300250: rideau3_part_28
+    3300252: rideau3_part_28 1
+    3300254: rideau3_part_28 2
+    3300256: rideau3_part_28 3
+    3300258: rideau3_part_29
+    3300260: rideau3_part_29 1
+    3300262: rideau3_part_29 2
+    3300264: rideau3_part_29 3
+    3300266: rideau3_part_30
+    3300268: rideau3_part_30 1
+    3300270: rideau3_part_30 2
+    3300272: rideau3_part_30 3
+    3300274: rideau3_part_31
+    3300276: rideau3_part_31 1
+    3300278: rideau3_part_31 2
+    3300280: rideau3_part_31 3
+    3300282: rideau3_part_32
+    3300284: rideau3_part_32 1
+    3300286: rideau3_part_32 2
+    3300288: rideau3_part_32 3
+    3300290: rideau3_part_33
+    3300292: rideau3_part_33 1
+    3300294: rideau3_part_33 2
+    3300296: rideau3_part_33 3
+    3300298: rideau3_part_34
+    3300300: rideau3_part_34 1
+    3300302: rideau3_part_34 2
+    3300304: rideau3_part_34 3
+    3300306: rideau3_part_35
+    3300308: rideau3_part_35 1
+    3300310: rideau3_part_35 2
+    3300312: rideau3_part_35 3
+    3300314: rideau3_part_36
+    3300316: rideau3_part_36 1
+    3300318: rideau3_part_36 2
+    3300320: rideau3_part_36 3
+    3300322: rideau3_part_37
+    3300324: rideau3_part_37 1
+    3300326: rideau3_part_37 2
+    3300328: rideau3_part_37 3
+    3300330: rideau3_part_38
+    3300332: rideau3_part_38 1
+    3300334: rideau3_part_38 2
+    3300336: rideau3_part_38 3
+    3300338: rideau3_part_39
+    3300340: rideau3_part_39 1
+    3300342: rideau3_part_39 2
+    3300344: rideau3_part_39 3
+    3300346: rideau3_part_40
+    3300348: rideau3_part_40 1
+    3300350: rideau3_part_40 2
+    3300352: rideau3_part_40 3
+    3300354: rideau3_part_41
+    3300356: rideau3_part_41 1
+    3300358: rideau3_part_41 2
+    3300360: rideau3_part_41 3
+    3300362: rideau3_part_42
+    3300364: rideau3_part_42 1
+    3300366: rideau3_part_42 2
+    3300368: rideau3_part_42 3
+    3300370: rideau3_part_43
+    3300372: rideau3_part_43 1
+    3300374: rideau3_part_43 2
+    3300376: rideau3_part_43 3
+    3300378: rideau3_part_44
+    3300380: rideau3_part_44 1
+    3300382: rideau3_part_44 2
+    3300384: rideau3_part_44 3
+    3300386: rideau3_part_45
+    3300388: rideau3_part_45 1
+    3300390: rideau3_part_45 2
+    3300392: rideau3_part_45 3
+    3300394: rideau3_part_46
+    3300396: rideau3_part_46 1
+    3300398: rideau3_part_46 2
+    3300400: rideau3_part_46 3
+    3300402: rideau3_part_47
+    3300404: rideau3_part_47 1
+    3300406: rideau3_part_47 2
+    3300408: rideau3_part_47 3
+    3300410: tapis_02
+    3300412: tapis_02 1
+    3300414: tapis_02 2
+    3300416: tapis_02 3
+    3300418: tapis_02 4
+    3300420: tapis_05
+    3300422: tapis_05 1
+    3300424: tapis_05 2
+    3300426: tapis_07
+    3300428: tapis_07 1
+    3300430: tapis_07 2
+    3300432: tapis_07 3
+    3300434: tapis_07 4
+    3300436: tapis_07 5
+    3300438: tapis_07 6
+    3300440: tapis_07 7
+    3300442: Tiiseur_porte3_base01
+    3300444: Tiiseur_porte3_base01 1
+    3300446: Tiiseur_porte3_base01 2
+    3300448: Tiiseur_porte3_base01 3
+    3300450: tisseur_fenetre_base_03
+    3300452: tisseur_fenetre_base_03 1
+    3300454: tisseur_fenetre_base_03 2
+    3300456: tisseur_fenetre_base_03 3
+    3300458: tisseur_fenetre_base_03 4
+    3300460: tisseur_fenetre_base_03 5
+    3300462: tisseur_fenetre_base_03 6
+    3300464: tisseur_fenetre_base_03 7
+    3300466: tisseur_fenetre_poutre_03
+    3300468: tisseur_fenetre_poutre_03 1
+    3300470: tisseur_fenetre_poutre_03 2
+    3300472: tisseur_fenetre_poutre_03 3
+    3300474: tisseur_fenetre_poutre_03 4
+    3300476: tisseur_fenetre_poutre_03 5
+    3300478: tisseur_fenetre_poutre_03 6
+    3300480: tisseur_fenetre_poutre_03 7
+    3300482: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    3300484: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    3300486: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    4300000: Maison2_base
+    4300002: cordes4
+    4300004: tisseur_fenetre_poutre_03
+    4300006: tisseur_fenetre_base_03
+    4300008: tapis_07
+    4300010: tisseur_fenetre_poutre_03
+    4300012: tisseur_fenetre_base_03
+    4300014: tapis_07
+    4300016: tisseur_fenetre_poutre_03
+    4300018: tisseur_fenetre_base_03
+    4300020: tapis_07
+    4300022: tisseur_fenetre_poutre_03
+    4300024: tisseur_fenetre_base_03
+    4300026: tapis_07
+    4300028: tisseur_fenetre_poutre_03
+    4300030: tisseur_fenetre_base_03
+    4300032: tapis_07
+    4300034: polySurface2
+    4300036: pCube25
+    4300038: tapis_02
+    4300040: tapis_05
+    4300042: tisseur_fenetre_poutre_03
+    4300044: tisseur_fenetre_base_03
+    4300046: tapis_07
+    4300048: polySurface2
+    4300050: pCube25
+    4300052: tapis_02
+    4300054: tisseur_fenetre_poutre_03
+    4300056: tisseur_fenetre_base_03
+    4300058: tapis_07
+    4300060: polySurface2
+    4300062: pCube25
+    4300064: tapis_02
+    4300066: tisseur_fenetre_poutre_03
+    4300068: tisseur_fenetre_base_03
+    4300070: tapis_07
+    4300072: polySurface2
+    4300074: pCube25
+    4300076: tapis_02
+    4300078: tapis_05
+    4300080: polySurface2
+    4300082: pCube25
+    4300084: tapis_02
+    4300086: tapis_05
+    4300088: Tiiseur_porte3_base01
+    4300090: rideau3_part_01
+    4300092: rideau3_part_02
+    4300094: rideau3_part_03
+    4300096: rideau3_part_04
+    4300098: rideau3_part_05
+    4300100: rideau3_part_06
+    4300102: rideau3_part_07
+    4300104: rideau3_part_08
+    4300106: rideau3_part_09
+    4300108: rideau3_part_10
+    4300110: rideau3_part_11
+    4300112: rideau3_part_12
+    4300114: rideau3_part_13
+    4300116: rideau3_part_14
+    4300118: rideau3_part_15
+    4300120: rideau3_part_16
+    4300122: rideau3_part_17
+    4300124: rideau3_part_18
+    4300126: rideau3_part_19
+    4300128: rideau3_part_20
+    4300130: rideau3_part_21
+    4300132: rideau3_part_22
+    4300134: rideau3_part_23
+    4300136: rideau3_part_24
+    4300138: rideau3_part_25
+    4300140: rideau3_part_26
+    4300142: rideau3_part_27
+    4300144: rideau3_part_28
+    4300146: rideau3_part_29
+    4300148: rideau3_part_30
+    4300150: rideau3_part_31
+    4300152: rideau3_part_32
+    4300154: rideau3_part_33
+    4300156: rideau3_part_34
+    4300158: rideau3_part_35
+    4300160: rideau3_part_36
+    4300162: rideau3_part_37
+    4300164: rideau3_part_38
+    4300166: rideau3_part_39
+    4300168: rideau3_part_40
+    4300170: rideau3_part_41
+    4300172: rideau3_part_42
+    4300174: rideau3_part_43
+    4300176: rideau3_part_44
+    4300178: rideau3_part_45
+    4300180: rideau3_part_46
+    4300182: rideau3_part_47
+    4300184: Tiiseur_porte3_base01
+    4300186: rideau3_part_01
+    4300188: rideau3_part_02
+    4300190: rideau3_part_03
+    4300192: rideau3_part_04
+    4300194: rideau3_part_05
+    4300196: rideau3_part_06
+    4300198: rideau3_part_07
+    4300200: rideau3_part_08
+    4300202: rideau3_part_09
+    4300204: rideau3_part_10
+    4300206: rideau3_part_11
+    4300208: rideau3_part_12
+    4300210: rideau3_part_13
+    4300212: rideau3_part_14
+    4300214: rideau3_part_15
+    4300216: rideau3_part_16
+    4300218: rideau3_part_17
+    4300220: rideau3_part_18
+    4300222: rideau3_part_19
+    4300224: rideau3_part_20
+    4300226: rideau3_part_21
+    4300228: rideau3_part_22
+    4300230: rideau3_part_23
+    4300232: rideau3_part_24
+    4300234: rideau3_part_25
+    4300236: rideau3_part_26
+    4300238: rideau3_part_27
+    4300240: rideau3_part_28
+    4300242: rideau3_part_29
+    4300244: rideau3_part_30
+    4300246: rideau3_part_31
+    4300248: rideau3_part_32
+    4300250: rideau3_part_33
+    4300252: rideau3_part_34
+    4300254: rideau3_part_35
+    4300256: rideau3_part_36
+    4300258: rideau3_part_37
+    4300260: rideau3_part_38
+    4300262: rideau3_part_39
+    4300264: rideau3_part_40
+    4300266: rideau3_part_41
+    4300268: rideau3_part_42
+    4300270: rideau3_part_43
+    4300272: rideau3_part_44
+    4300274: rideau3_part_45
+    4300276: rideau3_part_46
+    4300278: rideau3_part_47
+    4300280: Tiiseur_porte3_base01
+    4300282: rideau3_part_01
+    4300284: rideau3_part_02
+    4300286: rideau3_part_03
+    4300288: rideau3_part_04
+    4300290: rideau3_part_05
+    4300292: rideau3_part_06
+    4300294: rideau3_part_07
+    4300296: rideau3_part_08
+    4300298: rideau3_part_09
+    4300300: rideau3_part_10
+    4300302: rideau3_part_11
+    4300304: rideau3_part_12
+    4300306: rideau3_part_13
+    4300308: rideau3_part_14
+    4300310: rideau3_part_15
+    4300312: rideau3_part_16
+    4300314: rideau3_part_17
+    4300316: rideau3_part_18
+    4300318: rideau3_part_19
+    4300320: rideau3_part_20
+    4300322: rideau3_part_21
+    4300324: rideau3_part_22
+    4300326: rideau3_part_23
+    4300328: rideau3_part_24
+    4300330: rideau3_part_25
+    4300332: rideau3_part_26
+    4300334: rideau3_part_27
+    4300336: rideau3_part_28
+    4300338: rideau3_part_29
+    4300340: rideau3_part_30
+    4300342: rideau3_part_31
+    4300344: rideau3_part_32
+    4300346: rideau3_part_33
+    4300348: rideau3_part_34
+    4300350: rideau3_part_35
+    4300352: rideau3_part_36
+    4300354: rideau3_part_37
+    4300356: rideau3_part_38
+    4300358: rideau3_part_39
+    4300360: rideau3_part_40
+    4300362: rideau3_part_41
+    4300364: rideau3_part_42
+    4300366: rideau3_part_43
+    4300368: rideau3_part_44
+    4300370: rideau3_part_45
+    4300372: rideau3_part_46
+    4300374: rideau3_part_47
+    4300376: Tiiseur_porte3_base01
+    4300378: rideau3_part_01
+    4300380: rideau3_part_02
+    4300382: rideau3_part_03
+    4300384: rideau3_part_04
+    4300386: rideau3_part_05
+    4300388: rideau3_part_06
+    4300390: rideau3_part_07
+    4300392: rideau3_part_08
+    4300394: rideau3_part_09
+    4300396: rideau3_part_10
+    4300398: rideau3_part_11
+    4300400: rideau3_part_12
+    4300402: rideau3_part_13
+    4300404: rideau3_part_14
+    4300406: rideau3_part_15
+    4300408: rideau3_part_16
+    4300410: rideau3_part_17
+    4300412: rideau3_part_18
+    4300414: rideau3_part_19
+    4300416: rideau3_part_20
+    4300418: rideau3_part_21
+    4300420: rideau3_part_22
+    4300422: rideau3_part_23
+    4300424: rideau3_part_24
+    4300426: rideau3_part_25
+    4300428: rideau3_part_26
+    4300430: rideau3_part_27
+    4300432: rideau3_part_28
+    4300434: rideau3_part_29
+    4300436: rideau3_part_30
+    4300438: rideau3_part_31
+    4300440: rideau3_part_32
+    4300442: rideau3_part_33
+    4300444: rideau3_part_34
+    4300446: rideau3_part_35
+    4300448: rideau3_part_36
+    4300450: rideau3_part_37
+    4300452: rideau3_part_38
+    4300454: rideau3_part_39
+    4300456: rideau3_part_40
+    4300458: rideau3_part_41
+    4300460: rideau3_part_42
+    4300462: rideau3_part_43
+    4300464: rideau3_part_44
+    4300466: rideau3_part_45
+    4300468: rideau3_part_46
+    4300470: rideau3_part_47
+    4300472: Maison2
+    4300474: Maison2_tapis_01
+    4300476: Maison2_tapis_02
+    4300478: Maison2_tapis_03
+    4300480: Maison2_tapis_04
+    4300482: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    4300484: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    4300486: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
