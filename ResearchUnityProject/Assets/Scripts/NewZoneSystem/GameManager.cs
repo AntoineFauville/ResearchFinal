@@ -166,16 +166,14 @@ public class GameManager : MonoBehaviour {
 		}
 
 		//systeme lacher le cube
-
-		if (DistanceLaPlusProche < distancePressE) {
-			//global action comme le son
-			ActionDisponibleLacherCube ();
-			//envoyer au local
-
-
-
-		} else {
-			DesactiverActionDisponibleLacherCube ();
+		for (int i = 0; i < T.Length; i++) {
+			if (DistanceLaPlusProche < distancePressE && det[i].hasBeenActivated == false) {
+				//global action comme le son
+				ActionDisponibleLacherCube ();
+				//envoyer au local
+			/*} else {
+				DesactiverActionDisponibleLacherCube ();*/
+			}
 		}
 
 
@@ -249,6 +247,10 @@ public class GameManager : MonoBehaviour {
 
 	public void DesactiverActionDisponibleLacherCube()
 	{
+		/*for (int i = 0; i < T.Length; i++) {
+			det [i].hasBeenActivated = true;
+		}*/
+
 		if (PressEScript == true) {
 			PanelPressSpace.SetBool ("PressE",PressEScript);
 			PressEScript = false;
