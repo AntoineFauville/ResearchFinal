@@ -14,6 +14,10 @@
 		_disolve ("Albedo (RGB)", 2D) = "white" {}
 		_DissolvePercentage("DissolvePercentage", Range(0,1)) = 0.0
 		_ShowTexture("ShowTexture", Range(0,1)) = 0.0
+
+		//burnt edges
+		_BurnRamp ("Burn Ramp (RGB)", 2D) = "White" {}
+		_BurnSize ("Burn Ramp", Range(0.0,1.0)) = 0.5
 	}
 	SubShader {
 		Tags { "RenderType"="Opaque" }
@@ -29,6 +33,8 @@
 		sampler2D _MainTex;
 		sampler2D _disolve;
 		sampler2D _BumpMap;
+		sampler2D _BurnRamp;
+		float _BurnSize;
 
 		struct Input {
 			float2 uv_MainTex;
@@ -54,6 +60,8 @@
 
 			half gradient = tex2D(_disolve, IN.uv_disolve).r;
 			clip(gradient- _DissolvePercentage);
+
+			//o.Emission = tex2D(_BurnRamp, float2(1/));
 
 			fixed4 c2 = lerp(1, gradient, _ShowTexture) * _Color;
 

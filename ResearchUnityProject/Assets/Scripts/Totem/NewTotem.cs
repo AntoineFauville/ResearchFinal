@@ -25,11 +25,16 @@ public class NewTotem : MonoBehaviour {
 	canIUseItUp,
 	returnAxisBool,
 	totemBoolgoAnimtot,
-	goOnce;
+	goOnce,
+	cesameOuvreToi;
 
 	public bool totemScript;
 
-	Animator anim,animCamTotem;
+	Animator 
+	anim,
+	animCamTotem,
+	DoorAnimator,
+	AnimatorFinTotem;
 
 	GameObject 	
 	Artefact,
@@ -38,7 +43,8 @@ public class NewTotem : MonoBehaviour {
 	//CameraMap,
 	ArtefactTotem,
 	forResolution1,
-	forResolution2;
+	forResolution2,
+	cameraAnimTotemFin;
 
 	public GameObject 
 	OutlineDown,
@@ -56,11 +62,15 @@ public class NewTotem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		state = IDLE;
+		cameraAnimTotemFin = GameObject.FindGameObjectWithTag ("cameraFinTotem");
+		cameraAnimTotemFin.SetActive (false);
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
 		DS = GameObject.Find ("Player").GetComponent<DeathSystem> ();
 		ArtefactTotem = GameObject.Find ("ActualCubeTotem");
 		anim = GameObject.Find ("referenceCubeAnim").GetComponent<Animator>();
 		animCamTotem = GameObject.Find ("AnimatorCameraTotem").GetComponent<Animator>();
+		DoorAnimator = GameObject.Find ("Animation door").GetComponent<Animator>();
+		AnimatorFinTotem = GameObject.Find ("AnimatorTotemFin").GetComponent<Animator>();
 		StartCoroutine ("waitForAnimIntro");
 		forResolution1 = GameObject.Find ("ForResolution01");
 		forResolution1.SetActive (false);
@@ -265,14 +275,19 @@ public class NewTotem : MonoBehaviour {
 			forResolution2.SetActive (false);
 			DS.EnigmeActiveeMortSystemOn = false;
 
-			state = IDLEFIN;
+			//door
 
+			StartCoroutine ("EndingAnimation");
+
+			state = IDLEFIN;
 			break;
 
 		case IDLEFIN:
 
+			ArtefactTotem.SetActive (false);
+
 			if (!goOnce) {
-				GM.DesactiverActionDisponibleLacherCube ();
+				//GM.DesactiverActionDisponibleLacherCube ();
 				goOnce = true;
 			}
 			break;
@@ -282,10 +297,6 @@ public class NewTotem : MonoBehaviour {
 		}
 
 		//gestion rotation 
-
-
-
-
 	}
 
 	void OnTriggerEnter (Collider coll){
@@ -312,6 +323,15 @@ public class NewTotem : MonoBehaviour {
 	IEnumerator waitforcamtocomeback  () {
 		yield return new WaitForSeconds (1.45f);
 		Player.SetActive (true);
+	}
+
+	IEnumerator EndingAnimation(){
+		cameraAnimTotemFin.SetActive (true);
+		cesameOuvreToi = true;
+		DoorAnimator.SetBool ("CesameOuvreToi",cesameOuvreToi);
+		AnimatorFinTotem.SetBool ("GoToCesame", cesameOuvreToi);
+		yield return new WaitForSeconds (6.3f);
+		cameraAnimTotemFin.SetActive (false);
 	}
 
 }

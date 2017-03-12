@@ -9,23 +9,27 @@ public class GameManager : MonoBehaviour {
 
 	DetectableClass[] det;
 	public GameObject[] T;
-	GameObject Player;
 
-	GameObject RadarSmall;
-	GameObject RadarBig;
+	GameObject 
+		RadarSmall,
+		Player,
+		RadarBig;
 
 	public Animator PanelPressSpace;
 	bool PressEScript;
 
 	ArrayList isDetectedAround;
 
-	public float distancePremierCercleDetection = 80.0f; // distancePremierCercleDetection
-	public float distanceChaudFroid = 40.0f;
-	public float distancePressE = 5.0f;
+	public float 
+	distancePremierCercleDetection = 80.0f, // distancePremierCercleDetection
+	distanceChaudFroid = 40.0f,
+	distancePressE = 5.0f;
 
 	public bool hotcold;
 
 	float[] distance;
+
+	int pp;
 
 	float DistanceLaPlusProche;
 
@@ -109,8 +113,17 @@ public class GameManager : MonoBehaviour {
 		yield return new WaitForSeconds (0.1f);
 
 		for (int i = 0; i < T.Length; i++) {
+
+
+
 			distance [i] = Vector3.Distance (det [i].pos, Player.transform.position);
 			//print (distance [i] + det[i].Name);
+
+			if (distance [i] <= pp) {
+				pp = i;
+			}
+
+
 
 			//check si c'est a moins de distancePremierCercleDetection
 			if (distance [i] < distancePremierCercleDetection) {
@@ -140,11 +153,17 @@ public class GameManager : MonoBehaviour {
 
 
 			if (distance[i] <= distancePressE) {
-				GameObject.Find (det[i].Name).GetComponent<DetectableLocalManager>().YouCanPressE();
+				GameObject.Find (det[i].Name).GetComponent<DetectableLocalManager>().YouCanPressE(); // dire que le joueur est la
+
+
+
 			}
 
 			if (distance[i] > distancePressE) {
 				GameObject.Find (det[i].Name).GetComponent<DetectableLocalManager>().ICantPressEAnyMore();
+				PressEScript = false;
+				PanelPressSpace.SetBool ("PressE", PressEScript);
+
 			}
 
 			//check si c'est a moins de distancePremierCercleDetection
@@ -154,8 +173,9 @@ public class GameManager : MonoBehaviour {
 
 		//calcul chaud froid par rapport a l'objet le plus proche
 		DistanceLaPlusProche = (Mathf.Min (distance));
-//		print (Array.IndexOf(distance, Mathf.Min(distance)));
-		//print (DistanceLaPlusProche);
+		//print ("array index" + Array.IndexOf(distance, Mathf.Min(distance)));
+		//print ("distance plus proche" + DistanceLaPlusProche);
+	//	print ("pp" + pp);
 
 		//systeme de chaud froid
 
@@ -167,7 +187,7 @@ public class GameManager : MonoBehaviour {
 
 		//systeme lacher le cube
 		for (int i = 0; i < T.Length; i++) {
-			if (DistanceLaPlusProche < distancePressE && det[i].hasBeenActivated == false) {
+			if (DistanceLaPlusProche < distancePressE && det[Array.IndexOf(distance, Mathf.Min(distance))].hasBeenActivated == false) {
 				//global action comme le son
 				ActionDisponibleLacherCube ();
 				//envoyer au local
@@ -219,10 +239,8 @@ public class GameManager : MonoBehaviour {
 	{
 		//son
 
-		PanelPressSpace.SetBool ("PressE",PressEScript);
-		PressEScript = true;
-		PanelPressSpace.SetBool ("PressE",PressEScript);
-
+			PressEScript = true;
+			PanelPressSpace.SetBool ("PressE",PressEScript);
 
 		/*if (PressEScript == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
 			PanelPressSpace.SetBool ("PressE",PressEScript);
@@ -241,7 +259,7 @@ public class GameManager : MonoBehaviour {
 			AS.PlayOneShot(PressESound);
 			playSoundOncePressE = true;
 		}
-		//bouton "Press E" apparaitre a l'écran
+			//bouton "Press E" apparaitre a l'écran
 
 	}
 
@@ -250,14 +268,17 @@ public class GameManager : MonoBehaviour {
 		/*for (int i = 0; i < T.Length; i++) {
 			det [i].hasBeenActivated = true;
 		}*/
+		for (int i = 0; i < T.Length; i++) {
 
-		if (PressEScript == true) {
-			PanelPressSpace.SetBool ("PressE",PressEScript);
-			PressEScript = false;
-			PanelPressSpace.SetBool ("PressE",PressEScript);
+			det [Array.IndexOf (distance, Mathf.Min (distance))].hasBeenActivated = true;
+
+			if (PressEScript == true) {
+				PressEScript = false;
+				PanelPressSpace.SetBool ("PressE", PressEScript);
+			}
+			playSoundOncePressE = false;
+			// Bouton press E disparaitre de l'écran
 		}
-		playSoundOncePressE = false;
-		// Bouton press E disparaitre de l'écran
 	}
 
 }

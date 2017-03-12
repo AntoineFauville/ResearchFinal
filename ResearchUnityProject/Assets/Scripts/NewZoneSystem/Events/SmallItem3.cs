@@ -9,6 +9,8 @@ public class SmallItem3 : MonoBehaviour {
 	GameObject Player;
 	GameObject colliders;
 
+	GameManager GM;
+
 	Animator anim;
 	GameObject artefactSurUI;
 
@@ -22,6 +24,7 @@ public class SmallItem3 : MonoBehaviour {
 	bool launch = false;
 
 	void Start () {
+		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
 		Player = GameObject.Find ("Player");
 		anim = GameObject.Find ("SmallItem3Object").GetComponent<Animator> ();
 		Mesh = GameObject.FindGameObjectsWithTag (tag);
@@ -33,6 +36,7 @@ public class SmallItem3 : MonoBehaviour {
 			Mesh [i].GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
 			Mesh [i].GetComponent<MeshRenderer> ().receiveShadows = false;
 			Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_DissolvePercentage", amout);
+			Mesh [i].SetActive (false);
 		}
 
 		StartCoroutine ("waitforIntro");
@@ -72,10 +76,13 @@ public class SmallItem3 : MonoBehaviour {
 	IEnumerator appear () {
 		yield return new WaitForSeconds (3.0f);
 		for (int i = 0; i < Mesh.Length; i++) {
+			Mesh [i].SetActive (true);
 			Mesh [i].GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.On;
 			Mesh [i].GetComponent<MeshRenderer> ().receiveShadows = true;
 		}
 		colliders.SetActive (true);
 		artefactSurUI.SetActive (true);
+
+		GM.DesactiverActionDisponibleLacherCube ();
 	}
 }

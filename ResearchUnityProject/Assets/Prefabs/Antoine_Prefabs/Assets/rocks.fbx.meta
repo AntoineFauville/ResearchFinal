@@ -32,6 +32,18 @@ ModelImporter:
     100048: bolderGroup8
     100050: bolderGroup9
     100052: //RootNode
+    100054: bolder10
+    100056: bolder11
+    100058: bolder12
+    100060: bolder13
+    100062: bolder2
+    100064: bolder3
+    100066: bolder4
+    100068: bolder5
+    100070: bolder6
+    100072: bolder7
+    100074: bolder8
+    100076: bolder9
     400000: bolder1
     400002: bolder1 1
     400004: bolder1 10
@@ -59,6 +71,18 @@ ModelImporter:
     400048: bolderGroup8
     400050: bolderGroup9
     400052: //RootNode
+    400054: bolder10
+    400056: bolder11
+    400058: bolder12
+    400060: bolder13
+    400062: bolder2
+    400064: bolder3
+    400066: bolder4
+    400068: bolder5
+    400070: bolder6
+    400072: bolder7
+    400074: bolder8
+    400076: bolder9
     2300000: bolder1
     2300002: bolder1 1
     2300004: bolder1 10
@@ -72,6 +96,18 @@ ModelImporter:
     2300020: bolder1 7
     2300022: bolder1 8
     2300024: bolder1 9
+    2300026: bolder10
+    2300028: bolder11
+    2300030: bolder12
+    2300032: bolder13
+    2300034: bolder2
+    2300036: bolder3
+    2300038: bolder4
+    2300040: bolder5
+    2300042: bolder6
+    2300044: bolder7
+    2300046: bolder8
+    2300048: bolder9
     3300000: bolder1
     3300002: bolder1 1
     3300004: bolder1 10
@@ -85,6 +121,18 @@ ModelImporter:
     3300020: bolder1 7
     3300022: bolder1 8
     3300024: bolder1 9
+    3300026: bolder10
+    3300028: bolder11
+    3300030: bolder12
+    3300032: bolder13
+    3300034: bolder2
+    3300036: bolder3
+    3300038: bolder4
+    3300040: bolder5
+    3300042: bolder6
+    3300044: bolder7
+    3300046: bolder8
+    3300048: bolder9
     4300000: bolder1
     4300002: bolder1
     4300004: bolder1
@@ -98,6 +146,18 @@ ModelImporter:
     4300020: bolder1
     4300022: bolder1
     4300024: bolder1
+    4300026: bolder2
+    4300028: bolder3
+    4300030: bolder4
+    4300032: bolder5
+    4300034: bolder6
+    4300036: bolder7
+    4300038: bolder8
+    4300040: bolder9
+    4300042: bolder10
+    4300044: bolder11
+    4300046: bolder12
+    4300048: bolder13
     9500000: //RootNode
   materials:
     importMaterials: 1
