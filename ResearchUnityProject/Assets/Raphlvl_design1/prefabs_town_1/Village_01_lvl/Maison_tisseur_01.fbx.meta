@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 8e445df8beb4af6438e905201317b88f
+timeCreated: 1488807639
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cordes3
+    100002: Maison
+    100004: //RootNode
+    100006: pCube24
+    100008: pCube25
+    100010: pCube25 1
+    100012: pCube25 2
+    100014: pCylinder6
+    100016: polySurface2
+    100018: polySurface2 1
+    100020: polySurface2 2
+    100022: pot_de_fleur_1
+    100024: pot_de_fleur_10
+    100026: pot_de_fleur_10_cordes
+    100028: pot_de_fleur_10_pot
+    100030: pot_de_fleur_1_cordes
+    100032: pot_de_fleur_1_pot
+    100034: pot_de_fleur_2
+    100036: pot_de_fleur_2_cordes
+    100038: pot_de_fleur_2_pot
+    100040: pot_de_fleur_3
+    100042: pot_de_fleur_3_cordes
+    100044: pot_de_fleur_3_pot
+    100046: pot_de_fleur_4
+    100048: pot_de_fleur_4_cordes
+    100050: pot_de_fleur_4_pot
+    100052: pot_de_fleur_5
+    100054: pot_de_fleur_5_cordes
+    100056: pot_de_fleur_5_pot
+    100058: pot_de_fleur_6
+    100060: pot_de_fleur_6_cordes
+    100062: pot_de_fleur_6_pot
+    100064: pot_de_fleur_7
+    100066: pot_de_fleur_7_cordes
+    100068: pot_de_fleur_7_pot
+    100070: pot_de_fleur_8
+    100072: pot_de_fleur_8_cordes
+    100074: pot_de_fleur_8_pot
+    100076: pot_de_fleur_9
+    100078: pot_de_fleur_9_cordes
+    100080: pot_de_fleur_9_pot
+    100082: pots_de_fleur_maison_01
+    100084: taapis
+    100086: tapis
+    100088: tapis_02
+    100090: tapis_02 1
+    100092: tapis_02 2
+    100094: tapis_07
+    100096: tapis_07 1
+    100098: tapis_07 2
+    100100: Tiiseur_porte
+    100102: Tisseur_fenetre_01
+    100104: Tisseur_fenetre_02
+    100106: Tisseur_fenetre_028
+    100108: Tisseur_fenetre_029
+    100110: Tisseur_fenetre_03
+    100112: Tisseur_fenetre_030
+    100114: tisseur_fenetre_base_03
+    100116: tisseur_fenetre_base_03 1
+    100118: tisseur_fenetre_base_03 2
+    100120: tisseur_fenetre_poutre_03
+    100122: tisseur_fenetre_poutre_03 1
+    100124: tisseur_fenetre_poutre_03 2
+    400000: cordes3
+    400002: Maison
+    400004: //RootNode
+    400006: pCube24
+    400008: pCube25
+    400010: pCube25 1
+    400012: pCube25 2
+    400014: pCylinder6
+    400016: polySurface2
+    400018: polySurface2 1
+    400020: polySurface2 2
+    400022: pot_de_fleur_1
+    400024: pot_de_fleur_10
+    400026: pot_de_fleur_10_cordes
+    400028: pot_de_fleur_10_pot
+    400030: pot_de_fleur_1_cordes
+    400032: pot_de_fleur_1_pot
+    400034: pot_de_fleur_2
+    400036: pot_de_fleur_2_cordes
+    400038: pot_de_fleur_2_pot
+    400040: pot_de_fleur_3
+    400042: pot_de_fleur_3_cordes
+    400044: pot_de_fleur_3_pot
+    400046: pot_de_fleur_4
+    400048: pot_de_fleur_4_cordes
+    400050: pot_de_fleur_4_pot
+    400052: pot_de_fleur_5
+    400054: pot_de_fleur_5_cordes
+    400056: pot_de_fleur_5_pot
+    400058: pot_de_fleur_6
+    400060: pot_de_fleur_6_cordes
+    400062: pot_de_fleur_6_pot
+    400064: pot_de_fleur_7
+    400066: pot_de_fleur_7_cordes
+    400068: pot_de_fleur_7_pot
+    400070: pot_de_fleur_8
+    400072: pot_de_fleur_8_cordes
+    400074: pot_de_fleur_8_pot
+    400076: pot_de_fleur_9
+    400078: pot_de_fleur_9_cordes
+    400080: pot_de_fleur_9_pot
+    400082: pots_de_fleur_maison_01
+    400084: taapis
+    400086: tapis
+    400088: tapis_02
+    400090: tapis_02 1
+    400092: tapis_02 2
+    400094: tapis_07
+    400096: tapis_07 1
+    400098: tapis_07 2
+    400100: Tiiseur_porte
+    400102: Tisseur_fenetre_01
+    400104: Tisseur_fenetre_02
+    400106: Tisseur_fenetre_028
+    400108: Tisseur_fenetre_029
+    400110: Tisseur_fenetre_03
+    400112: Tisseur_fenetre_030
+    400114: tisseur_fenetre_base_03
+    400116: tisseur_fenetre_base_03 1
+    400118: tisseur_fenetre_base_03 2
+    400120: tisseur_fenetre_poutre_03
+    400122: tisseur_fenetre_poutre_03 1
+    400124: tisseur_fenetre_poutre_03 2
+    2300000: cordes3
+    2300002: Maison
+    2300004: pCube24
+    2300006: pCube25
+    2300008: pCube25 1
+    2300010: pCube25 2
+    2300012: pCylinder6
+    2300014: polySurface2
+    2300016: polySurface2 1
+    2300018: polySurface2 2
+    2300020: pot_de_fleur_10_cordes
+    2300022: pot_de_fleur_10_pot
+    2300024: pot_de_fleur_1_cordes
+    2300026: pot_de_fleur_1_pot
+    2300028: pot_de_fleur_2_cordes
+    2300030: pot_de_fleur_2_pot
+    2300032: pot_de_fleur_3_cordes
+    2300034: pot_de_fleur_3_pot
+    2300036: pot_de_fleur_4_cordes
+    2300038: pot_de_fleur_4_pot
+    2300040: pot_de_fleur_5_cordes
+    2300042: pot_de_fleur_5_pot
+    2300044: pot_de_fleur_6_cordes
+    2300046: pot_de_fleur_6_pot
+    2300048: pot_de_fleur_7_cordes
+    2300050: pot_de_fleur_7_pot
+    2300052: pot_de_fleur_8_cordes
+    2300054: pot_de_fleur_8_pot
+    2300056: pot_de_fleur_9_cordes
+    2300058: pot_de_fleur_9_pot
+    2300060: tapis
+    2300062: tapis_02
+    2300064: tapis_02 1
+    2300066: tapis_02 2
+    2300068: tapis_07
+    2300070: tapis_07 1
+    2300072: tapis_07 2
+    2300074: tisseur_fenetre_base_03
+    2300076: tisseur_fenetre_base_03 1
+    2300078: tisseur_fenetre_base_03 2
+    2300080: tisseur_fenetre_poutre_03
+    2300082: tisseur_fenetre_poutre_03 1
+    2300084: tisseur_fenetre_poutre_03 2
+    3300000: cordes3
+    3300002: Maison
+    3300004: pCube24
+    3300006: pCube25
+    3300008: pCube25 1
+    3300010: pCube25 2
+    3300012: pCylinder6
+    3300014: polySurface2
+    3300016: polySurface2 1
+    3300018: polySurface2 2
+    3300020: pot_de_fleur_10_cordes
+    3300022: pot_de_fleur_10_pot
+    3300024: pot_de_fleur_1_cordes
+    3300026: pot_de_fleur_1_pot
+    3300028: pot_de_fleur_2_cordes
+    3300030: pot_de_fleur_2_pot
+    3300032: pot_de_fleur_3_cordes
+    3300034: pot_de_fleur_3_pot
+    3300036: pot_de_fleur_4_cordes
+    3300038: pot_de_fleur_4_pot
+    3300040: pot_de_fleur_5_cordes
+    3300042: pot_de_fleur_5_pot
+    3300044: pot_de_fleur_6_cordes
+    3300046: pot_de_fleur_6_pot
+    3300048: pot_de_fleur_7_cordes
+    3300050: pot_de_fleur_7_pot
+    3300052: pot_de_fleur_8_cordes
+    3300054: pot_de_fleur_8_pot
+    3300056: pot_de_fleur_9_cordes
+    3300058: pot_de_fleur_9_pot
+    3300060: tapis
+    3300062: tapis_02
+    3300064: tapis_02 1
+    3300066: tapis_02 2
+    3300068: tapis_07
+    3300070: tapis_07 1
+    3300072: tapis_07 2
+    3300074: tisseur_fenetre_base_03
+    3300076: tisseur_fenetre_base_03 1
+    3300078: tisseur_fenetre_base_03 2
+    3300080: tisseur_fenetre_poutre_03
+    3300082: tisseur_fenetre_poutre_03 1
+    3300084: tisseur_fenetre_poutre_03 2
+    4300000: Maison
+    4300002: cordes3
+    4300004: pCube24
+    4300006: pCylinder6
+    4300008: tapis
+    4300010: pot_de_fleur_1_pot
+    4300012: pot_de_fleur_1_cordes
+    4300014: pot_de_fleur_2_pot
+    4300016: pot_de_fleur_2_cordes
+    4300018: pot_de_fleur_3_pot
+    4300020: pot_de_fleur_3_cordes
+    4300022: pot_de_fleur_4_pot
+    4300024: pot_de_fleur_4_cordes
+    4300026: pot_de_fleur_5_cordes
+    4300028: pot_de_fleur_5_pot
+    4300030: pot_de_fleur_6_pot
+    4300032: pot_de_fleur_6_cordes
+    4300034: pot_de_fleur_7_cordes
+    4300036: pot_de_fleur_7_pot
+    4300038: pot_de_fleur_8_cordes
+    4300040: pot_de_fleur_8_pot
+    4300042: pot_de_fleur_9_cordes
+    4300044: pot_de_fleur_9_pot
+    4300046: pot_de_fleur_10_cordes
+    4300048: pot_de_fleur_10_pot
+    4300050: polySurface2
+    4300052: pCube25
+    4300054: tapis_02
+    4300056: polySurface2
+    4300058: pCube25
+    4300060: tapis_02
+    4300062: tisseur_fenetre_poutre_03
+    4300064: tisseur_fenetre_base_03
+    4300066: tapis_07
+    4300068: polySurface2
+    4300070: pCube25
+    4300072: tapis_02
+    4300074: tisseur_fenetre_poutre_03
+    4300076: tisseur_fenetre_base_03
+    4300078: tapis_07
+    4300080: tisseur_fenetre_poutre_03
+    4300082: tisseur_fenetre_base_03
+    4300084: tapis_07
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

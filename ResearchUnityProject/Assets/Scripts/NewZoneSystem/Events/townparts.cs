@@ -44,7 +44,7 @@ public class townparts : MonoBehaviour {
 			didICheck = true;
 		}
 
-		if (didICheck && distance < 15) {
+		if (didICheck && distance < 30) {
 			StartCoroutine ("appear");
 			for (int i = 0; i < Mesh.Length; i++) {
 				Mesh [i].SetActive (true);

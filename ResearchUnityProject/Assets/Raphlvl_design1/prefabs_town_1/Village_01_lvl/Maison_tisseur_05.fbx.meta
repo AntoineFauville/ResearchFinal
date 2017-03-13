@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: e85fdfba0529d3e4a86408d602d9bb87
+timeCreated: 1489069893
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cordes4
+    100002: Maison2 1
+    100004: Maison2_base
+    100006: Maison2_fenetres
+    100008: Maison2_tapis_01
+    100010: Maison2_tapis_02
+    100012: Maison2_tapis_03
+    100014: Maison2_tapis_04
+    100016: //RootNode
+    100018: pCube25
+    100020: pCube25 1
+    100022: pCube25 2
+    100024: pCube25 3
+    100026: pCube25 4
+    100028: polySurface2
+    100030: polySurface2 1
+    100032: polySurface2 2
+    100034: polySurface2 3
+    100036: polySurface2 4
+    100038: rideau3
+    100040: rideau3 1
+    100042: rideau3_part_01
+    100044: rideau3_part_47
+    100046: rideau3_part_47 1
+    100048: tapis_02
+    100050: tapis_02 1
+    100052: tapis_02 2
+    100054: tapis_02 3
+    100056: tapis_02 4
+    100058: tapis_05
+    100060: tapis_05 1
+    100062: tapis_05 2
+    100064: tapis_07
+    100066: tapis_07 1
+    100068: tapis_07 2
+    100070: tapis_07 3
+    100072: tapis_07 4
+    100074: tapis_07 5
+    100076: tapis_07 6
+    100078: tapis_07 7
+    100080: Tiiseur_porte3
+    100082: Tiiseur_porte3_base01
+    100084: Tiiseur_porte3_base01 1
+    100086: Tiiseur_porte3_base01 2
+    100088: Tiiseur_porte3_base01 3
+    100090: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    100092: Tiiseur_porte5
+    100094: Tiiseur_porte6
+    100096: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    100098: Tiiseur_porte7
+    100100: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    100102: Tisseur_fenetre_015
+    100104: Tisseur_fenetre_016
+    100106: Tisseur_fenetre_017
+    100108: Tisseur_fenetre_018
+    100110: Tisseur_fenetre_019
+    100112: Tisseur_fenetre_020
+    100114: Tisseur_fenetre_021
+    100116: Tisseur_fenetre_022
+    100118: Tisseur_fenetre_023
+    100120: Tisseur_fenetre_024
+    100122: Tisseur_fenetre_025
+    100124: Tisseur_fenetre_026
+    100126: Tisseur_fenetre_027
+    100128: tisseur_fenetre_base_03
+    100130: tisseur_fenetre_base_03 1
+    100132: tisseur_fenetre_base_03 2
+    100134: tisseur_fenetre_base_03 3
+    100136: tisseur_fenetre_base_03 4
+    100138: tisseur_fenetre_base_03 5
+    100140: tisseur_fenetre_base_03 6
+    100142: tisseur_fenetre_base_03 7
+    100144: tisseur_fenetre_poutre_03
+    100146: tisseur_fenetre_poutre_03 1
+    100148: tisseur_fenetre_poutre_03 2
+    100150: tisseur_fenetre_poutre_03 3
+    100152: tisseur_fenetre_poutre_03 4
+    100154: tisseur_fenetre_poutre_03 5
+    100156: tisseur_fenetre_poutre_03 6
+    100158: tisseur_fenetre_poutre_03 7
+    400000: cordes4
+    400002: Maison2 1
+    400004: Maison2_base
+    400006: Maison2_fenetres
+    400008: Maison2_tapis_01
+    400010: Maison2_tapis_02
+    400012: Maison2_tapis_03
+    400014: Maison2_tapis_04
+    400016: //RootNode
+    400018: pCube25
+    400020: pCube25 1
+    400022: pCube25 2
+    400024: pCube25 3
+    400026: pCube25 4
+    400028: polySurface2
+    400030: polySurface2 1
+    400032: polySurface2 2
+    400034: polySurface2 3
+    400036: polySurface2 4
+    400038: rideau3
+    400040: rideau3 1
+    400042: rideau3_part_01
+    400044: rideau3_part_47
+    400046: rideau3_part_47 1
+    400048: tapis_02
+    400050: tapis_02 1
+    400052: tapis_02 2
+    400054: tapis_02 3
+    400056: tapis_02 4
+    400058: tapis_05
+    400060: tapis_05 1
+    400062: tapis_05 2
+    400064: tapis_07
+    400066: tapis_07 1
+    400068: tapis_07 2
+    400070: tapis_07 3
+    400072: tapis_07 4
+    400074: tapis_07 5
+    400076: tapis_07 6
+    400078: tapis_07 7
+    400080: Tiiseur_porte3
+    400082: Tiiseur_porte3_base01
+    400084: Tiiseur_porte3_base01 1
+    400086: Tiiseur_porte3_base01 2
+    400088: Tiiseur_porte3_base01 3
+    400090: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    400092: Tiiseur_porte5
+    400094: Tiiseur_porte6
+    400096: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    400098: Tiiseur_porte7
+    400100: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    400102: Tisseur_fenetre_015
+    400104: Tisseur_fenetre_016
+    400106: Tisseur_fenetre_017
+    400108: Tisseur_fenetre_018
+    400110: Tisseur_fenetre_019
+    400112: Tisseur_fenetre_020
+    400114: Tisseur_fenetre_021
+    400116: Tisseur_fenetre_022
+    400118: Tisseur_fenetre_023
+    400120: Tisseur_fenetre_024
+    400122: Tisseur_fenetre_025
+    400124: Tisseur_fenetre_026
+    400126: Tisseur_fenetre_027
+    400128: tisseur_fenetre_base_03
+    400130: tisseur_fenetre_base_03 1
+    400132: tisseur_fenetre_base_03 2
+    400134: tisseur_fenetre_base_03 3
+    400136: tisseur_fenetre_base_03 4
+    400138: tisseur_fenetre_base_03 5
+    400140: tisseur_fenetre_base_03 6
+    400142: tisseur_fenetre_base_03 7
+    400144: tisseur_fenetre_poutre_03
+    400146: tisseur_fenetre_poutre_03 1
+    400148: tisseur_fenetre_poutre_03 2
+    400150: tisseur_fenetre_poutre_03 3
+    400152: tisseur_fenetre_poutre_03 4
+    400154: tisseur_fenetre_poutre_03 5
+    400156: tisseur_fenetre_poutre_03 6
+    400158: tisseur_fenetre_poutre_03 7
+    2300000: cordes4
+    2300002: Maison2 1
+    2300004: Maison2_base
+    2300006: Maison2_tapis_01
+    2300008: Maison2_tapis_02
+    2300010: Maison2_tapis_03
+    2300012: Maison2_tapis_04
+    2300014: pCube25
+    2300016: pCube25 1
+    2300018: pCube25 2
+    2300020: pCube25 3
+    2300022: pCube25 4
+    2300024: polySurface2
+    2300026: polySurface2 1
+    2300028: polySurface2 2
+    2300030: polySurface2 3
+    2300032: polySurface2 4
+    2300034: rideau3_part_01
+    2300036: rideau3_part_47
+    2300038: rideau3_part_47 1
+    2300040: tapis_02
+    2300042: tapis_02 1
+    2300044: tapis_02 2
+    2300046: tapis_02 3
+    2300048: tapis_02 4
+    2300050: tapis_05
+    2300052: tapis_05 1
+    2300054: tapis_05 2
+    2300056: tapis_07
+    2300058: tapis_07 1
+    2300060: tapis_07 2
+    2300062: tapis_07 3
+    2300064: tapis_07 4
+    2300066: tapis_07 5
+    2300068: tapis_07 6
+    2300070: tapis_07 7
+    2300072: Tiiseur_porte3_base01
+    2300074: Tiiseur_porte3_base01 1
+    2300076: Tiiseur_porte3_base01 2
+    2300078: Tiiseur_porte3_base01 3
+    2300080: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    2300082: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    2300084: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    2300086: tisseur_fenetre_base_03
+    2300088: tisseur_fenetre_base_03 1
+    2300090: tisseur_fenetre_base_03 2
+    2300092: tisseur_fenetre_base_03 3
+    2300094: tisseur_fenetre_base_03 4
+    2300096: tisseur_fenetre_base_03 5
+    2300098: tisseur_fenetre_base_03 6
+    2300100: tisseur_fenetre_base_03 7
+    2300102: tisseur_fenetre_poutre_03
+    2300104: tisseur_fenetre_poutre_03 1
+    2300106: tisseur_fenetre_poutre_03 2
+    2300108: tisseur_fenetre_poutre_03 3
+    2300110: tisseur_fenetre_poutre_03 4
+    2300112: tisseur_fenetre_poutre_03 5
+    2300114: tisseur_fenetre_poutre_03 6
+    2300116: tisseur_fenetre_poutre_03 7
+    3300000: cordes4
+    3300002: Maison2 1
+    3300004: Maison2_base
+    3300006: Maison2_tapis_01
+    3300008: Maison2_tapis_02
+    3300010: Maison2_tapis_03
+    3300012: Maison2_tapis_04
+    3300014: pCube25
+    3300016: pCube25 1
+    3300018: pCube25 2
+    3300020: pCube25 3
+    3300022: pCube25 4
+    3300024: polySurface2
+    3300026: polySurface2 1
+    3300028: polySurface2 2
+    3300030: polySurface2 3
+    3300032: polySurface2 4
+    3300034: rideau3_part_01
+    3300036: rideau3_part_47
+    3300038: rideau3_part_47 1
+    3300040: tapis_02
+    3300042: tapis_02 1
+    3300044: tapis_02 2
+    3300046: tapis_02 3
+    3300048: tapis_02 4
+    3300050: tapis_05
+    3300052: tapis_05 1
+    3300054: tapis_05 2
+    3300056: tapis_07
+    3300058: tapis_07 1
+    3300060: tapis_07 2
+    3300062: tapis_07 3
+    3300064: tapis_07 4
+    3300066: tapis_07 5
+    3300068: tapis_07 6
+    3300070: tapis_07 7
+    3300072: Tiiseur_porte3_base01
+    3300074: Tiiseur_porte3_base01 1
+    3300076: Tiiseur_porte3_base01 2
+    3300078: Tiiseur_porte3_base01 3
+    3300080: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    3300082: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    3300084: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    3300086: tisseur_fenetre_base_03
+    3300088: tisseur_fenetre_base_03 1
+    3300090: tisseur_fenetre_base_03 2
+    3300092: tisseur_fenetre_base_03 3
+    3300094: tisseur_fenetre_base_03 4
+    3300096: tisseur_fenetre_base_03 5
+    3300098: tisseur_fenetre_base_03 6
+    3300100: tisseur_fenetre_base_03 7
+    3300102: tisseur_fenetre_poutre_03
+    3300104: tisseur_fenetre_poutre_03 1
+    3300106: tisseur_fenetre_poutre_03 2
+    3300108: tisseur_fenetre_poutre_03 3
+    3300110: tisseur_fenetre_poutre_03 4
+    3300112: tisseur_fenetre_poutre_03 5
+    3300114: tisseur_fenetre_poutre_03 6
+    3300116: tisseur_fenetre_poutre_03 7
+    4300000: Maison2_base
+    4300002: cordes4
+    4300004: tisseur_fenetre_poutre_03
+    4300006: tisseur_fenetre_base_03
+    4300008: tapis_07
+    4300010: tisseur_fenetre_poutre_03
+    4300012: tisseur_fenetre_base_03
+    4300014: tapis_07
+    4300016: tisseur_fenetre_poutre_03
+    4300018: tisseur_fenetre_base_03
+    4300020: tapis_07
+    4300022: tisseur_fenetre_poutre_03
+    4300024: tisseur_fenetre_base_03
+    4300026: tapis_07
+    4300028: tisseur_fenetre_poutre_03
+    4300030: tisseur_fenetre_base_03
+    4300032: tapis_07
+    4300034: polySurface2
+    4300036: pCube25
+    4300038: tapis_02
+    4300040: tapis_05
+    4300042: tisseur_fenetre_poutre_03
+    4300044: tisseur_fenetre_base_03
+    4300046: tapis_07
+    4300048: polySurface2
+    4300050: pCube25
+    4300052: tapis_02
+    4300054: tisseur_fenetre_poutre_03
+    4300056: tisseur_fenetre_base_03
+    4300058: tapis_07
+    4300060: polySurface2
+    4300062: pCube25
+    4300064: tapis_02
+    4300066: tisseur_fenetre_poutre_03
+    4300068: tisseur_fenetre_base_03
+    4300070: tapis_07
+    4300072: polySurface2
+    4300074: pCube25
+    4300076: tapis_02
+    4300078: tapis_05
+    4300080: polySurface2
+    4300082: pCube25
+    4300084: tapis_02
+    4300086: tapis_05
+    4300088: Tiiseur_porte3_base01
+    4300090: Tiiseur_porte3_rideau3_group11_rideau3_part_01
+    4300092: Tiiseur_porte3_base01
+    4300094: rideau3_part_01
+    4300096: Tiiseur_porte3_base01
+    4300098: rideau3_part_47
+    4300100: Tiiseur_porte6_rideau3_group11_rideau3_part_01
+    4300102: Tiiseur_porte3_base01
+    4300104: rideau3_part_47
+    4300106: Tiiseur_porte7_rideau3_group11_rideau3_part_01
+    4300108: Maison2
+    4300110: Maison2_tapis_01
+    4300112: Maison2_tapis_02
+    4300114: Maison2_tapis_03
+    4300116: Maison2_tapis_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
