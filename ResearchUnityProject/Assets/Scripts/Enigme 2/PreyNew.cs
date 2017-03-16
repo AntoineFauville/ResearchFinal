@@ -37,7 +37,7 @@ public class PreyNew : MonoBehaviour {
 		CameraPrey.SetActive (false);
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
 		DS = GameObject.Find ("Player").GetComponent<DeathSystem> ();
-		Roll = GameObject.FindGameObjectsWithTag ("RollPrey");
+		//Roll = GameObject.FindGameObjectsWithTag ("RollPrey");
 		ArtefactOnPrey = GameObject.Find ("artefactPrey");
 		ArtefactOnPrey.SetActive (false);
 		StartCoroutine ("waitForAnimIntro");
@@ -68,7 +68,7 @@ public class PreyNew : MonoBehaviour {
 		case BLOQUER:
 
 			// activer désactiver chaque pilier a raison de 4
-			if (Input.GetButtonDown ("Submit") && playerIsHere && !GetInGetOut) {
+			/*if (Input.GetButtonDown ("Submit") && playerIsHere && !GetInGetOut) {
 				if (!iAmOn) {
 					
 					Player.SetActive (false);
@@ -125,10 +125,9 @@ public class PreyNew : MonoBehaviour {
 
 
 			for (int i = 0; i < Roll.Length; i++) {
-				Roll [RollState].transform.GetChild (0).gameObject.SetActive (true);
-				Roll [RollState - 1].transform.GetChild (0).gameObject.SetActive (false);
-				Roll [RollState + 1].transform.GetChild (0).gameObject.SetActive (false);
-
+				if (i != RollState) {
+					Roll [i].transform.GetChild (i).gameObject.SetActive (false);
+				}
 
 				if (Input.GetButtonDown ("Vertical") && !waitBeforeAction) {
 
@@ -138,11 +137,14 @@ public class PreyNew : MonoBehaviour {
 					StartCoroutine ("waitAction");
 				}
 			}
-
+*/
 
 			break;
 
 		case RESOLUTION:
+
+
+
 			break;
 
 		case IDLEFIN:

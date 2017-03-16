@@ -3,23 +3,22 @@ using System.Collections;
 
 public class RotationEnigmeLazer : MonoBehaviour {
 
-	public int degree = 45;
 	private Vector3 currentRotation;
+
 	public Transform part;
-	public int randbeginning;
-	public bool canIUseHorizontalAgain = false;
 
-	public int startamout = 0;
-	public int maxDegreePerAdd = 45;
+	public float randbeginning,
+	startamout = 0,
+	maxDegreePerAdd = 45,
+	actualAmoutofDegree,
+	degree = 45,
+	RotationSpeed;
 
-	public int actualAmoutofDegree;
-
-	public bool amITurningRight = false;
-	public bool amITurningLeft = false;
-
-	public bool canIturnAgain = false;
-
-	public bool canIUseIt = false;
+	public bool canIUseHorizontalAgain,
+	amITurningRight,
+	amITurningLeft,
+	canIturnAgain,
+	canIUseIt;
 
 	// Use this for initialization
 	void Start ()
@@ -38,13 +37,13 @@ public class RotationEnigmeLazer : MonoBehaviour {
 //		print (actualAmoutofDegree);
 
 		if (amITurningRight && canIturnAgain) {
-			actualAmoutofDegree += 1;
-			part.transform.rotation = currentRotation * Quaternion.Euler (0, degree, 0);
+			actualAmoutofDegree += (1 * Time.deltaTime * RotationSpeed);
+			part.transform.rotation = currentRotation * Quaternion.Euler (0, degree, 0) ;
 		}
 
 		if (amITurningLeft && canIturnAgain) {
-			actualAmoutofDegree += 1;
-			part.transform.rotation = currentRotation * Quaternion.Euler (0, -degree, 0);
+			actualAmoutofDegree += (1 * Time.deltaTime * RotationSpeed);
+			part.transform.rotation = currentRotation * Quaternion.Euler (0, -degree, 0) ;
 		}
 
 		if (actualAmoutofDegree >= maxDegreePerAdd) {
