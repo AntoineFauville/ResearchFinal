@@ -1,0 +1,10 @@
+Base path: D:/Unity/Editor/Data
+Cmd: getPlatforms
+Cmd: compileSnippet
+  error: 2 plat 1 at (60): texld/texldb/texldp/dsx/dsy instructions with r# as source cannot be used inside dynamic conditional 'if' blocks, dynamic conditional subroutine calls, or loop/rep with break*.\nCompiling Fragment program with SPOT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA
+  api=1 type=1 insize=6443 outsize=0 kw=SPOT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=0
+Cmd: compileSnippet
+  error: 2 plat 1 at (60): texld/texldb/texldp/dsx/dsy instructions with r# as source cannot be used inside dynamic conditional 'if' blocks, dynamic conditional subroutine calls, or loop/rep with break*.\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA
+  api=1 type=1 insize=5476 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=0

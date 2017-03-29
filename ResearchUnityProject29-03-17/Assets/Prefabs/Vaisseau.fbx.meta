@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 8914634c3aaf453479ed68f54610f0c5
+timeCreated: 1490023363
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aeration_01
+    100002: aeration_02
+    100004: aileron_01
+    100006: aileron_02
+    100008: aileron_03
+    100010: aileron_04
+    100012: Antennes
+    100014: Antennes_01
+    100016: Antennes_02
+    100018: Antennes_03
+    100020: Antennes_04
+    100022: Antennes_05
+    100024: Antennes_06
+    100026: Antennes_07
+    100028: Fenetre
+    100030: Fusee_base
+    100032: Hublot
+    100034: hublot_lat
+    100036: hublot_lat1
+    100038: ornement_tour_fusee
+    100040: pCylinder43
+    100042: pCylinder44
+    100044: pCylinder45
+    100046: pCylinder46
+    100048: pCylinder47
+    100050: pCylinder48
+    100052: pCylinder49
+    100054: pCylinder50
+    100056: pCylinder51
+    100058: pCylinder52
+    100060: pCylinder53
+    100062: pCylinder54
+    100064: pCylinder60
+    100066: Porte
+    100068: Porte 1
+    100070: pPipe1
+    100072: pPipe2
+    100074: pPipe2 1
+    100076: pSphere71
+    100078: pSphere72
+    100080: pSphere72 1
+    100082: Reacteur_01
+    100084: Reacteur_02
+    100086: Reacteur_03
+    100088: Reacteur_lat_fusee
+    100090: Reacteur_lat_fusee1
+    100092: Reacteur_lat_fusee2
+    100094: Reacteur_lat_fusee3
+    100096: Reacteur_lat_fusee4
+    100098: Reacteur_lat_fusee5
+    100100: Reacteur_lat_fusee6
+    100102: Reacteur_lat_fusee7
+    100104: telescopes
+    100106: trepied_01
+    100108: trepied_02
+    100110: trepied_03
+    100112: //RootNode
+    400000: aeration_01
+    400002: aeration_02
+    400004: aileron_01
+    400006: aileron_02
+    400008: aileron_03
+    400010: aileron_04
+    400012: Antennes
+    400014: Antennes_01
+    400016: Antennes_02
+    400018: Antennes_03
+    400020: Antennes_04
+    400022: Antennes_05
+    400024: Antennes_06
+    400026: Antennes_07
+    400028: Fenetre
+    400030: Fusee_base
+    400032: Hublot
+    400034: hublot_lat
+    400036: hublot_lat1
+    400038: ornement_tour_fusee
+    400040: pCylinder43
+    400042: pCylinder44
+    400044: pCylinder45
+    400046: pCylinder46
+    400048: pCylinder47
+    400050: pCylinder48
+    400052: pCylinder49
+    400054: pCylinder50
+    400056: pCylinder51
+    400058: pCylinder52
+    400060: pCylinder53
+    400062: pCylinder54
+    400064: pCylinder60
+    400066: Porte
+    400068: Porte 1
+    400070: pPipe1
+    400072: pPipe2
+    400074: pPipe2 1
+    400076: pSphere71
+    400078: pSphere72
+    400080: pSphere72 1
+    400082: Reacteur_01
+    400084: Reacteur_02
+    400086: Reacteur_03
+    400088: Reacteur_lat_fusee
+    400090: Reacteur_lat_fusee1
+    400092: Reacteur_lat_fusee2
+    400094: Reacteur_lat_fusee3
+    400096: Reacteur_lat_fusee4
+    400098: Reacteur_lat_fusee5
+    400100: Reacteur_lat_fusee6
+    400102: Reacteur_lat_fusee7
+    400104: telescopes
+    400106: trepied_01
+    400108: trepied_02
+    400110: trepied_03
+    400112: //RootNode
+    2300000: aeration_01
+    2300002: aeration_02
+    2300004: aileron_01
+    2300006: aileron_02
+    2300008: aileron_03
+    2300010: aileron_04
+    2300012: Antennes_01
+    2300014: Antennes_02
+    2300016: Antennes_03
+    2300018: Antennes_04
+    2300020: Antennes_05
+    2300022: Antennes_06
+    2300024: Antennes_07
+    2300026: Fenetre
+    2300028: Fusee_base
+    2300030: ornement_tour_fusee
+    2300032: pCylinder43
+    2300034: pCylinder44
+    2300036: pCylinder45
+    2300038: pCylinder46
+    2300040: pCylinder47
+    2300042: pCylinder48
+    2300044: pCylinder49
+    2300046: pCylinder50
+    2300048: pCylinder51
+    2300050: pCylinder52
+    2300052: pCylinder53
+    2300054: pCylinder54
+    2300056: pCylinder60
+    2300058: Porte 1
+    2300060: pPipe1
+    2300062: pPipe2
+    2300064: pPipe2 1
+    2300066: pSphere71
+    2300068: pSphere72
+    2300070: pSphere72 1
+    2300072: Reacteur_01
+    2300074: Reacteur_02
+    2300076: Reacteur_03
+    2300078: Reacteur_lat_fusee
+    2300080: Reacteur_lat_fusee1
+    2300082: Reacteur_lat_fusee2
+    2300084: Reacteur_lat_fusee3
+    2300086: Reacteur_lat_fusee4
+    2300088: Reacteur_lat_fusee5
+    2300090: Reacteur_lat_fusee6
+    2300092: Reacteur_lat_fusee7
+    2300094: trepied_01
+    2300096: trepied_02
+    2300098: trepied_03
+    3300000: aeration_01
+    3300002: aeration_02
+    3300004: aileron_01
+    3300006: aileron_02
+    3300008: aileron_03
+    3300010: aileron_04
+    3300012: Antennes_01
+    3300014: Antennes_02
+    3300016: Antennes_03
+    3300018: Antennes_04
+    3300020: Antennes_05
+    3300022: Antennes_06
+    3300024: Antennes_07
+    3300026: Fenetre
+    3300028: Fusee_base
+    3300030: ornement_tour_fusee
+    3300032: pCylinder43
+    3300034: pCylinder44
+    3300036: pCylinder45
+    3300038: pCylinder46
+    3300040: pCylinder47
+    3300042: pCylinder48
+    3300044: pCylinder49
+    3300046: pCylinder50
+    3300048: pCylinder51
+    3300050: pCylinder52
+    3300052: pCylinder53
+    3300054: pCylinder54
+    3300056: pCylinder60
+    3300058: Porte 1
+    3300060: pPipe1
+    3300062: pPipe2
+    3300064: pPipe2 1
+    3300066: pSphere71
+    3300068: pSphere72
+    3300070: pSphere72 1
+    3300072: Reacteur_01
+    3300074: Reacteur_02
+    3300076: Reacteur_03
+    3300078: Reacteur_lat_fusee
+    3300080: Reacteur_lat_fusee1
+    3300082: Reacteur_lat_fusee2
+    3300084: Reacteur_lat_fusee3
+    3300086: Reacteur_lat_fusee4
+    3300088: Reacteur_lat_fusee5
+    3300090: Reacteur_lat_fusee6
+    3300092: Reacteur_lat_fusee7
+    3300094: trepied_01
+    3300096: trepied_02
+    3300098: trepied_03
+    4300000: Fusee_base
+    4300002: aeration_02
+    4300004: aeration_01
+    4300006: pSphere71
+    4300008: pPipe1
+    4300010: pSphere72
+    4300012: pPipe2
+    4300014: pSphere72
+    4300016: pPipe2
+    4300018: ornement_tour_fusee
+    4300020: Reacteur_lat_fusee
+    4300022: Reacteur_lat_fusee1
+    4300024: Reacteur_lat_fusee2
+    4300026: Reacteur_lat_fusee3
+    4300028: Reacteur_lat_fusee4
+    4300030: Reacteur_lat_fusee5
+    4300032: Reacteur_lat_fusee6
+    4300034: Reacteur_lat_fusee7
+    4300036: aileron_01
+    4300038: aileron_02
+    4300040: aileron_03
+    4300042: aileron_04
+    4300044: Reacteur_03
+    4300046: Reacteur_02
+    4300048: Reacteur_01
+    4300050: trepied_01
+    4300052: trepied_02
+    4300054: trepied_03
+    4300056: Antennes_01
+    4300058: Antennes_02
+    4300060: Antennes_03
+    4300062: Antennes_04
+    4300064: Antennes_05
+    4300066: Antennes_06
+    4300068: Antennes_07
+    4300070: pCylinder44
+    4300072: pCylinder45
+    4300074: pCylinder46
+    4300076: pCylinder47
+    4300078: pCylinder48
+    4300080: pCylinder49
+    4300082: pCylinder50
+    4300084: pCylinder51
+    4300086: pCylinder52
+    4300088: pCylinder53
+    4300090: pCylinder54
+    4300092: pCylinder60
+    4300094: pCylinder43
+    4300096: Porte
+    4300098: Fenetre
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

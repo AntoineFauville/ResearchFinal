@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: fbf636938965f8d4db9513b25860c950
+timeCreated: 1489960502
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arche
+    100002: Arche_arc
+    100004: Arche_Pied
+    100006: Arche_Pied 1
+    100008: Arche_Pied 2
+    100010: Arche_Pied1
+    100012: bas
+    100014: bas 1
+    100016: bouche_statue_arche_01
+    100018: bouche_statue_arche_01 1
+    100020: bouche_statue_arche_01 2
+    100022: cheveux_01
+    100024: cheveux_01 1
+    100026: cheveux_01 2
+    100028: cheveux_02
+    100030: cheveux_02 1
+    100032: cheveux_02 2
+    100034: cheveux_03
+    100036: cheveux_03 1
+    100038: cheveux_03 2
+    100040: Cordage_arche_temple
+    100042: Cordage_arche_temple 1
+    100044: Cordage_Arche_Temple_01
+    100046: Cordage_Arche_Temple_01 1
+    100048: Cordage_Arche_Temple_02
+    100050: Cordage_Arche_Temple_02 1
+    100052: Cordage_Arche_Temple_03
+    100054: Cordage_Arche_Temple_03 1
+    100056: Cordage_Arche_Temple_04
+    100058: Cordage_Arche_Temple_04 1
+    100060: Cordage_Arche_Temple_05
+    100062: Cordage_Arche_Temple_05 1
+    100064: Cordage_Arche_Temple_06
+    100066: Cordage_Arche_Temple_06 1
+    100068: Cordage_Arche_Temple_07
+    100070: Cordage_Arche_Temple_07 1
+    100072: Encadrure
+    100074: Encadrure_porte
+    100076: Entree_temple
+    100078: //RootNode
+    100080: fenetre
+    100082: Marche_01
+    100084: Marche_010
+    100086: Marche_011
+    100088: Marche_012
+    100090: Marche_013
+    100092: Marche_014
+    100094: Marche_02
+    100096: Marche_03
+    100098: Marche_04
+    100100: Marche_05
+    100102: Marche_06
+    100104: Marche_07
+    100106: Marche_08
+    100108: Marche_09
+    100110: Marches
+    100112: oeil_statue_arche_01
+    100114: oeil_statue_arche_01 1
+    100116: oeil_statue_arche_01 2
+    100118: oeil_statue_arche_02
+    100120: oeil_statue_arche_02 1
+    100122: oeil_statue_arche_02 2
+    100124: Ornements
+    100126: Ornements1
+    100128: pCylinder61
+    100130: pCylinder61 1
+    100132: pCylinder62
+    100134: pCylinder62 1
+    100136: Planet_catcher
+    100138: Planet_catcher1
+    100140: Porte_Droite
+    100142: Porte_droite_base
+    100144: porte_gauche
+    100146: Porte_Gauche_Base
+    100148: Porte_Planete_01
+    100150: Porte_Planete_02
+    100152: Porte_Planete_03
+    100154: Porte_Planete_04
+    100156: Porte_Planete_05
+    100158: Porte_Planete_06
+    100160: Portes
+    100162: poto_010
+    100164: poto_011
+    100166: poto_012
+    100168: poto_013
+    100170: poto_01_base
+    100172: poto_01_base 1
+    100174: poto_01_cordes
+    100176: poto_01_cordes 1
+    100178: poto_01_cordes_01
+    100180: poto_01_cordes_01 1
+    100182: poto_01_cordes_02
+    100184: poto_01_cordes_02 1
+    100186: poto_01_cordes_03
+    100188: poto_01_cordes_03 1
+    100190: poto_02_base
+    100192: poto_02_base 1
+    100194: poto_02_base 2
+    100196: poto_02_base 3
+    100198: poto_02_base 4
+    100200: poto_02_base 5
+    100202: poto_02_cordes_bas
+    100204: poto_02_cordes_bas 1
+    100206: poto_02_cordes_bas 2
+    100208: poto_02_cordes_bas 3
+    100210: poto_02_cordes_bas 4
+    100212: poto_02_cordes_bas 5
+    100214: poto_02_cordes_bas_01
+    100216: poto_02_cordes_bas_01 1
+    100218: poto_02_cordes_bas_01 2
+    100220: poto_02_cordes_bas_01 3
+    100222: poto_02_cordes_bas_01 4
+    100224: poto_02_cordes_bas_01 5
+    100226: poto_02_cordes_bas_02
+    100228: poto_02_cordes_bas_02 1
+    100230: poto_02_cordes_bas_02 2
+    100232: poto_02_cordes_bas_02 3
+    100234: poto_02_cordes_bas_02 4
+    100236: poto_02_cordes_bas_02 5
+    100238: poto_02_cordes_bas_03
+    100240: poto_02_cordes_bas_03 1
+    100242: poto_02_cordes_bas_03 2
+    100244: poto_02_cordes_bas_03 3
+    100246: poto_02_cordes_bas_03 4
+    100248: poto_02_cordes_bas_03 5
+    100250: poto_02_cordes_haut
+    100252: poto_02_cordes_haut 1
+    100254: poto_02_cordes_haut 2
+    100256: poto_02_cordes_haut 3
+    100258: poto_02_cordes_haut 4
+    100260: poto_02_cordes_haut 5
+    100262: poto_02_cordes_haut_01
+    100264: poto_02_cordes_haut_01 1
+    100266: poto_02_cordes_haut_01 2
+    100268: poto_02_cordes_haut_01 3
+    100270: poto_02_cordes_haut_01 4
+    100272: poto_02_cordes_haut_01 5
+    100274: poto_02_cordes_haut_02
+    100276: poto_02_cordes_haut_02 1
+    100278: poto_02_cordes_haut_02 2
+    100280: poto_02_cordes_haut_02 3
+    100282: poto_02_cordes_haut_02 4
+    100284: poto_02_cordes_haut_02 5
+    100286: poto_02_cordes_haut_03
+    100288: poto_02_cordes_haut_03 1
+    100290: poto_02_cordes_haut_03 2
+    100292: poto_02_cordes_haut_03 3
+    100294: poto_02_cordes_haut_03 4
+    100296: poto_02_cordes_haut_03 5
+    100298: poto_02_cordes_haut_04
+    100300: poto_02_cordes_haut_04 1
+    100302: poto_02_cordes_haut_04 2
+    100304: poto_02_cordes_haut_04 3
+    100306: poto_02_cordes_haut_04 4
+    100308: poto_02_cordes_haut_04 5
+    100310: poto_02_cordes_haut_05
+    100312: poto_02_cordes_haut_05 1
+    100314: poto_02_cordes_haut_05 2
+    100316: poto_02_cordes_haut_05 3
+    100318: poto_02_cordes_haut_05 4
+    100320: poto_02_cordes_haut_05 5
+    100322: poto_02_cordes_haut_06
+    100324: poto_02_cordes_haut_06 1
+    100326: poto_02_cordes_haut_06 2
+    100328: poto_02_cordes_haut_06 3
+    100330: poto_02_cordes_haut_06 4
+    100332: poto_02_cordes_haut_06 5
+    100334: poto_02_cordes_haut_07
+    100336: poto_02_cordes_haut_07 1
+    100338: poto_02_cordes_haut_07 2
+    100340: poto_02_cordes_haut_07 3
+    100342: poto_02_cordes_haut_07 4
+    100344: poto_02_cordes_haut_07 5
+    100346: poto_02_cordes_middle
+    100348: poto_02_cordes_middle 1
+    100350: poto_02_cordes_middle 2
+    100352: poto_02_cordes_middle 3
+    100354: poto_02_cordes_middle 4
+    100356: poto_02_cordes_middle 5
+    100358: poto_03_base
+    100360: poto_03_base 1
+    100362: poto_03_cordes
+    100364: poto_03_cordes 1
+    100366: poto_03_cordes_bas
+    100368: poto_03_cordes_bas 1
+    100370: poto_03_cordes_bas2
+    100372: poto_03_cordes_bas2 1
+    100374: poto_03_cordes_haut
+    100376: poto_03_cordes_haut 1
+    100378: poto_04
+    100380: poto_05
+    100382: poto_06
+    100384: poto_07
+    100386: poto_08
+    100388: poto_09
+    100390: pSphere38
+    100392: pSphere38 1
+    100394: pSphere75
+    100396: pSphere75 1
+    100398: pTorus107
+    100400: pTorus107 1
+    100402: pTorus28
+    100404: pTorus28 1
+    100406: pTorus28 2
+    100408: pTorus28 3
+    100410: pTorus28 4
+    100412: pTorus28 5
+    100414: pTorus49
+    100416: pTorus49 1
+    100418: pTorus50
+    100420: pTorus50 1
+    100422: Stelle2_Corde
+    100424: Stelle2_Corde 1
+    100426: Stelle_02
+    100428: Stelle_02 1
+    100430: Stelle_07
+    100432: Stelle_07 1
+    100434: Tete_Arche
+    100436: Tete_Arche1
+    100438: Tete_Arche2
+    100440: tete_base
+    100442: tete_base 1
+    100444: tete_base 2
+    100446: TubeMesh68
+    100448: TubeMesh69
+    100450: TubeMesh70
+    100452: TubeMesh71
+    100454: TubeMesh72
+    100456: TubeMesh73
+    100458: tubeMeshes
+    400000: Arche
+    400002: Arche_arc
+    400004: Arche_Pied
+    400006: Arche_Pied 1
+    400008: Arche_Pied 2
+    400010: Arche_Pied1
+    400012: bas
+    400014: bas 1
+    400016: bouche_statue_arche_01
+    400018: bouche_statue_arche_01 1
+    400020: bouche_statue_arche_01 2
+    400022: cheveux_01
+    400024: cheveux_01 1
+    400026: cheveux_01 2
+    400028: cheveux_02
+    400030: cheveux_02 1
+    400032: cheveux_02 2
+    400034: cheveux_03
+    400036: cheveux_03 1
+    400038: cheveux_03 2
+    400040: Cordage_arche_temple
+    400042: Cordage_arche_temple 1
+    400044: Cordage_Arche_Temple_01
+    400046: Cordage_Arche_Temple_01 1
+    400048: Cordage_Arche_Temple_02
+    400050: Cordage_Arche_Temple_02 1
+    400052: Cordage_Arche_Temple_03
+    400054: Cordage_Arche_Temple_03 1
+    400056: Cordage_Arche_Temple_04
+    400058: Cordage_Arche_Temple_04 1
+    400060: Cordage_Arche_Temple_05
+    400062: Cordage_Arche_Temple_05 1
+    400064: Cordage_Arche_Temple_06
+    400066: Cordage_Arche_Temple_06 1
+    400068: Cordage_Arche_Temple_07
+    400070: Cordage_Arche_Temple_07 1
+    400072: Encadrure
+    400074: Encadrure_porte
+    400076: Entree_temple
+    400078: //RootNode
+    400080: fenetre
+    400082: Marche_01
+    400084: Marche_010
+    400086: Marche_011
+    400088: Marche_012
+    400090: Marche_013
+    400092: Marche_014
+    400094: Marche_02
+    400096: Marche_03
+    400098: Marche_04
+    400100: Marche_05
+    400102: Marche_06
+    400104: Marche_07
+    400106: Marche_08
+    400108: Marche_09
+    400110: Marches
+    400112: oeil_statue_arche_01
+    400114: oeil_statue_arche_01 1
+    400116: oeil_statue_arche_01 2
+    400118: oeil_statue_arche_02
+    400120: oeil_statue_arche_02 1
+    400122: oeil_statue_arche_02 2
+    400124: Ornements
+    400126: Ornements1
+    400128: pCylinder61
+    400130: pCylinder61 1
+    400132: pCylinder62
+    400134: pCylinder62 1
+    400136: Planet_catcher
+    400138: Planet_catcher1
+    400140: Porte_Droite
+    400142: Porte_droite_base
+    400144: porte_gauche
+    400146: Porte_Gauche_Base
+    400148: Porte_Planete_01
+    400150: Porte_Planete_02
+    400152: Porte_Planete_03
+    400154: Porte_Planete_04
+    400156: Porte_Planete_05
+    400158: Porte_Planete_06
+    400160: Portes
+    400162: poto_010
+    400164: poto_011
+    400166: poto_012
+    400168: poto_013
+    400170: poto_01_base
+    400172: poto_01_base 1
+    400174: poto_01_cordes
+    400176: poto_01_cordes 1
+    400178: poto_01_cordes_01
+    400180: poto_01_cordes_01 1
+    400182: poto_01_cordes_02
+    400184: poto_01_cordes_02 1
+    400186: poto_01_cordes_03
+    400188: poto_01_cordes_03 1
+    400190: poto_02_base
+    400192: poto_02_base 1
+    400194: poto_02_base 2
+    400196: poto_02_base 3
+    400198: poto_02_base 4
+    400200: poto_02_base 5
+    400202: poto_02_cordes_bas
+    400204: poto_02_cordes_bas 1
+    400206: poto_02_cordes_bas 2
+    400208: poto_02_cordes_bas 3
+    400210: poto_02_cordes_bas 4
+    400212: poto_02_cordes_bas 5
+    400214: poto_02_cordes_bas_01
+    400216: poto_02_cordes_bas_01 1
+    400218: poto_02_cordes_bas_01 2
+    400220: poto_02_cordes_bas_01 3
+    400222: poto_02_cordes_bas_01 4
+    400224: poto_02_cordes_bas_01 5
+    400226: poto_02_cordes_bas_02
+    400228: poto_02_cordes_bas_02 1
+    400230: poto_02_cordes_bas_02 2
+    400232: poto_02_cordes_bas_02 3
+    400234: poto_02_cordes_bas_02 4
+    400236: poto_02_cordes_bas_02 5
+    400238: poto_02_cordes_bas_03
+    400240: poto_02_cordes_bas_03 1
+    400242: poto_02_cordes_bas_03 2
+    400244: poto_02_cordes_bas_03 3
+    400246: poto_02_cordes_bas_03 4
+    400248: poto_02_cordes_bas_03 5
+    400250: poto_02_cordes_haut
+    400252: poto_02_cordes_haut 1
+    400254: poto_02_cordes_haut 2
+    400256: poto_02_cordes_haut 3
+    400258: poto_02_cordes_haut 4
+    400260: poto_02_cordes_haut 5
+    400262: poto_02_cordes_haut_01
+    400264: poto_02_cordes_haut_01 1
+    400266: poto_02_cordes_haut_01 2
+    400268: poto_02_cordes_haut_01 3
+    400270: poto_02_cordes_haut_01 4
+    400272: poto_02_cordes_haut_01 5
+    400274: poto_02_cordes_haut_02
+    400276: poto_02_cordes_haut_02 1
+    400278: poto_02_cordes_haut_02 2
+    400280: poto_02_cordes_haut_02 3
+    400282: poto_02_cordes_haut_02 4
+    400284: poto_02_cordes_haut_02 5
+    400286: poto_02_cordes_haut_03
+    400288: poto_02_cordes_haut_03 1
+    400290: poto_02_cordes_haut_03 2
+    400292: poto_02_cordes_haut_03 3
+    400294: poto_02_cordes_haut_03 4
+    400296: poto_02_cordes_haut_03 5
+    400298: poto_02_cordes_haut_04
+    400300: poto_02_cordes_haut_04 1
+    400302: poto_02_cordes_haut_04 2
+    400304: poto_02_cordes_haut_04 3
+    400306: poto_02_cordes_haut_04 4
+    400308: poto_02_cordes_haut_04 5
+    400310: poto_02_cordes_haut_05
+    400312: poto_02_cordes_haut_05 1
+    400314: poto_02_cordes_haut_05 2
+    400316: poto_02_cordes_haut_05 3
+    400318: poto_02_cordes_haut_05 4
+    400320: poto_02_cordes_haut_05 5
+    400322: poto_02_cordes_haut_06
+    400324: poto_02_cordes_haut_06 1
+    400326: poto_02_cordes_haut_06 2
+    400328: poto_02_cordes_haut_06 3
+    400330: poto_02_cordes_haut_06 4
+    400332: poto_02_cordes_haut_06 5
+    400334: poto_02_cordes_haut_07
+    400336: poto_02_cordes_haut_07 1
+    400338: poto_02_cordes_haut_07 2
+    400340: poto_02_cordes_haut_07 3
+    400342: poto_02_cordes_haut_07 4
+    400344: poto_02_cordes_haut_07 5
+    400346: poto_02_cordes_middle
+    400348: poto_02_cordes_middle 1
+    400350: poto_02_cordes_middle 2
+    400352: poto_02_cordes_middle 3
+    400354: poto_02_cordes_middle 4
+    400356: poto_02_cordes_middle 5
+    400358: poto_03_base
+    400360: poto_03_base 1
+    400362: poto_03_cordes
+    400364: poto_03_cordes 1
+    400366: poto_03_cordes_bas
+    400368: poto_03_cordes_bas 1
+    400370: poto_03_cordes_bas2
+    400372: poto_03_cordes_bas2 1
+    400374: poto_03_cordes_haut
+    400376: poto_03_cordes_haut 1
+    400378: poto_04
+    400380: poto_05
+    400382: poto_06
+    400384: poto_07
+    400386: poto_08
+    400388: poto_09
+    400390: pSphere38
+    400392: pSphere38 1
+    400394: pSphere75
+    400396: pSphere75 1
+    400398: pTorus107
+    400400: pTorus107 1
+    400402: pTorus28
+    400404: pTorus28 1
+    400406: pTorus28 2
+    400408: pTorus28 3
+    400410: pTorus28 4
+    400412: pTorus28 5
+    400414: pTorus49
+    400416: pTorus49 1
+    400418: pTorus50
+    400420: pTorus50 1
+    400422: Stelle2_Corde
+    400424: Stelle2_Corde 1
+    400426: Stelle_02
+    400428: Stelle_02 1
+    400430: Stelle_07
+    400432: Stelle_07 1
+    400434: Tete_Arche
+    400436: Tete_Arche1
+    400438: Tete_Arche2
+    400440: tete_base
+    400442: tete_base 1
+    400444: tete_base 2
+    400446: TubeMesh68
+    400448: TubeMesh69
+    400450: TubeMesh70
+    400452: TubeMesh71
+    400454: TubeMesh72
+    400456: TubeMesh73
+    400458: tubeMeshes
+    2300000: Arche_arc
+    2300002: Arche_Pied 1
+    2300004: Arche_Pied 2
+    2300006: bas
+    2300008: bas 1
+    2300010: bouche_statue_arche_01
+    2300012: bouche_statue_arche_01 1
+    2300014: bouche_statue_arche_01 2
+    2300016: cheveux_01
+    2300018: cheveux_01 1
+    2300020: cheveux_01 2
+    2300022: cheveux_02
+    2300024: cheveux_02 1
+    2300026: cheveux_02 2
+    2300028: cheveux_03
+    2300030: cheveux_03 1
+    2300032: cheveux_03 2
+    2300034: Cordage_Arche_Temple_01
+    2300036: Cordage_Arche_Temple_01 1
+    2300038: Cordage_Arche_Temple_02
+    2300040: Cordage_Arche_Temple_02 1
+    2300042: Cordage_Arche_Temple_03
+    2300044: Cordage_Arche_Temple_03 1
+    2300046: Cordage_Arche_Temple_04
+    2300048: Cordage_Arche_Temple_04 1
+    2300050: Cordage_Arche_Temple_05
+    2300052: Cordage_Arche_Temple_05 1
+    2300054: Cordage_Arche_Temple_06
+    2300056: Cordage_Arche_Temple_06 1
+    2300058: Cordage_Arche_Temple_07
+    2300060: Cordage_Arche_Temple_07 1
+    2300062: Encadrure
+    2300064: fenetre
+    2300066: Marche_01
+    2300068: Marche_010
+    2300070: Marche_011
+    2300072: Marche_012
+    2300074: Marche_013
+    2300076: Marche_014
+    2300078: Marche_02
+    2300080: Marche_03
+    2300082: Marche_04
+    2300084: Marche_05
+    2300086: Marche_06
+    2300088: Marche_07
+    2300090: Marche_08
+    2300092: Marche_09
+    2300094: oeil_statue_arche_01
+    2300096: oeil_statue_arche_01 1
+    2300098: oeil_statue_arche_01 2
+    2300100: oeil_statue_arche_02
+    2300102: oeil_statue_arche_02 1
+    2300104: oeil_statue_arche_02 2
+    2300106: pCylinder61
+    2300108: pCylinder61 1
+    2300110: pCylinder62
+    2300112: pCylinder62 1
+    2300114: Porte_droite_base
+    2300116: Porte_Gauche_Base
+    2300118: Porte_Planete_01
+    2300120: Porte_Planete_02
+    2300122: Porte_Planete_03
+    2300124: Porte_Planete_04
+    2300126: Porte_Planete_05
+    2300128: Porte_Planete_06
+    2300130: poto_01_base
+    2300132: poto_01_base 1
+    2300134: poto_01_cordes_01
+    2300136: poto_01_cordes_01 1
+    2300138: poto_01_cordes_02
+    2300140: poto_01_cordes_02 1
+    2300142: poto_01_cordes_03
+    2300144: poto_01_cordes_03 1
+    2300146: poto_02_base
+    2300148: poto_02_base 1
+    2300150: poto_02_base 2
+    2300152: poto_02_base 3
+    2300154: poto_02_base 4
+    2300156: poto_02_base 5
+    2300158: poto_02_cordes_bas_01
+    2300160: poto_02_cordes_bas_01 1
+    2300162: poto_02_cordes_bas_01 2
+    2300164: poto_02_cordes_bas_01 3
+    2300166: poto_02_cordes_bas_01 4
+    2300168: poto_02_cordes_bas_01 5
+    2300170: poto_02_cordes_bas_02
+    2300172: poto_02_cordes_bas_02 1
+    2300174: poto_02_cordes_bas_02 2
+    2300176: poto_02_cordes_bas_02 3
+    2300178: poto_02_cordes_bas_02 4
+    2300180: poto_02_cordes_bas_02 5
+    2300182: poto_02_cordes_bas_03
+    2300184: poto_02_cordes_bas_03 1
+    2300186: poto_02_cordes_bas_03 2
+    2300188: poto_02_cordes_bas_03 3
+    2300190: poto_02_cordes_bas_03 4
+    2300192: poto_02_cordes_bas_03 5
+    2300194: poto_02_cordes_haut_01
+    2300196: poto_02_cordes_haut_01 1
+    2300198: poto_02_cordes_haut_01 2
+    2300200: poto_02_cordes_haut_01 3
+    2300202: poto_02_cordes_haut_01 4
+    2300204: poto_02_cordes_haut_01 5
+    2300206: poto_02_cordes_haut_02
+    2300208: poto_02_cordes_haut_02 1
+    2300210: poto_02_cordes_haut_02 2
+    2300212: poto_02_cordes_haut_02 3
+    2300214: poto_02_cordes_haut_02 4
+    2300216: poto_02_cordes_haut_02 5
+    2300218: poto_02_cordes_haut_03
+    2300220: poto_02_cordes_haut_03 1
+    2300222: poto_02_cordes_haut_03 2
+    2300224: poto_02_cordes_haut_03 3
+    2300226: poto_02_cordes_haut_03 4
+    2300228: poto_02_cordes_haut_03 5
+    2300230: poto_02_cordes_haut_04
+    2300232: poto_02_cordes_haut_04 1
+    2300234: poto_02_cordes_haut_04 2
+    2300236: poto_02_cordes_haut_04 3
+    2300238: poto_02_cordes_haut_04 4
+    2300240: poto_02_cordes_haut_04 5
+    2300242: poto_02_cordes_haut_05
+    2300244: poto_02_cordes_haut_05 1
+    2300246: poto_02_cordes_haut_05 2
+    2300248: poto_02_cordes_haut_05 3
+    2300250: poto_02_cordes_haut_05 4
+    2300252: poto_02_cordes_haut_05 5
+    2300254: poto_02_cordes_haut_06
+    2300256: poto_02_cordes_haut_06 1
+    2300258: poto_02_cordes_haut_06 2
+    2300260: poto_02_cordes_haut_06 3
+    2300262: poto_02_cordes_haut_06 4
+    2300264: poto_02_cordes_haut_06 5
+    2300266: poto_02_cordes_haut_07
+    2300268: poto_02_cordes_haut_07 1
+    2300270: poto_02_cordes_haut_07 2
+    2300272: poto_02_cordes_haut_07 3
+    2300274: poto_02_cordes_haut_07 4
+    2300276: poto_02_cordes_haut_07 5
+    2300278: poto_02_cordes_middle
+    2300280: poto_02_cordes_middle 1
+    2300282: poto_02_cordes_middle 2
+    2300284: poto_02_cordes_middle 3
+    2300286: poto_02_cordes_middle 4
+    2300288: poto_02_cordes_middle 5
+    2300290: poto_03_base
+    2300292: poto_03_base 1
+    2300294: poto_03_cordes_bas
+    2300296: poto_03_cordes_bas 1
+    2300298: poto_03_cordes_bas2
+    2300300: poto_03_cordes_bas2 1
+    2300302: poto_03_cordes_haut
+    2300304: poto_03_cordes_haut 1
+    2300306: pSphere38
+    2300308: pSphere38 1
+    2300310: pSphere75
+    2300312: pSphere75 1
+    2300314: pTorus107
+    2300316: pTorus107 1
+    2300318: pTorus28
+    2300320: pTorus28 1
+    2300322: pTorus28 2
+    2300324: pTorus28 3
+    2300326: pTorus28 4
+    2300328: pTorus28 5
+    2300330: pTorus49
+    2300332: pTorus49 1
+    2300334: pTorus50
+    2300336: pTorus50 1
+    2300338: Stelle_02
+    2300340: Stelle_02 1
+    2300342: Stelle_07
+    2300344: Stelle_07 1
+    2300346: tete_base
+    2300348: tete_base 1
+    2300350: tete_base 2
+    2300352: TubeMesh68
+    2300354: TubeMesh69
+    2300356: TubeMesh70
+    2300358: TubeMesh71
+    2300360: TubeMesh72
+    2300362: TubeMesh73
+    3300000: Arche_arc
+    3300002: Arche_Pied 1
+    3300004: Arche_Pied 2
+    3300006: bas
+    3300008: bas 1
+    3300010: bouche_statue_arche_01
+    3300012: bouche_statue_arche_01 1
+    3300014: bouche_statue_arche_01 2
+    3300016: cheveux_01
+    3300018: cheveux_01 1
+    3300020: cheveux_01 2
+    3300022: cheveux_02
+    3300024: cheveux_02 1
+    3300026: cheveux_02 2
+    3300028: cheveux_03
+    3300030: cheveux_03 1
+    3300032: cheveux_03 2
+    3300034: Cordage_Arche_Temple_01
+    3300036: Cordage_Arche_Temple_01 1
+    3300038: Cordage_Arche_Temple_02
+    3300040: Cordage_Arche_Temple_02 1
+    3300042: Cordage_Arche_Temple_03
+    3300044: Cordage_Arche_Temple_03 1
+    3300046: Cordage_Arche_Temple_04
+    3300048: Cordage_Arche_Temple_04 1
+    3300050: Cordage_Arche_Temple_05
+    3300052: Cordage_Arche_Temple_05 1
+    3300054: Cordage_Arche_Temple_06
+    3300056: Cordage_Arche_Temple_06 1
+    3300058: Cordage_Arche_Temple_07
+    3300060: Cordage_Arche_Temple_07 1
+    3300062: Encadrure
+    3300064: fenetre
+    3300066: Marche_01
+    3300068: Marche_010
+    3300070: Marche_011
+    3300072: Marche_012
+    3300074: Marche_013
+    3300076: Marche_014
+    3300078: Marche_02
+    3300080: Marche_03
+    3300082: Marche_04
+    3300084: Marche_05
+    3300086: Marche_06
+    3300088: Marche_07
+    3300090: Marche_08
+    3300092: Marche_09
+    3300094: oeil_statue_arche_01
+    3300096: oeil_statue_arche_01 1
+    3300098: oeil_statue_arche_01 2
+    3300100: oeil_statue_arche_02
+    3300102: oeil_statue_arche_02 1
+    3300104: oeil_statue_arche_02 2
+    3300106: pCylinder61
+    3300108: pCylinder61 1
+    3300110: pCylinder62
+    3300112: pCylinder62 1
+    3300114: Porte_droite_base
+    3300116: Porte_Gauche_Base
+    3300118: Porte_Planete_01
+    3300120: Porte_Planete_02
+    3300122: Porte_Planete_03
+    3300124: Porte_Planete_04
+    3300126: Porte_Planete_05
+    3300128: Porte_Planete_06
+    3300130: poto_01_base
+    3300132: poto_01_base 1
+    3300134: poto_01_cordes_01
+    3300136: poto_01_cordes_01 1
+    3300138: poto_01_cordes_02
+    3300140: poto_01_cordes_02 1
+    3300142: poto_01_cordes_03
+    3300144: poto_01_cordes_03 1
+    3300146: poto_02_base
+    3300148: poto_02_base 1
+    3300150: poto_02_base 2
+    3300152: poto_02_base 3
+    3300154: poto_02_base 4
+    3300156: poto_02_base 5
+    3300158: poto_02_cordes_bas_01
+    3300160: poto_02_cordes_bas_01 1
+    3300162: poto_02_cordes_bas_01 2
+    3300164: poto_02_cordes_bas_01 3
+    3300166: poto_02_cordes_bas_01 4
+    3300168: poto_02_cordes_bas_01 5
+    3300170: poto_02_cordes_bas_02
+    3300172: poto_02_cordes_bas_02 1
+    3300174: poto_02_cordes_bas_02 2
+    3300176: poto_02_cordes_bas_02 3
+    3300178: poto_02_cordes_bas_02 4
+    3300180: poto_02_cordes_bas_02 5
+    3300182: poto_02_cordes_bas_03
+    3300184: poto_02_cordes_bas_03 1
+    3300186: poto_02_cordes_bas_03 2
+    3300188: poto_02_cordes_bas_03 3
+    3300190: poto_02_cordes_bas_03 4
+    3300192: poto_02_cordes_bas_03 5
+    3300194: poto_02_cordes_haut_01
+    3300196: poto_02_cordes_haut_01 1
+    3300198: poto_02_cordes_haut_01 2
+    3300200: poto_02_cordes_haut_01 3
+    3300202: poto_02_cordes_haut_01 4
+    3300204: poto_02_cordes_haut_01 5
+    3300206: poto_02_cordes_haut_02
+    3300208: poto_02_cordes_haut_02 1
+    3300210: poto_02_cordes_haut_02 2
+    3300212: poto_02_cordes_haut_02 3
+    3300214: poto_02_cordes_haut_02 4
+    3300216: poto_02_cordes_haut_02 5
+    3300218: poto_02_cordes_haut_03
+    3300220: poto_02_cordes_haut_03 1
+    3300222: poto_02_cordes_haut_03 2
+    3300224: poto_02_cordes_haut_03 3
+    3300226: poto_02_cordes_haut_03 4
+    3300228: poto_02_cordes_haut_03 5
+    3300230: poto_02_cordes_haut_04
+    3300232: poto_02_cordes_haut_04 1
+    3300234: poto_02_cordes_haut_04 2
+    3300236: poto_02_cordes_haut_04 3
+    3300238: poto_02_cordes_haut_04 4
+    3300240: poto_02_cordes_haut_04 5
+    3300242: poto_02_cordes_haut_05
+    3300244: poto_02_cordes_haut_05 1
+    3300246: poto_02_cordes_haut_05 2
+    3300248: poto_02_cordes_haut_05 3
+    3300250: poto_02_cordes_haut_05 4
+    3300252: poto_02_cordes_haut_05 5
+    3300254: poto_02_cordes_haut_06
+    3300256: poto_02_cordes_haut_06 1
+    3300258: poto_02_cordes_haut_06 2
+    3300260: poto_02_cordes_haut_06 3
+    3300262: poto_02_cordes_haut_06 4
+    3300264: poto_02_cordes_haut_06 5
+    3300266: poto_02_cordes_haut_07
+    3300268: poto_02_cordes_haut_07 1
+    3300270: poto_02_cordes_haut_07 2
+    3300272: poto_02_cordes_haut_07 3
+    3300274: poto_02_cordes_haut_07 4
+    3300276: poto_02_cordes_haut_07 5
+    3300278: poto_02_cordes_middle
+    3300280: poto_02_cordes_middle 1
+    3300282: poto_02_cordes_middle 2
+    3300284: poto_02_cordes_middle 3
+    3300286: poto_02_cordes_middle 4
+    3300288: poto_02_cordes_middle 5
+    3300290: poto_03_base
+    3300292: poto_03_base 1
+    3300294: poto_03_cordes_bas
+    3300296: poto_03_cordes_bas 1
+    3300298: poto_03_cordes_bas2
+    3300300: poto_03_cordes_bas2 1
+    3300302: poto_03_cordes_haut
+    3300304: poto_03_cordes_haut 1
+    3300306: pSphere38
+    3300308: pSphere38 1
+    3300310: pSphere75
+    3300312: pSphere75 1
+    3300314: pTorus107
+    3300316: pTorus107 1
+    3300318: pTorus28
+    3300320: pTorus28 1
+    3300322: pTorus28 2
+    3300324: pTorus28 3
+    3300326: pTorus28 4
+    3300328: pTorus28 5
+    3300330: pTorus49
+    3300332: pTorus49 1
+    3300334: pTorus50
+    3300336: pTorus50 1
+    3300338: Stelle_02
+    3300340: Stelle_02 1
+    3300342: Stelle_07
+    3300344: Stelle_07 1
+    3300346: tete_base
+    3300348: tete_base 1
+    3300350: tete_base 2
+    3300352: TubeMesh68
+    3300354: TubeMesh69
+    3300356: TubeMesh70
+    3300358: TubeMesh71
+    3300360: TubeMesh72
+    3300362: TubeMesh73
+    4300000: Marche_01
+    4300002: Marche_02
+    4300004: Marche_03
+    4300006: Marche_04
+    4300008: Marche_05
+    4300010: Marche_06
+    4300012: Marche_07
+    4300014: Marche_08
+    4300016: Marche_09
+    4300018: Marche_010
+    4300020: Marche_011
+    4300022: Marche_012
+    4300024: Marche_013
+    4300026: Marche_014
+    4300028: Arche_arc
+    4300030: Arche_Pied
+    4300032: Cordage_Arche_Temple_07
+    4300034: Cordage_Arche_Temple_06
+    4300036: Cordage_Arche_Temple_05
+    4300038: Cordage_Arche_Temple_04
+    4300040: Cordage_Arche_Temple_03
+    4300042: Cordage_Arche_Temple_02
+    4300044: Cordage_Arche_Temple_01
+    4300046: Arche_Pied
+    4300048: Cordage_Arche_Temple_07
+    4300050: Cordage_Arche_Temple_06
+    4300052: Cordage_Arche_Temple_05
+    4300054: Cordage_Arche_Temple_04
+    4300056: Cordage_Arche_Temple_03
+    4300058: Cordage_Arche_Temple_02
+    4300060: Cordage_Arche_Temple_01
+    4300062: pCylinder61
+    4300064: pTorus107
+    4300066: pCylinder62
+    4300068: pSphere75
+    4300070: pCylinder61
+    4300072: pTorus107
+    4300074: pCylinder62
+    4300076: pSphere75
+    4300078: tete_base
+    4300080: cheveux_01
+    4300082: cheveux_02
+    4300084: cheveux_03
+    4300086: oeil_statue_arche_01
+    4300088: oeil_statue_arche_02
+    4300090: bouche_statue_arche_01
+    4300092: tete_base
+    4300094: cheveux_01
+    4300096: cheveux_02
+    4300098: cheveux_03
+    4300100: oeil_statue_arche_01
+    4300102: oeil_statue_arche_02
+    4300104: bouche_statue_arche_01
+    4300106: tete_base
+    4300108: cheveux_01
+    4300110: cheveux_02
+    4300112: cheveux_03
+    4300114: oeil_statue_arche_01
+    4300116: oeil_statue_arche_02
+    4300118: bouche_statue_arche_01
+    4300120: poto_01_base
+    4300122: poto_01_cordes_01
+    4300124: poto_01_cordes_02
+    4300126: poto_01_cordes_03
+    4300128: poto_03_base
+    4300130: bas
+    4300132: poto_03_cordes_haut
+    4300134: poto_03_cordes_bas
+    4300136: poto_03_cordes_bas2
+    4300138: poto_01_base
+    4300140: poto_01_cordes_01
+    4300142: poto_01_cordes_02
+    4300144: poto_01_cordes_03
+    4300146: poto_03_base
+    4300148: bas
+    4300150: poto_03_cordes_haut
+    4300152: poto_03_cordes_bas
+    4300154: poto_03_cordes_bas2
+    4300156: poto_02_base
+    4300158: poto_02_cordes_haut_01
+    4300160: poto_02_cordes_haut_02
+    4300162: poto_02_cordes_haut_03
+    4300164: poto_02_cordes_haut_04
+    4300166: poto_02_cordes_haut_05
+    4300168: poto_02_cordes_haut_06
+    4300170: poto_02_cordes_haut_07
+    4300172: poto_02_cordes_middle
+    4300174: poto_02_cordes_bas_01
+    4300176: poto_02_cordes_bas_02
+    4300178: poto_02_cordes_bas_03
+    4300180: pTorus28
+    4300182: poto_02_base
+    4300184: poto_02_cordes_haut_01
+    4300186: poto_02_cordes_haut_02
+    4300188: poto_02_cordes_haut_03
+    4300190: poto_02_cordes_haut_04
+    4300192: poto_02_cordes_haut_05
+    4300194: poto_02_cordes_haut_06
+    4300196: poto_02_cordes_haut_07
+    4300198: poto_02_cordes_middle
+    4300200: poto_02_cordes_bas_01
+    4300202: poto_02_cordes_bas_02
+    4300204: poto_02_cordes_bas_03
+    4300206: pTorus28
+    4300208: poto_02_base
+    4300210: poto_02_cordes_haut_01
+    4300212: poto_02_cordes_haut_02
+    4300214: poto_02_cordes_haut_03
+    4300216: poto_02_cordes_haut_04
+    4300218: poto_02_cordes_haut_05
+    4300220: poto_02_cordes_haut_06
+    4300222: poto_02_cordes_haut_07
+    4300224: poto_02_cordes_middle
+    4300226: poto_02_cordes_bas_01
+    4300228: poto_02_cordes_bas_02
+    4300230: poto_02_cordes_bas_03
+    4300232: pTorus28
+    4300234: poto_02_base
+    4300236: poto_02_cordes_haut_01
+    4300238: poto_02_cordes_haut_02
+    4300240: poto_02_cordes_haut_03
+    4300242: poto_02_cordes_haut_04
+    4300244: poto_02_cordes_haut_05
+    4300246: poto_02_cordes_haut_06
+    4300248: poto_02_cordes_haut_07
+    4300250: poto_02_cordes_middle
+    4300252: poto_02_cordes_bas_01
+    4300254: poto_02_cordes_bas_02
+    4300256: poto_02_cordes_bas_03
+    4300258: pTorus28
+    4300260: poto_02_base
+    4300262: poto_02_cordes_haut_01
+    4300264: poto_02_cordes_haut_02
+    4300266: poto_02_cordes_haut_03
+    4300268: poto_02_cordes_haut_04
+    4300270: poto_02_cordes_haut_05
+    4300272: poto_02_cordes_haut_06
+    4300274: poto_02_cordes_haut_07
+    4300276: poto_02_cordes_middle
+    4300278: poto_02_cordes_bas_01
+    4300280: poto_02_cordes_bas_02
+    4300282: poto_02_cordes_bas_03
+    4300284: pTorus28
+    4300286: poto_02_base
+    4300288: poto_02_cordes_haut_01
+    4300290: poto_02_cordes_haut_02
+    4300292: poto_02_cordes_haut_03
+    4300294: poto_02_cordes_haut_04
+    4300296: poto_02_cordes_haut_05
+    4300298: poto_02_cordes_haut_06
+    4300300: poto_02_cordes_haut_07
+    4300302: poto_02_cordes_middle
+    4300304: poto_02_cordes_bas_01
+    4300306: poto_02_cordes_bas_02
+    4300308: poto_02_cordes_bas_03
+    4300310: pTorus28
+    4300312: TubeMesh68
+    4300314: TubeMesh69
+    4300316: TubeMesh70
+    4300318: TubeMesh71
+    4300320: TubeMesh72
+    4300322: TubeMesh73
+    4300324: fenetre
+    4300326: Encadrure
+    4300328: Porte_droite_base
+    4300330: Porte_Planete_01
+    4300332: Porte_Planete_03
+    4300334: Porte_Planete_05
+    4300336: Porte_Gauche_Base
+    4300338: Porte_Planete_02
+    4300340: Porte_Planete_04
+    4300342: Porte_Planete_06
+    4300344: Stelle_02
+    4300346: Stelle_07
+    4300348: pTorus50
+    4300350: pTorus49
+    4300352: pSphere38
+    4300354: Stelle_02
+    4300356: Stelle_07
+    4300358: pTorus50
+    4300360: pTorus49
+    4300362: pSphere38
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
