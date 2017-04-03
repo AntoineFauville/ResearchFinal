@@ -20,10 +20,10 @@ public class ScannerEffect : MonoBehaviour
 		StartCoroutine ("waitforIntro");
     }
 
-	IEnumerator waitforIntro(){
+	/*IEnumerator waitforIntro(){
 		yield return new WaitForSeconds (6.0f);
 		StartCoroutine ("AutoScan");
-	}
+	}*/
 
 	void Update()
 	{
@@ -37,11 +37,12 @@ public class ScannerEffect : MonoBehaviour
 			}
 		}
 
-		/*if (Input.GetKeyDown(KeyCode.C))
+		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			_scanning = true;
 			ScanDistance = 0;
-		}*/
+			StartCoroutine ("Stopscan");
+		}
 
 		/*if (Input.GetMouseButtonDown(0))
 		{
@@ -134,10 +135,16 @@ public class ScannerEffect : MonoBehaviour
 		GL.PopMatrix();
 	}
 
-	IEnumerator AutoScan() {
+	/*IEnumerator AutoScan() {
 		yield return new WaitForSeconds (secAutoScan);
 		_scanning = true;
 		ScanDistance = 0;
 		StartCoroutine ("AutoScan");
+	}*/
+
+	IEnumerator Stopscan(){
+		yield return new WaitForSeconds (secAutoScan);
+		_scanning = false;
+		ScanDistance = 0;
 	}
 }
