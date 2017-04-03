@@ -1,2 +1,48 @@
-Base path: D:/Unity/Editor/Data
+Base path: C:/Users/Antoine/Editor/Data
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=5545 outsize=1266 ok=1
+Cmd: preprocess
+  insize=6433 outsize=1247 ok=1
+Cmd: preprocess
+  insize=1881 outsize=285 ok=1
+Cmd: preprocess
+  insize=459 outsize=456 ok=1
+Cmd: preprocess
+  insize=2566 outsize=623 ok=1
+Cmd: preprocess
+  insize=2416 outsize=2060 ok=1
+Cmd: preprocess
+  insize=8416 outsize=4410 ok=1
+Cmd: preprocess
+  insize=556 outsize=170 ok=1
+Cmd: preprocess
+  insize=536 outsize=154 ok=1
+Cmd: preprocess
+  insize=1854 outsize=1521 ok=1
+Cmd: preprocess
+  insize=1697 outsize=1006 ok=1
+Cmd: preprocess
+  insize=2610 outsize=2060 ok=1
+Cmd: preprocess
+  insize=1509 outsize=1354 ok=1
+Cmd: preprocess
+  insize=2512 outsize=1505 ok=1
+Cmd: preprocess
+  insize=782 outsize=782 ok=1
+Cmd: preprocess
+  insize=1056 outsize=1168 ok=1
+Cmd: preprocess
+  insize=2681 outsize=1429 ok=1
+Cmd: preprocess
+  insize=1092 outsize=204 ok=1
+Cmd: preprocess
+  insize=1004 outsize=1426 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=949 outsize=1718 kw=POINT _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=949 outsize=2982 kw=POINT _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1152 outsize=1698 kw=_EMISSION _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1152 outsize=2598 kw=_EMISSION _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
