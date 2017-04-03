@@ -4,6 +4,14 @@ using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class Event1 : MonoBehaviour {
+
+	private const int 
+			AVANT = 0,   //moment ou l'objet est en train de glitcher
+			PRETUTO = 1,	//moment ou l'on pose l'artefact et ou le pressE est activer
+			TUTO = 2;	//moment ou l'on doit ramasser l'artefact après l'avoir poser
+
+	public int state;
+
 	DetectableLocalManager DLM;
 
 	public bool tutorialFinished = false;
@@ -40,6 +48,8 @@ public class Event1 : MonoBehaviour {
 		DLM = GameObject.Find ("SmallItem1").GetComponent<DetectableLocalManager> ();
 
 		StartCoroutine ("waitforIntro");
+
+		state = AVANT;
 	}
 	
 
@@ -49,6 +59,29 @@ public class Event1 : MonoBehaviour {
 		StartCoroutine ("NewUpdate");
 	}
 
+
+	void FixedUpdate () {
+		switch (state) {
+
+		case AVANT:
+
+			//l'objet glitch
+
+
+
+			break;
+
+		case PRETUTO:
+
+
+
+			break;
+
+		case TUTO:
+			break;
+		}
+	}
+	/*
 	IEnumerator NewUpdate(){
 		yield return new WaitForSeconds (0.005f);
 		bool finishedAndPlayerNear = false;
@@ -58,11 +91,6 @@ public class Event1 : MonoBehaviour {
 			pressed = true;
 			//launch tutorial
 			StartCoroutine("animationQuiBloqueAMoitieLeCube");
-
-
-			// pour récuperer le cube le joueur doit rappuyer sur submit (espace ou entrée)
-
-			// pour récuperer le cube le joueur doit rappuyer sur submit (espace ou entrée)
 
 			//launch anim ou le joueur ramasse le cube
 		}
@@ -82,7 +110,8 @@ public class Event1 : MonoBehaviour {
 		}
 		StartCoroutine ("NewUpdate");
 	}
-
+	*/
+	/*
 	IEnumerator animationQuiBloqueAMoitieLeCube () {
 		//
 		animation = true;
@@ -106,5 +135,5 @@ public class Event1 : MonoBehaviour {
 		DS.tutoMort = true;
 
 		artefactSurUI.SetActive (false);
-	}
+	}*/
 }

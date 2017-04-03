@@ -240,7 +240,7 @@ public class GameManager : MonoBehaviour {
 		//son
 
 			PressEScript = true;
-			PanelPressSpace.SetBool ("PressE",PressEScript);
+			//PanelPressSpace.SetBool ("PressE",PressEScript);
 
 		/*if (PressEScript == false && GameObject.Find("SmallItem1").GetComponent<Event1>().tutorialFinished == false) {
 			PanelPressSpace.SetBool ("PressE",PressEScript);

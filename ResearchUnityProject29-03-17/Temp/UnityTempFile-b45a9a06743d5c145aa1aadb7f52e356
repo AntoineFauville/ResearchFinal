@@ -1,0 +1,263 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:D:/Unity/Editor/Data/Managed/UnityEngine.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
+-r:D:/Unity/Editor/Data/Managed/UnityEditor.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+Assets/3rdPersonCamera/Scripts/CameraController.cs
+Assets/3rdPersonCamera/Scripts/CameraRotationMoving.cs
+Assets/3rdPersonCamera/Scripts/DisableFollow.cs
+Assets/3rdPersonCamera/Scripts/Follow.cs
+Assets/3rdPersonCamera/Scripts/FreeForm.cs
+Assets/3rdPersonCamera/Scripts/LockOnTarget.cs
+Assets/3rdPersonCamera/Scripts/Targetable.cs
+Assets/Effect/ScannerNoManSky/DemoUI/Scannable.cs
+"Assets/Effect/ScannerNoManSky/Scanner Effect/ScannerEffect.cs"
+"Assets/Effect/ScannerNoManSky/Scanner Effect/ScannerEffectDemo.cs"
+"Assets/Scripts/Animation Activator/ActivateAnimOnButtonPressed.cs"
+"Assets/Scripts/Animation Activator/ActivateCanvasWhenPassNearBy.cs"
+"Assets/Scripts/Animation Activator/ActivateOnTrigger.cs"
+"Assets/Scripts/Animation Activator/AnimOnTrigger.cs"
+"Assets/Scripts/Animation Activator/AnimOnTrigger1.cs"
+"Assets/Scripts/Animation Activator/OnClicAnimator.cs"
+"Assets/Scripts/Animation Activator/WhenWalkedActivateMontage.cs"
+Assets/Scripts/AppearingGestion/AppearDistanceTuto.cs
+Assets/Scripts/AppearingGestion/AppearVillage.cs
+Assets/Scripts/Area/AreaColliderSecondScript.cs
+Assets/Scripts/Area/AreaDetectorGestion.cs
+Assets/Scripts/Area/DetectArea.cs
+Assets/Scripts/Area/InteractiveAreaGestion.cs
+Assets/Scripts/Area/LightBeamTriggerLazer.cs
+Assets/Scripts/BonusItemReception/BonusPointExplosion.cs
+Assets/Scripts/Book/Map.cs
+Assets/Scripts/Book/OpenCloseBook.cs
+Assets/Scripts/Book/SaveBookInputs.cs
+Assets/Scripts/Camera/CameraController.cs
+Assets/Scripts/Camera/ChangeZoomSize.cs
+Assets/Scripts/Camera/ChangingViewFocus.cs
+Assets/Scripts/Camera/InterestPointArea.cs
+Assets/Scripts/Camera/LookAtSimple.cs
+Assets/Scripts/Camera/MouseLock.cs
+Assets/Scripts/Camera/MouseShow.cs
+Assets/Scripts/Camera/ShackingEffect.cs
+Assets/Scripts/Camera/SmoothCameraDeplacement.cs
+Assets/Scripts/Camera/hardFocusForSec.cs
+"Assets/Scripts/Cube System/ArcheologyCube.cs"
+"Assets/Scripts/Cube System/CloseMenuAcheo.cs"
+"Assets/Scripts/Cube System/CubeIsHere.cs"
+"Assets/Scripts/Cube System/CubeIsHereSmall.cs"
+"Assets/Scripts/Cube System/DropCube.cs"
+"Assets/Scripts/Cube System/LosingSanityWhenGettingAway.cs"
+"Assets/Scripts/Cube System/ObjetATrouverList.cs"
+"Assets/Scripts/Cube System/SanityGestion.cs"
+"Assets/Scripts/Cube System/ZoneGestion.cs"
+"Assets/Scripts/Cube System/pickUpCube.cs"
+Assets/Scripts/Demo/BacktoMenu.cs
+Assets/Scripts/Demo/DebugDemo.cs
+Assets/Scripts/Demo/debug.cs
+"Assets/Scripts/Enigme 1/ActivateCirclePuzzle.cs"
+"Assets/Scripts/Enigme 1/CircleOpeningAfterEndRotation.cs"
+"Assets/Scripts/Enigme 1/EndEnigmeRotationCircle.cs"
+"Assets/Scripts/Enigme 1/NewCircle.cs"
+"Assets/Scripts/Enigme 1/RotationCircle.cs"
+"Assets/Scripts/Enigme 1/RotationCircleGestion.cs"
+"Assets/Scripts/Enigme 2/PreyNew.cs"
+"Assets/Scripts/Enigme 2/RaycastEnigmePrey.cs"
+"Assets/Scripts/Enigme 3/EndRockEnigme.cs"
+"Assets/Scripts/Enigme 3/GestionSelectionRocks.cs"
+"Assets/Scripts/Enigme 3/NavMeshMovingRock.cs"
+"Assets/Scripts/Enigme 3/PlayerActivateRockEnigme.cs"
+"Assets/Scripts/Enigme 3/RunicPillarA.cs"
+"Assets/Scripts/Enigme 4/ActivateEnigmeFaisseaux.cs"
+Assets/Scripts/FootSteps/InstantiatePrefabOnWalk.cs
+Assets/Scripts/GlowFX/GlowComposite.cs
+Assets/Scripts/GlowFX/GlowController.cs
+Assets/Scripts/GlowFX/GlowObject.cs
+Assets/Scripts/GlowFX/GlowObjectCmd.cs
+Assets/Scripts/GlowFX/GlowPrePass.cs
+Assets/Scripts/GlowFX/Spinner.cs
+Assets/Scripts/Hallucinations/CameraEffectCubeDistance.cs
+Assets/Scripts/Hallucinations/DeathSystem.cs
+"Assets/Scripts/Historical Bar system/AddOnceToBar.cs"
+"Assets/Scripts/Historical Bar system/HistorybarInteractive.cs"
+Assets/Scripts/NewZoneSystem/CameraMapController.cs
+Assets/Scripts/NewZoneSystem/DetectableClass.cs
+Assets/Scripts/NewZoneSystem/DetectableLocalManager.cs
+Assets/Scripts/NewZoneSystem/Events/Area2Part1.cs
+Assets/Scripts/NewZoneSystem/Events/Area2Part2.cs
+Assets/Scripts/NewZoneSystem/Events/Event1.cs
+Assets/Scripts/NewZoneSystem/Events/PressSpaceAppear.cs
+Assets/Scripts/NewZoneSystem/Events/SmallItem2.cs
+Assets/Scripts/NewZoneSystem/Events/SmallItem3.cs
+Assets/Scripts/NewZoneSystem/Events/SmallItem5.cs
+Assets/Scripts/NewZoneSystem/Events/townparts.cs
+Assets/Scripts/NewZoneSystem/GameManager.cs
+Assets/Scripts/NewZoneSystem/HotColdGestion.cs
+Assets/Scripts/NewZoneSystem/Town1Receiver.cs
+Assets/Scripts/NewZoneSystem/activateItSelfWithArtefact.cs
+Assets/Scripts/Objectives/ActivateArea3.cs
+Assets/Scripts/Objectives/ActivateNextObjective.cs
+Assets/Scripts/Objectives/ObjectiveStates.cs
+Assets/Scripts/Objectives/TriggerObjectives.cs
+Assets/Scripts/Other/AnimDintroUI.cs
+Assets/Scripts/Other/AnimatedProjector.cs
+Assets/Scripts/Other/DestroyGameObjectAfterOneSec.cs
+Assets/Scripts/Other/DontDestroyOnLoad.cs
+Assets/Scripts/Other/IsThisIntrosceneScript.cs
+Assets/Scripts/Other/LoadScene.cs
+Assets/Scripts/Other/MenuDemo.cs
+Assets/Scripts/Other/MenuGestion.cs
+Assets/Scripts/Other/MouseUnLock.cs
+Assets/Scripts/Other/PlantsGrowing.cs
+Assets/Scripts/Other/QT_SurfaceNoise.cs
+Assets/Scripts/Other/QT_SurfaceNoise1.cs
+Assets/Scripts/Other/QT_SurfaceNoise2.cs
+Assets/Scripts/Other/RunInBackGround.cs
+Assets/Scripts/Other/ShowDoor.cs
+Assets/Scripts/Other/SpriteSheet.cs
+Assets/Scripts/Other/Video.cs
+Assets/Scripts/Other/goingUpDown.cs
+Assets/Scripts/Player/CameraControllerXbox.cs
+Assets/Scripts/Player/CharacterMovement.cs
+Assets/Scripts/Player/MoveCamNoFollow.cs
+Assets/Scripts/Player/Player.cs
+"Assets/Scripts/Save + GameInfo/GameInformation.cs"
+"Assets/Scripts/Save + GameInfo/LoadInformation.cs"
+"Assets/Scripts/Save + GameInfo/SaveInformation.cs"
+"Assets/Scripts/Temple 1/ActivateAnimTemple1BigSalle.cs"
+"Assets/Scripts/Temple 1/BookapintuOpenTheGate.cs"
+"Assets/Scripts/Temple 1/TriggerActivateAnimationHidingWall.cs"
+"Assets/Scripts/Temple 1/turnGolbalFinalDoorBool.cs"
+Assets/Scripts/Totem/ActivateTotemEnigma.cs
+Assets/Scripts/Totem/AnimTopPartNotMoving.cs
+Assets/Scripts/Totem/EndTotemEnigma.cs
+Assets/Scripts/Totem/GestionSelectionParts.cs
+Assets/Scripts/Totem/NewTotem.cs
+Assets/Scripts/Totem/RotationEnigmeLazer.cs
+Assets/Scripts/Totem/TriggerAnimNewEntry.cs
+Assets/Scripts/Totem/TriggerSendingInfoTotem1.cs
+Assets/Scripts/Totem/TriggerSendingInfoTotem2.cs
+Assets/Scripts/Totem/VillageDecouvertBlocageCube.cs
+Assets/fromAssetsStore/CAM_HALLU/Kino/Glitch/AnalogGlitch.cs
+Assets/fromAssetsStore/CAM_HALLU/Kino/Glitch/DigitalGlitch.cs
+"Assets/fromAssetsStore/Cartoon FX/Demo/Assets/CFX_Demo.cs"
+"Assets/fromAssetsStore/Cartoon FX/Demo/Assets/CFX_Demo_RandomDir.cs"
+"Assets/fromAssetsStore/Cartoon FX/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs"
+"Assets/fromAssetsStore/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs"
+"Assets/fromAssetsStore/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs"
+"Assets/fromAssetsStore/Cartoon FX/Scripts/CFX_AutoRotate.cs"
+"Assets/fromAssetsStore/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs"
+"Assets/fromAssetsStore/Cartoon FX/Scripts/CFX_LightIntensityFade.cs"
+"Assets/fromAssetsStore/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs"
+"Assets/fromAssetsStore/Cartoon FX/Spawn System/CFX_SpawnSystem.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Anaglyph3D.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/BlackAndBlue.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/BlackAndGreen.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/BlackAndRed.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/BleachBypass.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/CircularBlur.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/ColoredRays.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Colorization.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Dreamy.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Drunk.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/DuoTone.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Emboss.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Headache.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Laplacian.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Lens.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/LowResolution.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Negative.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/NightVision.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/NormalMapDistortion.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Posterization.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/RadialBlur.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Ripple.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Scanner.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Shadows2D.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Sobel.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/ThermalVision.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Waves.cs"
+"Assets/fromAssetsStore/More PostProcessing Effects/Scripts/Wiggle.cs"
+-r:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll
+-r:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll
+-r:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll
+-r:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll
+-sdk:unity
