@@ -17,7 +17,7 @@ public class ScannerEffect : MonoBehaviour
 	void Start()
 	{
 		_scannables = FindObjectsOfType<Scannable>();
-		StartCoroutine ("waitforIntro");
+		//StartCoroutine ("waitforIntro");
     }
 
 	/*IEnumerator waitforIntro(){

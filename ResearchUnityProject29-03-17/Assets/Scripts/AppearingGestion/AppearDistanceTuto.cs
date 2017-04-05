@@ -16,8 +16,7 @@ public class AppearDistanceTuto : MonoBehaviour {
 
 	bool playerwent,
 	stop,
-	doOnce,
-	appearEvent;
+	doOnce;
 
 	public bool isThisSmallItem4;
 
@@ -41,7 +40,7 @@ public class AppearDistanceTuto : MonoBehaviour {
 		if (DetectL.isPlayerHere) {
 			playerwent = true;
 		}
-		if(playerwent && appearEvent && !stop) {
+		if(playerwent && !stop) {
 			if (!doOnce) {
 				StartCoroutine ("appear");
 				doOnce = true;

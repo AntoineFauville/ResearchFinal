@@ -179,11 +179,12 @@ public class GameManager : MonoBehaviour {
 
 		//systeme de chaud froid
 
-		if (DistanceLaPlusProche < distanceChaudFroid) {
+		/*if (DistanceLaPlusProche < distanceChaudFroid) {
 			ActiverChaudFroid ();
 		} else {
 			DesactiverChaudFroid ();
 		}
+		*/
 
 		//systeme lacher le cube
 		for (int i = 0; i < T.Length; i++) {
@@ -193,6 +194,16 @@ public class GameManager : MonoBehaviour {
 				//envoyer au local
 			/*} else {
 				DesactiverActionDisponibleLacherCube ();*/
+			}
+		}
+
+
+		for (int i = 0; i < T.Length; i++) {
+			if (DistanceLaPlusProche < distanceChaudFroid && det [Array.IndexOf (distance, Mathf.Min (distance))].isDetectedColdWarm == false) {
+				//global action comme le son
+				ActiverChaudFroid ();
+			} else {
+				DesactiverChaudFroid ();
 			}
 		}
 
@@ -279,6 +290,14 @@ public class GameManager : MonoBehaviour {
 			playSoundOncePressE = false;
 			// Bouton press E disparaitre de l'écran
 		}
+	}
+
+	public void DesactiverAnimSpeed(){
+		for (int i = 0; i < T.Length; i++) {
+
+			det [Array.IndexOf (distance, Mathf.Min (distance))].isDetectedColdWarm = true;
+		}
+		
 	}
 
 }
