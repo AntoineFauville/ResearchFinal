@@ -38,8 +38,6 @@ public class Event1 : MonoBehaviour {
 	AutelBeforeTuto,
 	AutelAnimationTuto;
 
-	public GameObject imageCanvas2,imageCanvas2detect;
-
 	DeathSystem DS;
 
 	// Use this for initialization
@@ -70,8 +68,6 @@ public class Event1 : MonoBehaviour {
 	IEnumerator waitforIntro(){
 		yield return new WaitForSeconds (6.0f);
 		artefactSurUI =  GameObject.Find ("animartefact_1");
-		imageCanvas2detect.SetActive (false);
-		imageCanvas2.SetActive (false);
 	}
 
 
@@ -108,9 +104,6 @@ public class Event1 : MonoBehaviour {
 				artefactSurUI.SetActive (false);
 
 				GameObject.Find ("CanvasTuto").GetComponent<Canvas>().enabled = false;
-				imageCanvas2detect.SetActive (true);
-				imageCanvas2.SetActive (true);
-
 
 				animation = true;
 				anim.SetBool("AnimActiv",animation);
@@ -121,7 +114,11 @@ public class Event1 : MonoBehaviour {
 			break;
 
 		case TUTO:
-			
+
+			if (Input.GetButtonDown ("Submit")) {
+				image.SetBool ("Ping", animation);
+			}
+
 			if (Input.GetButtonDown ("E") && DLM.isPlayerHere) {
 				state = TOIDLEFIN;
 			}
@@ -132,13 +129,15 @@ public class Event1 : MonoBehaviour {
 
 			artefactTuto.SetActive (false);
 			artefactSurUI.SetActive (true);
-			imageCanvas2.SetActive (false);
 			DS.tutoMort = false;
 			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverActionDisponibleLacherCube ();
 			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverAnimSpeed ();
 			GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
 
 			GameObject.Find ("Autel Artefact tuto").GetComponent<GlowObject> ().enabled = false;
+
+			animation = false;
+			image.SetBool ("Ping", animation);
 
 			state = FINIDLE;
 
