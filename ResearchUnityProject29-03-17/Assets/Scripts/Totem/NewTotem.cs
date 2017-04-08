@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.Rendering;
 
 public class NewTotem : MonoBehaviour {
 
-	private const int 	IDLE = 0, //avant que le totem soit activé
-						ANIMINTRO = 1, //l'anim de jonction, le joueur place l'artefact
-						BLOQUER = 2,  //bloquage temporaire, le joueur doit résoudre l'énigme
-						RESOLUTION = 3, //l'énigme est résolue, l'anim montre le joueur reprendre l'artefact
-						IDLEFIN = 4; // le totem est terminer et on ne sait plus y acceder.
+	private const int 	
+		IDLEBEFORE = 0, //idle d'avant qu'on ne voit le totem 	press space
+		IDLE = 1, //avant que le totem soit activé 			press E
+		ANIMINTRO = 2, //l'anim de jonction, le joueur place l'artefact
+		BLOQUER = 3,  //bloquage temporaire, le joueur doit résoudre l'énigme
+		RESOLUTION = 4, //l'énigme est résolue, l'anim montre le joueur reprendre l'artefact
+		IDLEFIN = 5; // le totem est terminer et on ne sait plus y acceder.
 
 	public int state,
 	totemRotationPart;
@@ -25,7 +28,9 @@ public class NewTotem : MonoBehaviour {
 	cesameOuvreToi,
 	Left,
 	Right,
-	gotThisOnce;
+	gotThisOnce,
+	gotAlsoThisOnce,
+	AppearAutel;
 
 	public bool totemScript;
 
@@ -49,7 +54,12 @@ public class NewTotem : MonoBehaviour {
 	DownPart,
 	MainCamera,
 	MainCameraUI,
-	CameraMap;
+	CameraMap,
+	AutelPre,
+	AutelTotem;
+
+	float 
+	amount = 1.0f;
 
 	GameManager GM;
 	DeathSystem DS;
@@ -57,11 +67,13 @@ public class NewTotem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		state = IDLE;
+		state = IDLEBEFORE;
 
 		MainCamera = GameObject.Find ("Main Camera Main");
 		MainCameraUI = GameObject.Find ("Main Camera Main UI");
 
+		AutelPre = GameObject.Find ("Autel Artefact Pre totem");
+		AutelTotem = GameObject.Find ("Autel Artefact totem");
 
 		cameraAnimTotemFin = GameObject.FindGameObjectWithTag ("cameraFinTotem");
 		cameraAnimTotemFin.GetComponent<Camera>().enabled = false;
@@ -102,6 +114,9 @@ public class NewTotem : MonoBehaviour {
 
 		Player = GameObject.Find ("Player");
 
+		AutelPre.SetActive (false);
+		AutelTotem.SetActive (false);
+
 		//CameraTotem = GameObject.Find ("CameraEnigmeTotem");
 
 		// rotation gestion totem
@@ -121,7 +136,9 @@ public class NewTotem : MonoBehaviour {
 	}
 
 	IEnumerator waitForAnimIntro(){
-		yield return new WaitForSeconds (6.0f);
+		yield return new WaitForSeconds (0.5f);
+		GameObject.Find ("Town1").GetComponent<AppearVillage> ().enabled = false;
+		yield return new WaitForSeconds (5.5f);
 		Artefact = GameObject.Find ("ARtefactOverLayInteraction");
 	}
 	
@@ -129,12 +146,36 @@ public class NewTotem : MonoBehaviour {
 	void FixedUpdate () {
 		switch (state) {
 
-		case IDLE:
+		case IDLEBEFORE:
+			ArtefactTotem.SetActive (false);
+
+			if (playerIsHere && !gotAlsoThisOnce) {
+				gotAlsoThisOnce = true;
+				AppearAutel = true;
+			}
+
+			if (AppearAutel) {
+				StartCoroutine ("Appear");
+				AutelPre.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amount);
+				amount -= 0.01f * Time.deltaTime * 30;
+			}
+
 
 			if (Input.GetButtonDown ("Submit") && playerIsHere) {
+				state = IDLE;
+			}
+
+			break;
+
+		case IDLE:
+
+			AutelPre.SetActive (false);
+			AutelTotem.SetActive (true);
+
+			if (Input.GetButtonDown ("E") && playerIsHere) {
+				GameObject.Find ("Town1").GetComponent<AppearVillage> ().enabled = true;
 				state = ANIMINTRO;
 			}
-			ArtefactTotem.SetActive (false);
 			break;
 
 		case ANIMINTRO:
@@ -158,7 +199,7 @@ public class NewTotem : MonoBehaviour {
 			
 			//rentrer sortir + animation
 
-			if (Input.GetButtonDown ("Submit") && playerIsHere && !GetInGetOut) {
+			if (Input.GetButtonDown ("E") && playerIsHere && !GetInGetOut) {
 				if (!iAmOn) {
 
 					MainCamera.GetComponent<Camera> ().enabled = false;
@@ -390,5 +431,19 @@ public class NewTotem : MonoBehaviour {
 
 
 		this.gameObject.GetComponent<NewTotem> ().enabled = false;
+	}
+
+	IEnumerator Appear (){
+
+		AutelPre.SetActive (true);
+		AutelPre.GetComponent<goingUpDown> ().enabled = false;
+		AutelPre.GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
+		AutelPre.GetComponent<MeshRenderer> ().receiveShadows = false;
+
+		yield return new WaitForSeconds (4.0f);
+
+		AppearAutel = false;
+
+		AutelPre.GetComponent<goingUpDown> ().enabled = true;
 	}
 }
