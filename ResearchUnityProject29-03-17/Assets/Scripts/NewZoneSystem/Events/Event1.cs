@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.Rendering;
 
 public class Event1 : MonoBehaviour {
 
@@ -18,25 +19,26 @@ public class Event1 : MonoBehaviour {
 
 	DetectableLocalManager DLM;
 
-	public bool tutorialFinished = false;
-	bool pressed = false;
-	bool pressed2 = false;
-	bool artefactBloquer = false;
+	public bool 
+		startAppear,
+		animation,
+		doThisOnce;
 
-	public float secondstoWait;
+	public float 
+		secondstoWait,
+		amount;
 
 	//parametre d'animation
 	public Animator anim;
-	bool animation;
 
-	GameObject Player, 
-	MainCamera,
-	artefactSurFesses,
-	artefactTuto,
-	artefactSurUI,
-
-	AutelBeforeTuto,
-	AutelAnimationTuto;
+	GameObject 
+		Player, 
+		MainCamera,
+		artefactSurFesses,
+		artefactTuto,
+		artefactSurUI,
+		AutelBeforeTuto,
+		AutelAnimationTuto;
 
 	DeathSystem DS;
 
@@ -46,7 +48,6 @@ public class Event1 : MonoBehaviour {
 		DS = GameObject.Find ("ScriptManager").GetComponent<DeathSystem> ();
 
 		GameObject.Find ("CanvasTuto").GetComponent<Canvas>().enabled = false;
-
 
 		MainCamera = GameObject.Find ("Main Camera Main");
 		Player = GameObject.Find ("Player");
@@ -60,6 +61,17 @@ public class Event1 : MonoBehaviour {
 		AutelAnimationTuto = GameObject.Find ("AnimationTuto");
 
 		StartCoroutine ("waitforIntro");
+
+		AutelBeforeTuto.SetActive (true);
+
+		amount = 1.0f;
+
+		AutelBeforeTuto.GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
+		AutelBeforeTuto.GetComponent<MeshRenderer> ().receiveShadows = false;
+		AutelBeforeTuto.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amount);
+
+		AutelBeforeTuto.SetActive (false);
+		AutelAnimationTuto.SetActive (false);
 
 		state = AVANT;
 	}
@@ -76,9 +88,20 @@ public class Event1 : MonoBehaviour {
 
 		case AVANT:
 
+			if (DLM.isPlayerHere && !doThisOnce) {
+				startAppear = true;
+				doThisOnce = true;
+			}
+
+			if (startAppear) {
+				StartCoroutine ("Appear");
+				AutelBeforeTuto.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amount);
+				amount -= 0.01f * Time.deltaTime * 30;
+			}
+
+
 			//l'objet glitch
-			AutelBeforeTuto.SetActive (true);
-			AutelAnimationTuto.SetActive (false);
+			
 			GameObject.Find ("SmallItem1").GetComponent<AppearDistanceTuto> ().enabled = false;
 
 
@@ -150,59 +173,17 @@ public class Event1 : MonoBehaviour {
 		}
 	}
 
-	/*
-	IEnumerator NewUpdate(){
-		yield return new WaitForSeconds (0.005f);
-		bool finishedAndPlayerNear = false;
-		//demander au joueur d'appuyer sur submit (espace ou entrée)
+	IEnumerator Appear (){
+		
+		AutelBeforeTuto.SetActive (true);
+		AutelBeforeTuto.GetComponent<goingUpDown> ().enabled = false;
+		AutelBeforeTuto.GetComponent<MeshRenderer> ().shadowCastingMode = ShadowCastingMode.Off;
+		AutelBeforeTuto.GetComponent<MeshRenderer> ().receiveShadows = false;
 
-		if (DLM.isPlayerHere && !tutorialFinished && Input.GetButtonDown ("Submit") && !pressed) {
-			pressed = true;
-			//launch tutorial
-			StartCoroutine("animationQuiBloqueAMoitieLeCube");
+		yield return new WaitForSeconds (4.0f);
 
-			//launch anim ou le joueur ramasse le cube
-		}
+		startAppear = false;
 
-		if (artefactBloquer && Input.GetButtonDown ("Submit") && !pressed2) {
-			tutorialFinished = true;
-
-			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverActionDisponibleLacherCube ();
-
-			artefactTuto.SetActive (false);
-			artefactSurUI.SetActive (true);
-
-			DS.tutoMort = false;
-			GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
-
-			pressed2 = true;
-		}
-		StartCoroutine ("NewUpdate");
+		AutelBeforeTuto.GetComponent<goingUpDown> ().enabled = true;
 	}
-	*/
-	/*
-	IEnumerator animationQuiBloqueAMoitieLeCube () {
-		//
-		animation = true;
-		artefactTuto.SetActive (true);
-
-
-		anim.SetBool("AnimActiv",animation);
-		MainCamera.GetComponent<Camera> ().enabled = false;
-		Player.GetComponent<FirstPersonController> ().enabled = false;
-		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = false;
-
-
-		//fin animation
-		yield return new WaitForSeconds (secondstoWait);
-
-		artefactBloquer = true;
-
-		MainCamera.GetComponent<Camera> ().enabled = true;
-		Player.GetComponent<FirstPersonController> ().enabled = true;
-		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = true;
-		DS.tutoMort = true;
-
-		artefactSurUI.SetActive (false);
-	}*/
 }

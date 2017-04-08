@@ -55,7 +55,7 @@ public class ShowDoor : MonoBehaviour {
 		Player.GetComponent<FirstPersonController> ().enabled = true;
 		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = true;
 
-		this.gameObject.SetActive (false);
+		GameObject.Find ("TriggerShowDoor").gameObject.SetActive (false);
 
 	}
 }
