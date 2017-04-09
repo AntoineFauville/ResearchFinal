@@ -30,7 +30,8 @@ public class NewTotem : MonoBehaviour {
 	Right,
 	gotThisOnce,
 	gotAlsoThisOnce,
-	AppearAutel;
+	AppearAutel,
+	dititonce;
 
 	public bool totemScript;
 
@@ -56,7 +57,8 @@ public class NewTotem : MonoBehaviour {
 	MainCameraUI,
 	CameraMap,
 	AutelPre,
-	AutelTotem;
+	AutelTotem,
+	AdviceObj;
 
 	float 
 	amount = 1.0f;
@@ -71,6 +73,12 @@ public class NewTotem : MonoBehaviour {
 
 		MainCamera = GameObject.Find ("Main Camera Main");
 		MainCameraUI = GameObject.Find ("Main Camera Main UI");
+
+		GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas>().enabled = false;
+		GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas>().enabled = false;
+
+		AdviceObj = GameObject.Find ("ImageCitationTotem");
+		AdviceObj.SetActive (false);
 
 		AutelPre = GameObject.Find ("Autel Artefact Pre totem");
 		AutelTotem = GameObject.Find ("Autel Artefact totem");
@@ -162,6 +170,7 @@ public class NewTotem : MonoBehaviour {
 
 
 			if (Input.GetButtonDown ("Submit") && playerIsHere) {
+				GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas>().enabled = true;
 				state = IDLE;
 			}
 
@@ -199,6 +208,18 @@ public class NewTotem : MonoBehaviour {
 			
 			//rentrer sortir + animation
 
+			GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas> ().enabled = false;
+
+
+			StartCoroutine ("Advice");
+
+			if (!dititonce) {
+				GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas> ().enabled = false;
+				GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas> ().enabled = true;
+				dititonce = true;
+			}
+
+
 			if (Input.GetButtonDown ("E") && playerIsHere && !GetInGetOut) {
 				if (!iAmOn) {
 
@@ -211,6 +232,8 @@ public class NewTotem : MonoBehaviour {
 					animCamTotem.SetBool ("goAnimtot", totemBoolgoAnimtot);
 					SG.enabled = false;
 					GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = false;
+
+					GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas> ().enabled = false;
 					iAmOn = true;
 					GetInGetOut = true;
 
@@ -224,6 +247,8 @@ public class NewTotem : MonoBehaviour {
 					animCamTotem.SetBool ("goAnimtot", totemBoolgoAnimtot);
 
 					SG.enabled = true;
+
+					GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas> ().enabled = true;
 
 					iAmOn = false;
 					GetInGetOut = true;
@@ -347,6 +372,9 @@ public class NewTotem : MonoBehaviour {
 		case IDLEFIN:
 			bool doItOnceEnd = false;
 
+			GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas>().enabled = false;
+			GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas>().enabled = false;
+
 			if (!doItOnceEnd) {
 				ArtefactTotem.SetActive (false);
 				doItOnceEnd = true;
@@ -445,5 +473,10 @@ public class NewTotem : MonoBehaviour {
 		AppearAutel = false;
 
 		AutelPre.GetComponent<goingUpDown> ().enabled = true;
+	}
+
+	IEnumerator Advice () {
+		yield return new WaitForSeconds (10.0f);
+		AdviceObj.SetActive (true);
 	}
 }
