@@ -31,7 +31,8 @@ public class NewTotem : MonoBehaviour {
 	gotThisOnce,
 	gotAlsoThisOnce,
 	AppearAutel,
-	dititonce;
+	dititonce,
+	AnimFinAutel;
 
 	public bool totemScript;
 
@@ -39,7 +40,8 @@ public class NewTotem : MonoBehaviour {
 	anim,
 	animCamTotem,
 	DoorAnimator,
-	AnimatorFinTotem;
+	AnimatorFinTotem,
+	AnimatorAutelFin;
 
 	public GameObject[] PartieDeTotem;
 	GameObject[] QuadResol;
@@ -58,6 +60,7 @@ public class NewTotem : MonoBehaviour {
 	CameraMap,
 	AutelPre,
 	AutelTotem,
+	AutelAnimFin,
 	AdviceObj;
 
 	float 
@@ -82,6 +85,7 @@ public class NewTotem : MonoBehaviour {
 
 		AutelPre = GameObject.Find ("Autel Artefact Pre totem");
 		AutelTotem = GameObject.Find ("Autel Artefact totem");
+		AutelAnimFin = GameObject.Find ("Autel Artefact totem fin Anim");
 
 		cameraAnimTotemFin = GameObject.FindGameObjectWithTag ("cameraFinTotem");
 		cameraAnimTotemFin.GetComponent<Camera>().enabled = false;
@@ -110,6 +114,7 @@ public class NewTotem : MonoBehaviour {
 
 		DoorAnimator = GameObject.Find ("Animation door").GetComponent<Animator>();
 		AnimatorFinTotem = GameObject.Find ("AnimatorTotemFin").GetComponent<Animator>();
+		AnimatorAutelFin = GameObject.Find ("AnimationAutelFin").GetComponent<Animator>();
 
 		// indice
 
@@ -124,6 +129,7 @@ public class NewTotem : MonoBehaviour {
 
 		AutelPre.SetActive (false);
 		AutelTotem.SetActive (false);
+		AutelAnimFin.SetActive (false);
 
 		//CameraTotem = GameObject.Find ("CameraEnigmeTotem");
 
@@ -347,6 +353,11 @@ public class NewTotem : MonoBehaviour {
 			//state2 = false;
 			//state3 = false;
 
+			for (int i = 0; i < PartieDeTotem.Length; i++) {
+				PartieDeTotem [i].gameObject.transform.GetChild (0).gameObject.SetActive (false);
+				PartieDeTotem [i].GetComponent<Animator> ().enabled = false;
+			}
+
 			bool doItOnce = false;
 
 			if (!doItOnce) {
@@ -354,7 +365,6 @@ public class NewTotem : MonoBehaviour {
 				totemBool = false;
 				totemScript = true;
 				anim.SetBool ("GoAnim", totemBool);
-				Artefact.SetActive (true);
 				ArtefactTotem.SetActive (false);
 				forResolution1.SetActive (false);
 				forResolution2.SetActive (false);
@@ -382,6 +392,7 @@ public class NewTotem : MonoBehaviour {
 
 			if (!goOnce) {
 				GM.DesactiverActionDisponibleLacherCube ();
+				GM.DesactiverAnimSpeed ();
 				goOnce = true;
 			}
 			break;
@@ -429,6 +440,22 @@ public class NewTotem : MonoBehaviour {
 	}
 
 	IEnumerator EndingAnimation(){
+		
+		yield return new WaitForSeconds (3.0f);
+
+		AutelTotem.SetActive (false);
+		AutelAnimFin.SetActive (true);
+
+		AnimFinAutel = true;
+		AnimatorAutelFin.SetBool ("goFinTotem", AnimFinAutel);
+
+		//wait for the end of the animation 7 sec
+
+		yield return new WaitForSeconds (7.0f);
+
+		Artefact.SetActive (true);
+
+		yield return new WaitForSeconds (5.5f);
 		cameraAnimTotemFin.GetComponent<Camera>().enabled = true;
 		MainCamera.GetComponent<Camera> ().enabled = false;
 		MainCameraUI.GetComponent<Camera> ().enabled = false;
@@ -450,6 +477,7 @@ public class NewTotem : MonoBehaviour {
 		GameObject.Find ("DownPartTotem").GetComponent<Animator> ().enabled = false;
 		GameObject.Find ("AnimatorCameraTotem").GetComponent<Animator> ().enabled = false;
 		GameObject.Find ("referenceCubeAnim").GetComponent<Animator> ().enabled = false;
+		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = true;
 		QuadResol = GameObject.FindGameObjectsWithTag ("QuadResolution");
 
 		for (int i = 0; i < QuadResol.Length; i++) {
