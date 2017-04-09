@@ -45,6 +45,7 @@ public class NewTotem : MonoBehaviour {
 
 	public GameObject[] PartieDeTotem;
 	GameObject[] QuadResol;
+	GameObject [] TownPartsScripts;
 
 	GameObject 	
 	Artefact,
@@ -96,6 +97,8 @@ public class NewTotem : MonoBehaviour {
 
 		ArtefactTotem = GameObject.Find ("ActualCubeTotem");
 
+		TownPartsScripts = GameObject.FindGameObjectsWithTag ("townParts");
+
 		//animation d'entrée de placement du cube
 
 		anim = GameObject.Find ("referenceCubeAnim").GetComponent<Animator>();
@@ -145,12 +148,19 @@ public class NewTotem : MonoBehaviour {
 				PartieDeTotem [i].gameObject.transform.GetChild (0).gameObject.SetActive (false);
 		}
 
+
+
 		StartCoroutine ("waitForAnimIntro");
 
 	}
 
 	IEnumerator waitForAnimIntro(){
 		yield return new WaitForSeconds (0.5f);
+
+		for (int i = 0; i < TownPartsScripts.Length; i++) {
+			TownPartsScripts [i].GetComponent<townparts> ().enabled = false;
+		}
+
 		GameObject.Find ("Town1").GetComponent<AppearVillage> ().enabled = false;
 		yield return new WaitForSeconds (5.5f);
 		Artefact = GameObject.Find ("ARtefactOverLayInteraction");
@@ -212,19 +222,21 @@ public class NewTotem : MonoBehaviour {
 
 		case BLOQUER:
 			
-			//rentrer sortir + animation
-
-			GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas> ().enabled = false;
-
 
 			StartCoroutine ("Advice");
 
 			if (!dititonce) {
 				GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas> ().enabled = false;
 				GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas> ().enabled = true;
+
+				for (int i = 0; i < TownPartsScripts.Length; i++) {
+					TownPartsScripts [i].GetComponent<townparts> ().enabled = true;
+				}
+
 				dititonce = true;
 			}
 
+			//rentrer sortir + animation
 
 			if (Input.GetButtonDown ("E") && playerIsHere && !GetInGetOut) {
 				if (!iAmOn) {
