@@ -1,0 +1,14 @@
+SOLUTION pour infinite totem génération et à chaque fois avoir un puzzle différent. 
+
+
+- tableau de position possible -> euler angle
+- prendre en random de ses tableaux pour la solution 2 possibilités.
+-> randomiser le i du tableau.
+-> pour la solution juste prendre un i du tableau et voir si la rotation est égale a ce i.
+
+- pour les indices : check le tableaux de solutions et charger l'image en fonction du euler angle du tableau.
+
+
++++ -> check si le random du début n'est pas égal au start.
+-> prendre le tableau sans les randoms prit pour la solution.
+- generer aleatoirement le totem au start
