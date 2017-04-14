@@ -1,6 +1,5 @@
 SOLUTION pour infinite totem génération et à chaque fois avoir un puzzle différent. 
 
-
 - tableau de position possible -> euler angle
 - prendre en random de ses tableaux pour la solution 2 possibilités.
 -> randomiser le i du tableau.
