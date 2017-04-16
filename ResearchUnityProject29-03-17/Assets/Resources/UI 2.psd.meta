@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bfe06aa8a6fd24540ac331cd37e69be1
-timeCreated: 1486821118
+timeCreated: 1492264203
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -31,6 +31,9 @@ TextureImporter:
     21300048: UI 2_24
     21300050: UI 2_25
     21300052: UI 2_26
+    21300054: UI 2_27
+    21300056: UI 2_28
+    21300058: UI 2_29
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -461,6 +464,45 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 11, y: 15, z: 17, w: 13}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI 2_27
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 978
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI 2_28
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 978
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI 2_29
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 978
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
