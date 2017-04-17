@@ -5,23 +5,31 @@ using UnityEngine;
 
 public class SmallItem3 : MonoBehaviour {
 
+	private const int
+	IDLE = 0,
+	POSEARTEFACT = 1,
+	GETBACKARTEFACT = 2,
+	IDLEFIN = 4;
+
+	public int state;
+
 	public GameObject[] Mesh;
-	GameObject Player;
-	GameObject colliders;
+	GameObject 
+	Player,
+	colliders,
+	artefactSurUI;
 
 	GameManager GM;
+	DetectableLocalManager DetectL;
 
 	Animator anim;
-	GameObject artefactSurUI;
 
-	DetectableLocalManager DetectL;
 	public string tag;
 	float amout;
 	float distance;
 	public float Speed;
 
 	bool didICheck = false;
-	bool didIdoneThisonce = false;
 	bool launch = false;
 	bool stop;
 
@@ -40,8 +48,9 @@ public class SmallItem3 : MonoBehaviour {
 			Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
 			Mesh [i].SetActive (false);
 		}
-
 		StartCoroutine ("waitforIntro");
+	
+		state = IDLE;
 	}
 
 	IEnumerator waitforIntro(){
@@ -51,30 +60,53 @@ public class SmallItem3 : MonoBehaviour {
 
 	void Update (){
 
-		if (!didIdoneThisonce) {
+		switch (state) {
+
+		case IDLE:
+
 			distance = Vector3.Distance (transform.position, Player.transform.position);
-		}
+		
+			if (DetectL.isPlayerHere) {
+				didICheck = true;
+			}
 
-		if (DetectL.isPlayerHere) {
-			didICheck = true;
-		}
+			if (didICheck && distance < 10 && Input.GetButtonDown("E")) {
+				state = POSEARTEFACT;
+			}
 
-		if (didICheck && distance < 10 && Input.GetButtonDown("Submit") && !didIdoneThisonce) {
-			didIdoneThisonce = true;
+			break;
+
+		case POSEARTEFACT:
+			
 			StartCoroutine ("appear");
 			artefactSurUI.SetActive (false);
 			launch = true;
-			anim.SetBool ("ActivateSmallItem2",launch);
-		}
+			anim.SetBool ("ActivateSmallItem2", launch);
+			state = GETBACKARTEFACT;
+			break;
 
-		if (launch && !stop) {
-			for (int i = 0; i < Mesh.Length; i++) {
-				Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
+		case GETBACKARTEFACT:
+
+			if (launch && !stop) {
+				for (int i = 0; i < Mesh.Length; i++) {
+					Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
+				}
+				amout -= 0.01f * Time.deltaTime * Speed;
+				if (amout <= 0.0f) {
+					stop = true;
+				}
 			}
-			amout -= 0.01f * Time.deltaTime * Speed;
-			if (amout <= 0.0f) {
-				stop = true;
-			}
+
+			GameObject.Find ("CanvasItem3").SetActive (false);
+			StartCoroutine ("wait");
+
+			break;
+
+		case IDLEFIN:
+
+			this.gameObject.GetComponent<SmallItem3> ().enabled = false;
+
+			break;
 		}
 	}
 
@@ -91,5 +123,11 @@ public class SmallItem3 : MonoBehaviour {
 		artefactSurUI.SetActive (true);
 
 		GM.DesactiverActionDisponibleLacherCube ();
+		GM.DesactiverAnimSpeed ();
+	}
+
+	IEnumerator wait () {
+		yield return new WaitForSeconds (5.0f);
+		state = IDLEFIN;
 	}
 }
