@@ -6,14 +6,16 @@ using UnityEngine;
 public class SmallItem2: MonoBehaviour {
 
 	private const int
-	IDLE = 0,
-	POSEARTEFACT = 1,
-	GETBACKARTEFACT = 2,
+	IDLEPRE = 0,
+	IDLE = 1,
+	POSEARTEFACT = 2,
+	GETBACKARTEFACT = 3,
 	IDLEFIN = 4;
 
 	public int state;
 
 	public GameObject[] Mesh;
+
 	GameObject 
 	Player,
 	colliders,
@@ -21,6 +23,8 @@ public class SmallItem2: MonoBehaviour {
 	artefactSurUI,
 	CanvasItem2,
 	ArtefactTutoAutelItem2;
+
+	Animator animAutelItem2;
 
 	DetectableLocalManager DetectL;	
 	GameManager GM;
@@ -33,10 +37,12 @@ public class SmallItem2: MonoBehaviour {
 	bool didICheck = false;
 	bool didIdoneThisonce = false;
 	bool launch = false;
-	bool stop;
+	bool stop, go;
 
 	void Start () {
 		ArtefactTutoAutelItem2 = GameObject.Find ("ArtefactTutoAutelItem2");
+		animAutelItem2 = GameObject.Find ("AnimatorSmallItem2").GetComponent<Animator> ();
+
 		ArtefactTutoAutelItem2.SetActive (false);
 		CanvasItem2 = GameObject.Find ("CanvasItem2");
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
@@ -52,12 +58,10 @@ public class SmallItem2: MonoBehaviour {
 			Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
 			Mesh [i].SetActive (false);
 		}
-		ActivateCubes = GameObject.Find ("ActivateCubeAutel");
-		ActivateCubes.SetActive (false);
 
 		StartCoroutine ("waitforIntro");
 
-		state = IDLE;
+		state = IDLEPRE;
 	}
 
 	IEnumerator waitforIntro(){
@@ -71,6 +75,16 @@ public class SmallItem2: MonoBehaviour {
 		distance = Vector3.Distance (transform.position, Player.transform.position);
 
 		switch (state) {
+
+		case IDLEPRE:
+
+			if(distance < 30 && Input.GetButtonDown ("Submit")) {
+				go = true;
+				animAutelItem2.SetBool ("smallitem2Pre",go);
+				state = IDLE;
+			}
+
+			break;
 
 		case IDLE:
 			
@@ -91,7 +105,6 @@ public class SmallItem2: MonoBehaviour {
 			artefactSurUI.SetActive (false);
 			ArtefactTutoAutelItem2.SetActive (true);
 			launch = true;
-			ActivateCubes.SetActive (true);
 			state = GETBACKARTEFACT;
 			break;
 
@@ -109,14 +122,7 @@ public class SmallItem2: MonoBehaviour {
 
 			CanvasItem2.SetActive (false);
 
-			if (Input.GetButtonDown ("E") && distance < 10) {
-				ActivateCubes.transform.GetChild (3).gameObject.SetActive (false);
-				ArtefactTutoAutelItem2.SetActive (false);
-				artefactSurUI.SetActive (true);
-				GM.DesactiverActionDisponibleLacherCube ();
-				GM.DesactiverAnimSpeed ();
-				StartCoroutine ("wait");
-			}
+			StartCoroutine ("wait");
 		
 			break;
 
@@ -143,6 +149,11 @@ public class SmallItem2: MonoBehaviour {
 
 	IEnumerator wait () {
 		yield return new WaitForSeconds (5.0f);
+		ArtefactTutoAutelItem2.SetActive (false);
+		artefactSurUI.SetActive (true);
+		GM.DesactiverActionDisponibleLacherCube ();
+		GM.DesactiverAnimSpeed ();
+		GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
 		state = IDLEFIN;
 	}
 }

@@ -9,8 +9,9 @@ public class AnimDintroUI : MonoBehaviour {
 	cameraMap,
 	ActualCanvas,
 	SanityPanel,
-	Artefact,
-	whiteCanvas;
+	Artefact;
+
+	public CanvasGroup whiteCanvas;
 
 	Animator PanelPressSpace;
 
@@ -19,10 +20,9 @@ public class AnimDintroUI : MonoBehaviour {
 	float amount;
 
 	// Use this for initialization
-	void Start () {
-		whiteCanvas = GameObject.FindGameObjectWithTag ("canvasgroupimage");
+	void Awake () {
 		amount = 1.0f;
-		whiteCanvas.GetComponent<CanvasGroup> ().alpha = amount;
+		whiteCanvas.alpha = amount;
 		cameraMap = GameObject.Find ("CameraMap");
 		ActualCanvas = GameObject.Find ("ActualCanvas");
 		SanityPanel = GameObject.Find ("SanityPanel");
@@ -40,7 +40,7 @@ public class AnimDintroUI : MonoBehaviour {
 	void Update(){
 		if (go) {
 			amount -= 0.01f;
-			whiteCanvas.GetComponent<CanvasGroup> ().alpha = amount;
+			whiteCanvas.alpha = amount;
 		}
 		if (amount < 0) {
 			go = false;

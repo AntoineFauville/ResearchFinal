@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour {
 		Player,
 		RadarBig;
 
-	public Animator PanelPressSpace;
+	//public Animator PanelPressSpace;
 	bool PressEScript;
 
 	ArrayList isDetectedAround;
@@ -102,7 +102,7 @@ public class GameManager : MonoBehaviour {
 		yield return new WaitForSeconds (7.0f);
 		anim =  GameObject.Find ("animartefact_1").GetComponent<Animator>();
 	//	animArtefact = GameObject.Find ("artefactNewCanvasChaudFroid").GetComponent<Animator>();
-		PanelPressSpace = GameObject.Find ("PanelPressSpaceAnimator").GetComponent<Animator>();
+	//	PanelPressSpace = GameObject.Find ("PanelPressSpaceAnimator").GetComponent<Animator>();
 		RadarBig = GameObject.Find ("RadarFeedBackRotationBig");
 		RadarSmall = GameObject.Find ("RadarFeedBackRotationSmall");
 		RadarBig.SetActive (false);
@@ -129,8 +129,8 @@ public class GameManager : MonoBehaviour {
 			if (distance [i] < distancePremierCercleDetection) {
 				if (!isDetectedAround.Contains (det [i])) {
 					isDetectedAround.Add (det [i]);
-					print ("added smthg to array");
-					print (det [i].Name);
+				//	print ("added smthg to array");
+				//	print (det [i].Name);
 
 					//det [i].isDetectedFarCircle = true;
 
@@ -162,7 +162,7 @@ public class GameManager : MonoBehaviour {
 			if (distance[i] > distancePressE) {
 				GameObject.Find (det[i].Name).GetComponent<DetectableLocalManager>().ICantPressEAnyMore();
 				PressEScript = false;
-				PanelPressSpace.SetBool ("PressE", PressEScript);
+//				PanelPressSpace.SetBool ("PressE", PressEScript);
 
 			}
 
@@ -285,7 +285,7 @@ public class GameManager : MonoBehaviour {
 
 			if (PressEScript == true) {
 				PressEScript = false;
-				PanelPressSpace.SetBool ("PressE", PressEScript);
+	//			PanelPressSpace.SetBool ("PressE", PressEScript);
 			}
 			playSoundOncePressE = false;
 			// Bouton press E disparaitre de l'écran

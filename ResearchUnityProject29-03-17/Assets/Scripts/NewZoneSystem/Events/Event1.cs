@@ -130,7 +130,7 @@ public class Event1 : MonoBehaviour {
 
 				animation = true;
 				anim.SetBool("AnimActiv",animation);
-
+				DS.tutoMort = true;
 				state = TUTO;
 			}
 

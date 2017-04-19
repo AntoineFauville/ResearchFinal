@@ -12,15 +12,13 @@ public class ShowDoor : MonoBehaviour {
 
 	GameObject Player,
 	CameraTriggerShow,
-	MainCamera,
-	MainCameraUI;
+	MainCamera;
 
 	Animator animShowDoor;
 
 	// Use this for initialization
 	void Start () {
 		MainCamera = GameObject.Find ("Main Camera Main");
-		MainCameraUI = GameObject.Find ("Main Camera Main UI");
 		CameraTriggerShow = GameObject.FindGameObjectWithTag ("cameraTriggerShow");
 		CameraTriggerShow.SetActive (false);
 		Player = GameObject.Find ("Player");
@@ -43,7 +41,6 @@ public class ShowDoor : MonoBehaviour {
 	IEnumerator AnimationShowDoor () {
 		CameraTriggerShow.SetActive (true);
 		MainCamera.GetComponent<Camera> ().enabled = false;
-		MainCameraUI.GetComponent<Camera> ().enabled = false;
 		Player.GetComponent<FirstPersonController> ().enabled = false;
 		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = false;
 		PlayOnce = true;
@@ -51,7 +48,6 @@ public class ShowDoor : MonoBehaviour {
 		yield return new WaitForSeconds (animationTime);
 		CameraTriggerShow.SetActive (false);
 		MainCamera.GetComponent<Camera> ().enabled = true;
-		MainCameraUI.GetComponent<Camera> ().enabled = true;
 		Player.GetComponent<FirstPersonController> ().enabled = true;
 		GameObject.FindGameObjectWithTag ("cameraMapRes").GetComponent<Camera> ().enabled = true;
 

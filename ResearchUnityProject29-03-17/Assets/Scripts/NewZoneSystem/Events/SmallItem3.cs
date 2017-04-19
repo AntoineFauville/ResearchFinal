@@ -6,9 +6,10 @@ using UnityEngine;
 public class SmallItem3 : MonoBehaviour {
 
 	private const int
-	IDLE = 0,
-	POSEARTEFACT = 1,
-	GETBACKARTEFACT = 2,
+	IDLEPRE = 0,
+	IDLE = 1,
+	POSEARTEFACT = 2,
+	GETBACKARTEFACT = 3,
 	IDLEFIN = 4;
 
 	public int state;
@@ -31,7 +32,8 @@ public class SmallItem3 : MonoBehaviour {
 
 	bool didICheck = false;
 	bool launch = false;
-	bool stop;
+	bool stop, go;
+
 
 	void Start () {
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
@@ -50,7 +52,7 @@ public class SmallItem3 : MonoBehaviour {
 		}
 		StartCoroutine ("waitforIntro");
 	
-		state = IDLE;
+		state = IDLEPRE;
 	}
 
 	IEnumerator waitforIntro(){
@@ -60,12 +62,22 @@ public class SmallItem3 : MonoBehaviour {
 
 	void Update (){
 
+		distance = Vector3.Distance (transform.position, Player.transform.position);
+
 		switch (state) {
 
-		case IDLE:
+		case IDLEPRE:
 
-			distance = Vector3.Distance (transform.position, Player.transform.position);
-		
+			if (DetectL.isPlayerHere && distance < 20 && Input.GetButtonDown ("Submit")) {
+				go = true;
+				anim.SetBool ("smallItemPreGo", go);
+				state = IDLE;
+			}
+
+			break;
+
+		case IDLE:
+			
 			if (DetectL.isPlayerHere) {
 				didICheck = true;
 			}
@@ -128,6 +140,7 @@ public class SmallItem3 : MonoBehaviour {
 
 	IEnumerator wait () {
 		yield return new WaitForSeconds (5.0f);
+		GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
 		state = IDLEFIN;
 	}
 }

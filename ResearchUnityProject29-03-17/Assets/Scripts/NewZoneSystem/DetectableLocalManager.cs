@@ -17,7 +17,7 @@ public class DetectableLocalManager : MonoBehaviour {
 	IEnumerator everyHalfSec () {
 		yield return new WaitForSeconds (0.5f);
 		if(isPlayerHere){
-			print ("Hey, You can press E" + gameObject.name);
+	//		print ("Hey, You can press E" + gameObject.name);
 
 			//envoi au script local comme quoi le joueur est la et a appuyer sur e
 		}
@@ -25,7 +25,7 @@ public class DetectableLocalManager : MonoBehaviour {
 	}
 
 	public void ImDetectedFar () {
-		print ("Hey, im detected" + gameObject.name);
+	//	print ("Hey, im detected" + gameObject.name);
 	}
 
 	public void YouCanPressE (){

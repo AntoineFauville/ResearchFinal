@@ -23,8 +23,8 @@ public class SanityGestion : MonoBehaviour {
 	IEnumerator waitToStartReferences(){
 		yield return new WaitForSeconds (7.0f);
 		//print ("hey");
-		go = true;
 		Sanity = GameObject.Find ("Sanity").GetComponent<Image> ();
+		go = true;
 	}
 
 	void Update (){
