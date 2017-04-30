@@ -34,7 +34,7 @@ public class MenuDemo : MonoBehaviour {
 
 	IEnumerator launchDemoTech (){
 		yield return new WaitForSeconds (0.3f);
-		SceneManager.LoadScene ("Animatique");
+		SceneManager.LoadScene ("PremiereScene");
 	}
 
 	IEnumerator launchDemoGraph (){

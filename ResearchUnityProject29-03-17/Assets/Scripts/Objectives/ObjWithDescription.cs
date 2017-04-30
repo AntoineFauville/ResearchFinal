@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+[SerializeField]
 public class ObjWithDescription : MonoBehaviour {
 
 	private const int

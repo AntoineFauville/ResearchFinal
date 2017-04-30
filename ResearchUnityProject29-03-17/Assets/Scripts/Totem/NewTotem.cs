@@ -134,16 +134,6 @@ public class NewTotem : MonoBehaviour {
 		AutelTotem.SetActive (false);
 		AutelAnimFin.SetActive (false);
 
-		//CameraTotem = GameObject.Find ("CameraEnigmeTotem");
-
-		// rotation gestion totem
-
-		/*state1 = false;
-		state2 = false;
-		state3 = false;*/
-
-		//outline
-
 		for (int i = 0; i < PartieDeTotem.Length; i++) {
 				PartieDeTotem [i].gameObject.transform.GetChild (0).gameObject.SetActive (false);
 		}

@@ -8,6 +8,10 @@ public class ScannerEffect : MonoBehaviour
 	public float ScanDistance;
 	public float secAutoScan;
 
+	bool 
+	go,
+	canUse;
+
 	private Camera _camera;
 
 	// Demo Code
@@ -17,19 +21,22 @@ public class ScannerEffect : MonoBehaviour
 	void Start()
 	{
 		_scannables = FindObjectsOfType<Scannable>();
-		//StartCoroutine ("waitforIntro");
     }
-
-	/*IEnumerator waitforIntro(){
-		yield return new WaitForSeconds (6.0f);
-		StartCoroutine ("AutoScan");
-	}*/
 
 	void Update()
 	{
 		if (_scanning)
 		{
-			ScanDistance += Time.deltaTime * 10;
+			//ScanDistance += Time.deltaTime * 10;
+			StartCoroutine ("Scanning");
+			if (!go) {
+				ScanDistance += Time.deltaTime * 10;
+			} else {
+				ScanDistance -= Time.deltaTime * 10;
+			}
+
+
+
 			foreach (Scannable s in _scannables)
 			{
 				if (Vector3.Distance(ScannerOrigin.position, s.transform.position) <= ScanDistance)
@@ -37,25 +44,13 @@ public class ScannerEffect : MonoBehaviour
 			}
 		}
 
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Space) && !canUse)
 		{
+			canUse = true;
 			_scanning = true;
 			ScanDistance = 0;
 			StartCoroutine ("Stopscan");
 		}
-
-		/*if (Input.GetMouseButtonDown(0))
-		{
-			Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-			RaycastHit hit;
-
-			if (Physics.Raycast(ray, out hit))
-			{
-				_scanning = true;
-				ScanDistance = 0;
-				ScannerOrigin.position = hit.point;
-			}
-		}*/
 	}
 	// End Demo Code
 
@@ -135,16 +130,17 @@ public class ScannerEffect : MonoBehaviour
 		GL.PopMatrix();
 	}
 
-	/*IEnumerator AutoScan() {
-		yield return new WaitForSeconds (secAutoScan);
-		_scanning = true;
-		ScanDistance = 0;
-		StartCoroutine ("AutoScan");
-	}*/
-
 	IEnumerator Stopscan(){
 		yield return new WaitForSeconds (secAutoScan);
 		_scanning = false;
 		ScanDistance = 0;
+		canUse = false;
+	}
+
+	IEnumerator Scanning () {
+		yield return new WaitForSeconds (secAutoScan/2);
+		go = true;
+		yield return new WaitForSeconds (secAutoScan/2);
+		go = false;
 	}
 }

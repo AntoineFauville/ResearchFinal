@@ -2,16 +2,24 @@
 <ObjCollection>
 <Objs>
 
-<Obj name="XB82">
+<Obj name="XB01">
 <Desc>Element 1 :
+This formation of what seems to be totems is not natural
+My guess was right, this planet was once populated..
+I wonder what's the link between these totems and the artefact i got..
+</Desc>
+</Obj>
+
+<Obj name="XB02">
+<Desc>Element 2 :
 Magic source detected.
 Found some part and it seems that they used this as lamp. 		
 They weren't that tribal after all, weren't they ?
 </Desc>
 </Obj>
 
-<Obj name="XB83">
-<Desc>Element 2 : 
+<Obj name="XB03">
+<Desc>Element 3 : 
 Looks like a divine Totem. 
 I wonder how does it work, and what it does...
 </Desc>
