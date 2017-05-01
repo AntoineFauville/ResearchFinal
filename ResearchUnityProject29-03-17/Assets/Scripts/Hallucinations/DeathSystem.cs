@@ -10,6 +10,7 @@ public class DeathSystem : MonoBehaviour {
 	RespawnEnigme,
 	RespawnTuto,
 	RespawnEnigmePrey,
+	RespawnTemple,
 	Player;
 
 	public CanvasGroup ImageWhite;
@@ -26,6 +27,7 @@ public class DeathSystem : MonoBehaviour {
 	public bool EnigmeActiveeMortSystemOn;
 	public bool tutoMort;
 	public bool preyMort;
+	public bool templeMort;
 
 
 	// Use this for initialization
@@ -36,6 +38,7 @@ public class DeathSystem : MonoBehaviour {
 		RespawnEnigme = GameObject.Find ("RespawnEnigmeTotem");
 		RespawnTuto = GameObject.Find ("RespawnTuto");
 		RespawnEnigmePrey = GameObject.Find ("RespawnEnigmePrey");
+		RespawnTemple = GameObject.Find ("RespawnEnigmeTemple");
 	}
 	
 	// Update is called once per frame
@@ -64,6 +67,12 @@ public class DeathSystem : MonoBehaviour {
 			if (SG.sanity <= 0) {
 				StartCoroutine ("DyingPrey");
 
+			}
+		}
+
+		if (templeMort) {
+			if (SG.sanity <= 0) {
+				StartCoroutine ("DyingTemple");
 			}
 		}
 
@@ -128,6 +137,17 @@ public class DeathSystem : MonoBehaviour {
 		yield return new WaitForSeconds (secondsBeforeDecreasing);
 		goingUp = false;
 		Player.transform.position =  RespawnEnigmePrey.transform.position;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingDown = true;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingDown = false;
+	}
+
+	IEnumerator DyingTemple () {
+		goingUp = true;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingUp = false;
+		Player.transform.position =  RespawnTemple.transform.position;
 		yield return new WaitForSeconds (secondsBeforeDecreasing);
 		goingDown = true;
 		yield return new WaitForSeconds (secondsBeforeDecreasing);

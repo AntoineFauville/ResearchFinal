@@ -18,7 +18,8 @@ public class SmallItem3 : MonoBehaviour {
 	GameObject 
 	Player,
 	colliders,
-	artefactSurUI;
+	artefactSurUI,
+	canvasItem;
 
 	GameManager GM;
 	DetectableLocalManager DetectL;
@@ -36,6 +37,7 @@ public class SmallItem3 : MonoBehaviour {
 
 
 	void Start () {
+		canvasItem = GameObject.Find ("CanvasItem3");
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
 		Player = GameObject.Find ("Player");
 		anim = GameObject.Find ("SmallItem3Object").GetComponent<Animator> ();
@@ -109,7 +111,7 @@ public class SmallItem3 : MonoBehaviour {
 				}
 			}
 
-			GameObject.Find ("CanvasItem3").SetActive (false);
+			canvasItem.SetActive (false);
 			StartCoroutine ("wait");
 
 			break;
