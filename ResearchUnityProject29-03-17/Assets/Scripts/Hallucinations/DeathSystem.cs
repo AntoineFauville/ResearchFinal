@@ -11,6 +11,7 @@ public class DeathSystem : MonoBehaviour {
 	RespawnTuto,
 	RespawnEnigmePrey,
 	RespawnTemple,
+	RespawnCave,
 	Player;
 
 	public CanvasGroup ImageWhite;
@@ -28,6 +29,7 @@ public class DeathSystem : MonoBehaviour {
 	public bool tutoMort;
 	public bool preyMort;
 	public bool templeMort;
+	public bool templeCave;
 
 
 	// Use this for initialization
@@ -39,6 +41,7 @@ public class DeathSystem : MonoBehaviour {
 		RespawnTuto = GameObject.Find ("RespawnTuto");
 		RespawnEnigmePrey = GameObject.Find ("RespawnEnigmePrey");
 		RespawnTemple = GameObject.Find ("RespawnEnigmeTemple");
+		RespawnCave = GameObject.Find ("RespawnCave");
 	}
 	
 	// Update is called once per frame
@@ -46,15 +49,15 @@ public class DeathSystem : MonoBehaviour {
 
 		//dans le cas ou je lache par moi meme le cube
 
-	/*	if (DC.isCubeOnGround) {
-			Artefact = GameObject.Find ("ArtefactRecherche(Clone)");
-
-			if (SG.sanity <= 0) {
-				StartCoroutine ("Dying");
-			}
-		}*/
 
 		//dans le cas ou je suis dans une énigme
+
+		if (templeCave) {
+			if (SG.sanity <= 0) {
+				StartCoroutine ("DyingCave");
+
+			}
+		}
 
 		if (EnigmeActiveeMortSystemOn) {
 			if (SG.sanity <= 0) {
@@ -111,6 +114,17 @@ public class DeathSystem : MonoBehaviour {
 	}
 
 	IEnumerator DyingEnigma () {
+		goingUp = true;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingUp = false;
+		Player.transform.position =  RespawnCave.transform.position;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingDown = true;
+		yield return new WaitForSeconds (secondsBeforeDecreasing);
+		goingDown = false;
+	}
+
+	IEnumerator DyingCave () {
 		goingUp = true;
 		yield return new WaitForSeconds (secondsBeforeDecreasing);
 		goingUp = false;

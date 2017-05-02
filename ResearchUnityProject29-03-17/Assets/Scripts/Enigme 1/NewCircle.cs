@@ -41,7 +41,8 @@ public class NewCircle : MonoBehaviour {
 	MainCamera,
 	CameraEnigme,
 	CameraFinEnigmeCamera,
-	Artefact;
+	Artefact,
+	templeblue;
 
 	bool 
 	autelGo,
@@ -65,6 +66,8 @@ public class NewCircle : MonoBehaviour {
 	void Start () {
 		Player = GameObject.Find ("Player");
 		MainCamera = GameObject.Find ("Main Camera Main");
+
+		templeblue = GameObject.Find ("templeblue");
 
 		CameraEnigme = GameObject.Find ("CameraEnigmeTemple");
 		CameraEnigme.GetComponent<Camera> ().enabled = false;
@@ -345,6 +348,8 @@ public class NewCircle : MonoBehaviour {
 		AutelAnimFin.GetComponent<Animator> ().SetBool ("goFinTotem", goFin);
 		GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
 
+		templeblue.GetComponent<goingUpDown> ().enabled = false;
+		templeblue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
 
 
 		yield return new WaitForSeconds (8.0f);

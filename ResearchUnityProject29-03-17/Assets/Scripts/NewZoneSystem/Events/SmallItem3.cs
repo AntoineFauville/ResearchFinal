@@ -19,7 +19,8 @@ public class SmallItem3 : MonoBehaviour {
 	Player,
 	colliders,
 	artefactSurUI,
-	canvasItem;
+	canvasItem,
+	SmallItem3blue;
 
 	GameManager GM;
 	DetectableLocalManager DetectL;
@@ -38,6 +39,7 @@ public class SmallItem3 : MonoBehaviour {
 
 	void Start () {
 		canvasItem = GameObject.Find ("CanvasItem3");
+		SmallItem3blue = GameObject.Find ("SmallItem3blue");
 		GM = GameObject.Find ("ScriptManager").GetComponent<GameManager> ();
 		Player = GameObject.Find ("Player");
 		anim = GameObject.Find ("SmallItem3Object").GetComponent<Animator> ();
@@ -63,6 +65,16 @@ public class SmallItem3 : MonoBehaviour {
 	}
 
 	void Update (){
+
+		if (launch && !stop) {
+			for (int i = 0; i < Mesh.Length; i++) {
+				Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
+			}
+			amout -= 0.01f * Time.deltaTime * Speed;
+			if (amout <= 0.0f) {
+				stop = true;
+			}
+		}
 
 		distance = Vector3.Distance (transform.position, Player.transform.position);
 
@@ -101,15 +113,7 @@ public class SmallItem3 : MonoBehaviour {
 
 		case GETBACKARTEFACT:
 
-			if (launch && !stop) {
-				for (int i = 0; i < Mesh.Length; i++) {
-					Mesh [i].GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", amout);
-				}
-				amout -= 0.01f * Time.deltaTime * Speed;
-				if (amout <= 0.0f) {
-					stop = true;
-				}
-			}
+
 
 			canvasItem.SetActive (false);
 			StartCoroutine ("wait");
@@ -138,6 +142,9 @@ public class SmallItem3 : MonoBehaviour {
 
 		GM.DesactiverActionDisponibleLacherCube ();
 		GM.DesactiverAnimSpeed ();
+
+		SmallItem3blue.GetComponent<goingUpDown> ().enabled = false;
+		SmallItem3blue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
 	}
 
 	IEnumerator wait () {

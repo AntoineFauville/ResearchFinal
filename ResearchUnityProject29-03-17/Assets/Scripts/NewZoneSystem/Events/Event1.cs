@@ -38,7 +38,8 @@ public class Event1 : MonoBehaviour {
 		artefactTuto,
 		artefactSurUI,
 		AutelBeforeTuto,
-		AutelAnimationTuto;
+		AutelAnimationTuto,
+		SmallItem1Blue;
 
 	DeathSystem DS;
 
@@ -46,6 +47,8 @@ public class Event1 : MonoBehaviour {
 	void Start () {
 
 		DS = GameObject.Find ("ScriptManager").GetComponent<DeathSystem> ();
+
+		SmallItem1Blue = GameObject.Find ("SmallItem1blue");
 
 		GameObject.Find ("CanvasTuto").GetComponent<Canvas>().enabled = false;
 
@@ -156,6 +159,9 @@ public class Event1 : MonoBehaviour {
 			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverActionDisponibleLacherCube ();
 			GameObject.Find ("ScriptManager").GetComponent<GameManager> ().DesactiverAnimSpeed ();
 			GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
+
+			SmallItem1Blue.GetComponent<goingUpDown> ().enabled = false;
+			SmallItem1Blue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
 
 			GameObject.Find ("Autel Artefact tuto").GetComponent<GlowObject> ().enabled = false;
 

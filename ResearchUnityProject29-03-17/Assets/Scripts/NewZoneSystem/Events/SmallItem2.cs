@@ -22,7 +22,8 @@ public class SmallItem2: MonoBehaviour {
 	ActivateCubes,
 	artefactSurUI,
 	CanvasItem2,
-	ArtefactTutoAutelItem2;
+	ArtefactTutoAutelItem2,
+	SmallItem2blue;
 
 	Animator animAutelItem2;
 
@@ -42,6 +43,8 @@ public class SmallItem2: MonoBehaviour {
 	void Start () {
 		ArtefactTutoAutelItem2 = GameObject.Find ("ArtefactTutoAutelItem2");
 		animAutelItem2 = GameObject.Find ("AnimatorSmallItem2").GetComponent<Animator> ();
+
+		SmallItem2blue = GameObject.Find ("SmallItem2blue");
 
 		ArtefactTutoAutelItem2.SetActive (false);
 		CanvasItem2 = GameObject.Find ("CanvasItem2");
@@ -153,6 +156,10 @@ public class SmallItem2: MonoBehaviour {
 		artefactSurUI.SetActive (true);
 		GM.DesactiverActionDisponibleLacherCube ();
 		GM.DesactiverAnimSpeed ();
+
+		SmallItem2blue.GetComponent<goingUpDown> ().enabled = false;
+		SmallItem2blue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
+
 		GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
 		state = IDLEFIN;
 	}

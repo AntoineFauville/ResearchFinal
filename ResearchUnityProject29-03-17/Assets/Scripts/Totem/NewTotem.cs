@@ -62,7 +62,8 @@ public class NewTotem : MonoBehaviour {
 	AutelPre,
 	AutelTotem,
 	AutelAnimFin,
-	AdviceObj;
+	AdviceObj,
+	Town1blue;
 
 	float 
 	amount = 1.0f;
@@ -77,6 +78,8 @@ public class NewTotem : MonoBehaviour {
 
 		MainCamera = GameObject.Find ("Main Camera Main");
 		MainCameraUI = GameObject.Find ("Main Camera Main UI");
+
+		Town1blue = GameObject.Find ("Town1blue");
 
 		GameObject.Find ("CanvasTutoTotem").GetComponent<Canvas>().enabled = false;
 		GameObject.Find ("CanvasTutoTotem2").GetComponent<Canvas>().enabled = false;
@@ -395,6 +398,8 @@ public class NewTotem : MonoBehaviour {
 			if (!goOnce) {
 				GM.DesactiverActionDisponibleLacherCube ();
 				GM.DesactiverAnimSpeed ();
+				Town1blue.GetComponent<goingUpDown> ().enabled = false;
+				Town1blue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
 				goOnce = true;
 			}
 			break;

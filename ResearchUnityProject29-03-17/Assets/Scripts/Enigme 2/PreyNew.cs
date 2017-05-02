@@ -25,7 +25,8 @@ public class PreyNew : MonoBehaviour {
 	AutelPrey,
 	AutelAnimFin,
 	CanvasPrey1Place,
-	CanvasPrey2Blocked;
+	CanvasPrey2Blocked,
+	town2blue;
 
 	public GameObject[] Roll;
 
@@ -51,6 +52,8 @@ public class PreyNew : MonoBehaviour {
 		Player = GameObject.Find ("Player");
 		CameraPrey = GameObject.Find ("CameraEnigmePrey");
 		CameraPrey.SetActive (false);
+
+		town2blue = GameObject.Find ("Town2blue");
 
 		AutelPreyPre = GameObject.Find ("Autel Artefact Prey Pre");
 		AutelPrey = GameObject.Find ("Autel Artefact Prey");
@@ -195,6 +198,9 @@ public class PreyNew : MonoBehaviour {
 		Enigme2End = false;
 		yield return new WaitForSeconds (4.9f);
 		GameObject.Find ("ScriptManager").GetComponent<SanityGestion> ().sanity = 1.0f;
+
+		town2blue.GetComponent<goingUpDown> ().enabled = false;
+		town2blue.GetComponent<MeshRenderer> ().material.SetFloat ("_Amount", 0.0f);
 		state = IDLEFIN;
 	}
 
